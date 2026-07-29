@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>İlk Kare · Panel Girişi</title>
+<meta name="description" content="Yenidoğan anılarını video broşüre aktaran panelin giriş ekranı." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ─────────────────────────────  TOKENS  ───────────────────────────── */
+:root{
+  --ink:        #0B1A38;   /* ana lacivert */
+  --ink-deep:   #050E1F;   /* derin gölge / vinyet */
+  --ink-soft:   #16305C;   /* kapak yüzeyi */
+  --ink-line:   rgba(255,255,255,.14);
+
+  --paper:      #FFFFFF;
+  --paper-2:    #F2F5FA;   /* laciverte çalan kırık beyaz */
+  --edge:       #DCE3EF;
+  --edge-2:     #C3CEE1;
+
+  --text:       #0B1A38;
+  --muted:      #5C6C88;
+  --muted-2:    #8593AC;
+
+  --glow:       #FFCE96;   /* ekran ışığı — tek sıcak vurgu */
+  --glow-dim:   rgba(255,206,150,.28);
+
+  --err:        #B4342F;
+
+  --r-sm: 8px; --r-md: 12px; --r-lg: 18px;
+  --ease: cubic-bezier(.22,.61,.36,1);
+
+  --display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --ui: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family:var(--ui);
+  color:var(--text);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+button{ font:inherit; color:inherit; }
+a{ color:inherit; }
+
+:focus-visible{
+  outline:2px solid var(--ink);
+  outline-offset:3px;
+  border-radius:4px;
+}
+.stage :focus-visible{ outline-color:var(--glow); }
+
+.sr{
+  position:absolute; width:1px; height:1px; overflow:hidden;
+  clip:rect(0 0 0 0); white-space:nowrap;
+}
+
+/* ─────────────────────────────  SHELL  ───────────────────────────── */
+.app{
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  min-height:100svh;
+}
+
+/* ─────────────────────────  SOL — SAHNE  ────────────────────────── */
+.stage{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(120% 90% at 18% 12%, var(--ink-soft) 0%, transparent 55%),
+    linear-gradient(160deg, var(--ink) 0%, var(--ink-deep) 100%);
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding: clamp(32px, 4.5vw, 72px);
+  isolation:isolate;
+}
+/* ince doku: broşür kartonunun dokusu */
+.stage::after{
+  content:"";
+  position:absolute; inset:0; z-index:1; pointer-events:none;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px);
+  mix-blend-mode:overlay;
+  opacity:.45;
+}
+.stage__inner{ position:relative; z-index:2; max-width:520px; }
+
+.eyebrow{
+  font-family:var(--mono);
+  font-size:11px; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--glow); opacity:.85;
+  margin:0 0 22px;
+  display:flex; align-items:center; gap:10px;
+}
+.eyebrow::before{
+  content:""; width:26px; height:1px; background:var(--glow); opacity:.6;
+}
+
+.stage__title{
+  font-family:var(--display);
+  font-variation-settings:"opsz" 96, "SOFT" 60, "WONK" 1;
+  font-weight:400;
+  font-size: clamp(30px, 3.4vw, 46px);
+  line-height:1.12;
+  letter-spacing:-.015em;
+  margin:0 0 18px;
+}
+.stage__title em{
+  font-style:italic;
+  color:var(--glow);
+  font-variation-settings:"opsz" 96, "SOFT" 80, "WONK" 1;
+}
+.stage__sub{
+  margin:0 0 40px;
+  max-width:42ch;
+  color:rgba(255,255,255,.62);
+  font-size:15px; line-height:1.6;
+}
+
+/* ── İMZA ÖĞESİ: açılan video broşür ── */
+.device{
+  --w: clamp(240px, 25vw, 330px);
+  position:relative;
+  width: calc(var(--w) * 2);
+  height: calc(var(--w) * .70);
+  margin: 0 0 34px;
+  perspective: 1400px;
+  perspective-origin: 60% 50%;
+}
+.device__glow{
+  position:absolute; z-index:0;
+  left:calc(var(--w) * .95); top:50%;
+  width:calc(var(--w) * 1.5); height:calc(var(--w) * 1.5);
+  transform:translate(-50%,-50%);
+  background:radial-gradient(circle, var(--glow-dim) 0%, transparent 62%);
+  opacity:0;
+  transition:opacity 1.6s var(--ease);
+}
+.is-awake .device__glow{ opacity:1; }
+
+.spread{
+  position:absolute; inset:0;
+  display:grid; grid-template-columns:1fr 1fr;
+  transform-style:preserve-3d;
+}
+
+/* sağ yaprak — ekranın olduğu iç sayfa */
+.leaf{
+  grid-column:2;
+  background:linear-gradient(150deg, #12244A 0%, #0A1631 100%);
+  border:1px solid var(--ink-line);
+  border-left:none;
+  border-radius:0 var(--r-sm) var(--r-sm) 0;
+  padding:calc(var(--w) * .055);
+  display:flex; flex-direction:column; gap:10px;
+  box-shadow: 24px 34px 70px rgba(0,0,0,.5);
+}
+
+/* ekran */
+.screen{
+  position:relative; flex:1;
+  border-radius:5px; overflow:hidden;
+  background:#03080F;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.09);
+}
+.screen__frames{ position:absolute; inset:0; opacity:0; transition:opacity .9s var(--ease) .25s; }
+.is-awake .screen__frames{ opacity:1; }
+.frame{
+  position:absolute; inset:0; opacity:0;
+  transition:opacity 1.1s var(--ease);
+}
+.frame.is-on{ opacity:1; }
+.frame-1{ background:
+    radial-gradient(70% 80% at 30% 70%, rgba(255,206,150,.55), transparent 70%),
+    radial-gradient(50% 60% at 72% 28%, rgba(255,236,214,.30), transparent 70%),
+    linear-gradient(180deg,#0D1B33,#050C18); }
+.frame-2{ background:
+    radial-gradient(60% 70% at 60% 40%, rgba(255,222,186,.48), transparent 72%),
+    radial-gradient(80% 90% at 15% 90%, rgba(120,160,220,.28), transparent 70%),
+    linear-gradient(180deg,#0A1730,#04101F); }
+.frame-3{ background:
+    radial-gradient(55% 65% at 45% 55%, rgba(255,206,150,.42), transparent 70%),
+    radial-gradient(70% 60% at 85% 15%, rgba(255,255,255,.16), transparent 65%),
+    linear-gradient(180deg,#0C1A32,#050D1A); }
+/* ekran üstü tarama çizgileri — küçük LCD hissi */
+.screen::after{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 2px);
+  opacity:.55;
+}
+.screen__bar{
+  position:absolute; left:0; right:0; bottom:0; z-index:2;
+  padding:6px 8px 7px;
+  display:flex; align-items:center; gap:7px;
+  background:linear-gradient(to top, rgba(0,0,0,.78), transparent);
+  font-family:var(--mono); font-size:9px; letter-spacing:.05em;
+  color:rgba(255,255,255,.9);
+  opacity:0; transition:opacity .6s var(--ease) .5s;
+}
+.is-awake .screen__bar{ opacity:1; }
+.screen__bar span:last-child{ margin-left:auto; opacity:.6; }
+.playhead{
+  position:absolute; left:8px; right:8px; bottom:20px; height:1.5px;
+  background:rgba(255,255,255,.22); border-radius:2px; overflow:hidden;
+}
+.playhead i{ display:block; height:100%; width:0; background:var(--glow); }
+.is-awake .playhead i{ animation:play 9s linear infinite; }
+@keyframes play{ from{width:0} to{width:100%} }
+
+.leaf__foot{
+  display:flex; align-items:center; gap:6px;
+  font-family:var(--mono); font-size:9px; letter-spacing:.1em;
+  color:rgba(255,255,255,.32); text-transform:uppercase;
+}
+.grill{ display:flex; gap:2.5px; margin-left:auto; }
+.grill i{ width:2.5px; height:2.5px; border-radius:50%; background:rgba(255,255,255,.25); }
+
+/* sol kapak — menteşeli, açılıyor */
+.cover{
+  grid-column:1; grid-row:1;
+  position:relative;
+  transform-style:preserve-3d;
+  transform-origin:right center;
+  transform:rotateY(0deg);
+  transition:transform 1.15s var(--ease);
+  z-index:2;
+}
+.is-open .cover{ transform:rotateY(-158deg); }
+.face{
+  position:absolute; inset:0;
+  backface-visibility:hidden;
+  border:1px solid var(--ink-line);
+  border-radius:var(--r-sm) 0 0 var(--r-sm);
+  padding:calc(var(--w) * .07);
+  display:flex; flex-direction:column;
+}
+.face--front{
+  background:linear-gradient(140deg, #1B3567 0%, #0C1B39 60%, #0A1730 100%);
+  box-shadow: 18px 26px 60px rgba(0,0,0,.45);
+  justify-content:space-between;
+}
+.face--front .mark{
+  font-family:var(--display);
+  font-variation-settings:"opsz" 40,"SOFT" 70,"WONK" 1;
+  font-size:calc(var(--w) * .085); line-height:1;
+  color:#fff;
+}
+.face--front .rule{ height:1px; background:var(--glow); opacity:.55; width:38%; margin:calc(var(--w)*.045) 0; }
+.face--front .cap{
+  font-family:var(--mono); font-size:calc(var(--w)*.033);
+  letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.42);
+}
+.face--back{
+  transform:rotateY(180deg);
+  background:linear-gradient(200deg,#F6F7FA 0%, #E4E9F2 100%);
+  border-radius:0 var(--r-sm) var(--r-sm) 0;
+  color:var(--ink);
+  justify-content:flex-end; gap:calc(var(--w)*.02);
+}
+.face--back .hand{
+  font-family:var(--display); font-style:italic;
+  font-variation-settings:"opsz" 40,"SOFT" 90,"WONK" 1;
+  font-size:calc(var(--w)*.075); line-height:1.2; color:var(--ink);
+}
+.face--back .meta{
+  font-family:var(--mono); font-size:calc(var(--w)*.032);
+  letter-spacing:.1em; color:var(--muted);
+}
+
+/* ── Bluetooth durum satırı ── */
+.ble{
+  display:flex; align-items:center; gap:12px;
+  font-family:var(--mono); font-size:11.5px; letter-spacing:.05em;
+  color:rgba(255,255,255,.72);
+  min-height:20px;
+}
+.ble__dot{
+  position:relative; width:7px; height:7px; border-radius:50%;
+  background:rgba(255,255,255,.3); flex:none;
+}
+.ble__dot::after{
+  content:""; position:absolute; inset:-5px; border-radius:50%;
+  border:1px solid var(--glow); opacity:0;
+}
+.ble.is-scanning .ble__dot{ background:var(--glow); }
+.ble.is-scanning .ble__dot::after{ animation:ping 1.5s var(--ease) infinite; }
+.ble.is-linked .ble__dot{ background:var(--glow); box-shadow:0 0 12px var(--glow); }
+@keyframes ping{
+  0%{ opacity:.9; transform:scale(.7) } 100%{ opacity:0; transform:scale(1.7) }
+}
+.ble__text{ transition:opacity .3s var(--ease); }
+
+.stage__meta{
+  position:relative; z-index:2;
+  margin:26px 0 0;
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.12em;
+  text-transform:uppercase; color:rgba(255,255,255,.3);
+}
+
+/* ─────────────────────────  SAĞ — PANEL  ────────────────────────── */
+.side{
+  background:var(--paper);
+  display:flex; flex-direction:column;
+  padding: clamp(28px, 3.4vw, 56px);
+}
+.brand{ display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.brand__mark{
+  display:flex; align-items:baseline; gap:9px;
+  font-family:var(--display);
+  font-variation-settings:"opsz" 40,"SOFT" 60,"WONK" 1;
+  font-weight:500; font-size:22px; letter-spacing:-.01em;
+}
+.brand__mark s{ text-decoration:none; color:var(--muted-2); font-weight:400; }
+.tag{
+  font-family:var(--mono); font-size:9.5px; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--muted); border:1px solid var(--edge); border-radius:999px;
+  padding:5px 10px;
+}
+
+.form-wrap{
+  flex:1; display:flex; flex-direction:column; justify-content:center;
+  max-width:390px; width:100%; margin:0 auto;
+  padding: 44px 0;
+}
+h1.title{
+  font-family:var(--display);
+  font-variation-settings:"opsz" 60,"SOFT" 50,"WONK" 0;
+  font-weight:500; font-size:32px; line-height:1.15; letter-spacing:-.02em;
+  margin:0 0 10px;
+}
+.subtitle{ margin:0 0 30px; color:var(--muted); font-size:14.5px; line-height:1.6; }
+
+.field{ margin-bottom:16px; }
+.field__top{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:7px; }
+label{ font-size:12.5px; font-weight:600; letter-spacing:.01em; }
+.link{
+  font-size:12.5px; color:var(--muted); text-decoration:none;
+  border-bottom:1px solid var(--edge-2); padding-bottom:1px;
+}
+.link:hover{ color:var(--ink); border-color:var(--ink); }
+
+.input{
+  position:relative; display:flex; align-items:center;
+  background:var(--paper-2);
+  border:1px solid var(--edge);
+  border-radius:var(--r-md);
+  transition:border-color .18s var(--ease), background .18s var(--ease), box-shadow .18s var(--ease);
+}
+.input:focus-within{
+  background:var(--paper);
+  border-color:var(--ink);
+  box-shadow:0 0 0 3px rgba(11,26,56,.09);
+}
+.input input{
+  flex:1; min-width:0;
+  font:inherit; font-size:15px; color:var(--text);
+  background:none; border:none; outline:none;
+  padding:13px 14px;
+}
+.input input::placeholder{ color:var(--muted-2); }
+.input.has-error{ border-color:var(--err); background:#FDF6F5; }
+.ghost{
+  border:none; background:none; cursor:pointer;
+  font-size:12px; font-weight:600; color:var(--muted);
+  padding:8px 13px 8px 6px;
+}
+.ghost:hover{ color:var(--ink); }
+
+.error{
+  display:none; align-items:center; gap:6px;
+  margin-top:7px; font-size:12.5px; color:var(--err);
+}
+.error.is-on{ display:flex; }
+
+.row{ display:flex; align-items:center; justify-content:space-between; gap:14px; margin:20px 0 22px; }
+.check{ display:flex; align-items:center; gap:9px; cursor:pointer; font-size:13px; color:var(--muted); }
+.check input{ position:absolute; opacity:0; width:0; height:0; }
+.check .box{
+  width:17px; height:17px; border-radius:5px; border:1px solid var(--edge-2);
+  background:var(--paper-2); flex:none; display:grid; place-items:center;
+  transition:.15s var(--ease);
+}
+.check .box svg{ opacity:0; transform:scale(.6); transition:.15s var(--ease); }
+.check input:checked + .box{ background:var(--ink); border-color:var(--ink); }
+.check input:checked + .box svg{ opacity:1; transform:scale(1); }
+.check input:focus-visible + .box{ outline:2px solid var(--ink); outline-offset:3px; }
+
+.btn{
+  width:100%; cursor:pointer;
+  border:1px solid var(--ink); border-radius:var(--r-md);
+  background:var(--ink); color:#fff;
+  font-size:14.5px; font-weight:600; letter-spacing:.005em;
+  padding:14px 18px;
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  transition:transform .12s var(--ease), background .18s var(--ease), box-shadow .18s var(--ease);
+  box-shadow:0 1px 0 rgba(11,26,56,.28);
+}
+.btn:hover{ background:#0F2449; box-shadow:0 6px 18px rgba(11,26,56,.20); }
+.btn:active{ transform:translateY(1px); }
+.btn[disabled]{ opacity:.6; cursor:progress; }
+.btn--quiet{
+  background:transparent; color:var(--ink); border-color:var(--edge-2);
+  box-shadow:none; font-weight:500;
+}
+.btn--quiet:hover{ background:var(--paper-2); border-color:var(--ink); box-shadow:none; }
+
+.sep{ display:flex; align-items:center; gap:14px; margin:22px 0; color:var(--muted-2); font-size:11.5px; }
+.sep::before,.sep::after{ content:""; height:1px; flex:1; background:var(--edge); }
+
+.hint{
+  margin:10px 0 0; text-align:center;
+  font-family:var(--mono); font-size:11px; letter-spacing:.03em; color:var(--muted-2);
+}
+
+/* kod ile giriş */
+.code-mode{ display:none; }
+.is-code .code-mode{ display:block; }
+.is-code .pass-mode{ display:none; }
+.code-input input{
+  font-family:var(--mono); font-size:22px; letter-spacing:.32em;
+  text-align:center; text-transform:uppercase; padding:15px 10px 15px 20px;
+}
+
+.side__foot{
+  font-size:12px; color:var(--muted-2); line-height:1.7;
+  max-width:390px; width:100%; margin:0 auto;
+}
+.side__foot a{ color:var(--muted); text-decoration:underline; text-underline-offset:2px; }
+
+/* ─────────────────────  PANEL ÖNİZLEME (demo)  ───────────────────── */
+.peek{
+  position:fixed; inset:0; z-index:50;
+  background:rgba(5,14,31,.55);
+  backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  display:grid; place-items:center;
+  padding:20px;
+  opacity:0; pointer-events:none;
+  transition:opacity .35s var(--ease);
+}
+.peek.is-on{ opacity:1; pointer-events:auto; }
+.peek__card{
+  width:min(520px,100%);
+  background:var(--paper);
+  border-radius:var(--r-lg);
+  box-shadow:0 30px 80px rgba(5,14,31,.45);
+  overflow:hidden;
+  transform:translateY(14px) scale(.985);
+  transition:transform .4s var(--ease);
+  max-height:92svh; overflow-y:auto;
+}
+.peek.is-on .peek__card{ transform:none; }
+.peek__bar{
+  display:flex; align-items:center; gap:12px;
+  padding:16px 20px; border-bottom:1px solid var(--edge);
+}
+.chip{
+  display:inline-flex; align-items:center; gap:7px;
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.08em;
+  background:var(--paper-2); border:1px solid var(--edge);
+  border-radius:999px; padding:6px 11px; color:var(--muted);
+}
+.chip i{ width:6px; height:6px; border-radius:50%; background:#E0A657; box-shadow:0 0 8px rgba(224,166,87,.9); }
+.peek__close{
+  margin-left:auto; border:none; background:none; cursor:pointer;
+  color:var(--muted); font-size:13px; padding:6px 8px;
+}
+.peek__close:hover{ color:var(--ink); }
+.peek__body{ padding:22px 20px 24px; }
+.peek h2{
+  font-family:var(--display); font-variation-settings:"opsz" 40,"SOFT" 60,"WONK" 0;
+  font-weight:500; font-size:21px; margin:0 0 4px; letter-spacing:-.01em;
+}
+.peek .sub{ margin:0 0 18px; font-size:13px; color:var(--muted); }
+.meter{ height:5px; border-radius:99px; background:var(--paper-2); border:1px solid var(--edge); overflow:hidden; margin-bottom:6px; }
+.meter i{ display:block; height:100%; width:64%; background:var(--ink); }
+.meter-cap{ font-family:var(--mono); font-size:10.5px; letter-spacing:.06em; color:var(--muted-2); margin:0 0 20px; }
+
+.item{
+  display:flex; align-items:center; gap:13px;
+  padding:13px 0; border-top:1px solid var(--edge);
+}
+.item__thumb{
+  width:46px; height:34px; border-radius:6px; flex:none;
+  background:linear-gradient(150deg,#16305C,#0A1730);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+}
+.item--live .item__thumb{ background:radial-gradient(70% 80% at 35% 70%, rgba(255,206,150,.5), transparent 70%), linear-gradient(150deg,#16305C,#0A1730); }
+.item__name{ font-size:14px; font-weight:600; }
+.item__meta{ font-family:var(--mono); font-size:10.5px; letter-spacing:.05em; color:var(--muted-2); margin-top:3px; }
+.item__state{ margin-left:auto; font-family:var(--mono); font-size:10.5px; letter-spacing:.06em; color:var(--muted); text-align:right; }
+.item__state b{ font-weight:500; color:var(--ink); }
+.mini{ width:74px; height:3px; border-radius:99px; background:var(--edge); overflow:hidden; margin-top:6px; }
+.mini i{ display:block; height:100%; width:20%; background:var(--ink); animation:fill 5s var(--ease) forwards; }
+@keyframes fill{ to{ width:78% } }
+
+.peek__note{
+  margin:20px 0 0; padding-top:16px; border-top:1px solid var(--edge);
+  font-size:12px; color:var(--muted-2); line-height:1.6;
+}
+
+/* ─────────────────────────  GİRİŞ ANİMASYONU  ──────────────────── */
+.rise{ opacity:0; transform:translateY(14px); }
+.is-ready .rise{
+  opacity:1; transform:none;
+  transition:opacity .7s var(--ease), transform .7s var(--ease);
+}
+.is-ready .rise:nth-child(1){ transition-delay:.05s }
+.is-ready .rise:nth-child(2){ transition-delay:.12s }
+.is-ready .rise:nth-child(3){ transition-delay:.19s }
+.side .rise{ transition-delay:.16s !important; }
+
+/* ─────────────────────────────  RESPONSIVE  ─────────────────────── */
+@media (max-width: 1080px){
+  .app{ grid-template-columns:1fr; }
+  .stage{ padding:44px 28px 40px; }
+  .stage__inner{ max-width:none; }
+  .device{ --w: clamp(190px, 38vw, 280px); margin-bottom:28px; }
+  .stage__title{ font-size:clamp(28px,6vw,38px); }
+  .side{ padding:28px 24px 40px; }
+  .form-wrap{ padding:34px 0; }
+}
+@media (max-width: 560px){
+  .stage{ padding:32px 20px 34px; }
+  .device{ --w: 40vw; }
+  .stage__sub{ margin-bottom:30px; font-size:14px; }
+  .side{ padding:24px 20px 34px; }
+  h1.title{ font-size:27px; }
+  .peek{ padding:0; align-items:end; }
+  .peek__card{ border-radius:var(--r-lg) var(--r-lg) 0 0; max-height:88svh; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms !important; animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;
+  }
+  .rise{ opacity:1; transform:none; }
+}
+</style>
+</head>
+<body>
+
+<main class="app" id="app">
+
+  <!-- ─────────── SOL: ürünün kendisi ─────────── -->
+  <section class="stage" id="stage" aria-label="Ürün tanıtımı">
+    <div class="stage__inner">
+      <p class="eyebrow rise">Bluetooth aktarım</p>
+
+      <h1 class="stage__title rise">Kapağı her açtıklarında<br><em>ilk günlere</em> dönsünler.</h1>
+
+      <p class="stage__sub rise">Yüklediğiniz videolar, broşürün içindeki ekrana kablosuz aktarılır. Kablo, uygulama indirme veya hafıza kartı yok.</p>
+
+      <!-- İMZA: açılan video broşür -->
+      <div class="device" id="device" role="img" aria-label="Kapağı açık bir video broşür; iç ekranda bebek videosu oynuyor.">
+        <div class="device__glow"></div>
+        <div class="spread">
+          <div class="leaf">
+            <div class="screen">
+              <div class="screen__frames">
+                <div class="frame frame-1 is-on"></div>
+                <div class="frame frame-2"></div>
+                <div class="frame frame-3"></div>
+              </div>
+              <div class="playhead"><i></i></div>
+              <div class="screen__bar">
+                <span>İLK GÜN</span><span>0:42</span>
+              </div>
+            </div>
+            <div class="leaf__foot">
+              <span>2.4" LCD</span>
+              <span class="grill"><i></i><i></i><i></i><i></i><i></i></span>
+            </div>
+          </div>
+
+          <div class="cover">
+            <div class="face face--front">
+              <div>
+                <div class="mark">Elif</div>
+                <div class="rule"></div>
+              </div>
+              <div class="cap">12 Mart 2026 · 3.240 g</div>
+            </div>
+            <div class="face face--back">
+              <div class="hand">Hoş geldin,<br>küçük kızımız.</div>
+              <div class="meta">BROŞÜR KODU · 4A2205</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ble" id="ble" aria-live="polite">
+        <span class="ble__dot" aria-hidden="true"></span>
+        <span class="ble__text" id="bleText">Bluetooth hazırlanıyor</span>
+      </div>
+    </div>
+
+    <p class="stage__meta">128 MB hafıza · yaklaşık 4 dakika görüntü · şarjlı</p>
+  </section>
+
+  <!-- ─────────── SAĞ: giriş ─────────── -->
+  <section class="side" aria-label="Panel girişi">
+    <header class="brand">
+      <div class="brand__mark">İlk Kare <s>panel</s></div>
+      <span class="tag">Demo</span>
+    </header>
+
+    <div class="form-wrap rise">
+      <h1 class="title">Panele giriş</h1>
+      <p class="subtitle">Hesabınıza girin, broşürü eşleştirin ve videoları aktarın.</p>
+
+      <form id="loginForm" novalidate>
+        <!-- şifre ile giriş -->
+        <div class="pass-mode">
+          <div class="field">
+            <div class="field__top"><label for="email">E-posta</label></div>
+            <div class="input" id="emailWrap">
+              <input id="email" name="email" type="email" inputmode="email" autocomplete="email"
+                     placeholder="ayse@ornek.com" aria-describedby="emailErr" />
+            </div>
+            <p class="error" id="emailErr">E-posta adresinizi girin.</p>
+          </div>
+
+          <div class="field">
+            <div class="field__top">
+              <label for="pass">Şifre</label>
+              <a class="link" href="#" onclick="return false">Şifremi unuttum</a>
+            </div>
+            <div class="input" id="passWrap">
+              <input id="pass" name="pass" type="password" autocomplete="current-password"
+                     placeholder="••••••••" aria-describedby="passErr" />
+              <button type="button" class="ghost" id="toggle" aria-pressed="false">Göster</button>
+            </div>
+            <p class="error" id="passErr">Şifrenizi girin.</p>
+          </div>
+
+          <div class="row">
+            <label class="check">
+              <input type="checkbox" id="stay" />
+              <span class="box" aria-hidden="true">
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none"><path d="M1 4l2.6 2.6L9 1.2" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Bu cihazda açık kal
+            </label>
+          </div>
+
+          <button class="btn" id="submit" type="submit">Panele gir</button>
+
+          <div class="sep">veya</div>
+
+          <button class="btn btn--quiet" type="button" id="toCode">Broşür kodu ile gir</button>
+          <p class="hint">Kod, kapağın iç yüzünde yazılıdır</p>
+        </div>
+
+        <!-- kod ile giriş -->
+        <div class="code-mode">
+          <div class="field">
+            <div class="field__top"><label for="code">Broşür kodu</label></div>
+            <div class="input code-input" id="codeWrap">
+              <input id="code" name="code" type="text" maxlength="6" autocomplete="off"
+                     spellcheck="false" placeholder="4A2205" aria-describedby="codeErr" />
+            </div>
+            <p class="error" id="codeErr">6 haneli kodu eksiksiz girin.</p>
+          </div>
+
+          <button class="btn" id="submitCode" type="button">Devam et</button>
+
+          <div class="sep">veya</div>
+
+          <button class="btn btn--quiet" type="button" id="toPass">E-posta ile gir</button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="side__foot">
+      Broşürünüz mü var, hesabınız yok mu? Satın aldığınız yerden davet bağlantısı isteyin.<br>
+      Giriş yaparak <a href="#" onclick="return false">Kullanım Koşulları</a> ve <a href="#" onclick="return false">Aydınlatma Metni</a>’ni kabul edersiniz.
+    </footer>
+  </section>
+</main>
+
+<!-- ─────────── Girişten sonrası: panelden bir kesit ─────────── -->
+<div class="peek" id="peek" role="dialog" aria-modal="true" aria-labelledby="peekTitle" aria-hidden="true">
+  <div class="peek__card">
+    <div class="peek__bar">
+      <div class="brand__mark" style="font-size:17px">İlk Kare</div>
+      <span class="chip"><i></i> BR-0412 · Bağlı</span>
+      <button class="peek__close" id="peekClose" type="button">Kapat</button>
+    </div>
+    <div class="peek__body">
+      <h2 id="peekTitle">Elif’in broşürü</h2>
+      <p class="sub">Değişiklikler broşür menzilde olduğu sürece aktarılır.</p>
+
+      <div class="meter"><i></i></div>
+      <p class="meter-cap">82 MB / 128 MB KULLANILDI</p>
+
+      <div class="item">
+        <span class="item__thumb"></span>
+        <div>
+          <div class="item__name">İlk gün</div>
+          <div class="item__meta">0:42 · 18 MB</div>
+        </div>
+        <div class="item__state"><b>Aktarıldı</b></div>
+      </div>
+
+      <div class="item item--live">
+        <span class="item__thumb"></span>
+        <div>
+          <div class="item__name">Hastane çıkışı</div>
+          <div class="item__meta">1:10 · 31 MB</div>
+        </div>
+        <div class="item__state">
+          <b>Aktarılıyor</b>
+          <div class="mini"><i></i></div>
+        </div>
+      </div>
+
+      <div class="item">
+        <span class="item__thumb"></span>
+        <div>
+          <div class="item__name">Dede ile ilk tanışma</div>
+          <div class="item__meta">0:28 · 12 MB</div>
+        </div>
+        <div class="item__state">Sırada</div>
+      </div>
+
+      <p class="peek__note">Bu ekran demo amaçlıdır. Gerçek aktarım, üreticinin cihaz API’si ve Bluetooth eşleşmesi bağlandığında bu akışın aynısıyla çalışır.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var app = document.getElementById("app");
+  var stage = document.getElementById("stage");
+  var device = document.getElementById("device");
+  var ble = document.getElementById("ble");
+  var bleText = document.getElementById("bleText");
+
+  /* ── Sahne açılışı ── */
+  function setBle(state, text){
+    ble.classList.remove("is-scanning","is-linked");
+    if(state) ble.classList.add(state);
+    bleText.textContent = text;
+  }
+
+  if(reduced){
+    app.classList.add("is-ready");
+    device.classList.add("is-open","is-awake");
+    setBle("is-linked", "BR-0412 eşleşti · aktarıma hazır");
+  } else {
+    requestAnimationFrame(function(){ app.classList.add("is-ready"); });
+    setTimeout(function(){ device.classList.add("is-open"); }, 700);
+    setTimeout(function(){ device.classList.add("is-awake"); }, 1450);
+
+    setTimeout(function(){ setBle(null, "Bluetooth açık"); }, 900);
+    setTimeout(function(){ setBle("is-scanning", "Cihaz aranıyor…"); }, 1900);
+    setTimeout(function(){ setBle("is-scanning", "BR-0412 bulundu"); }, 3200);
+    setTimeout(function(){ setBle("is-linked", "BR-0412 eşleşti · aktarıma hazır"); }, 4200);
+
+    /* ekran kareleri */
+    var frames = device.querySelectorAll(".frame");
+    var i = 0;
+    setInterval(function(){
+      frames[i].classList.remove("is-on");
+      i = (i + 1) % frames.length;
+      frames[i].classList.add("is-on");
+    }, 3000);
+  }
+
+  /* ── Şifre göster/gizle ── */
+  var pass = document.getElementById("pass");
+  var toggle = document.getElementById("toggle");
+  toggle.addEventListener("click", function(){
+    var show = pass.type === "password";
+    pass.type = show ? "text" : "password";
+    toggle.textContent = show ? "Gizle" : "Göster";
+    toggle.setAttribute("aria-pressed", String(show));
+    pass.focus();
+  });
+
+  /* ── Mod değiştirme ── */
+  var wrap = document.querySelector(".form-wrap");
+  document.getElementById("toCode").addEventListener("click", function(){
+    wrap.classList.add("is-code");
+    document.getElementById("code").focus();
+  });
+  document.getElementById("toPass").addEventListener("click", function(){
+    wrap.classList.remove("is-code");
+    document.getElementById("email").focus();
+  });
+
+  /* ── Doğrulama ── */
+  function mark(wrapId, errId, bad){
+    document.getElementById(wrapId).classList.toggle("has-error", bad);
+    document.getElementById(errId).classList.toggle("is-on", bad);
+  }
+  ["email","pass","code"].forEach(function(id){
+    document.getElementById(id).addEventListener("input", function(){
+      mark(id + "Wrap", id + "Err", false);
+    });
+  });
+
+  var code = document.getElementById("code");
+  code.addEventListener("input", function(){
+    code.value = code.value.replace(/[^a-zA-Z0-9]/g,"").toUpperCase();
+  });
+
+  /* ── Giriş ── */
+  var peek = document.getElementById("peek");
+  function openPeek(btn, label){
+    btn.disabled = true;
+    var old = btn.textContent;
+    btn.textContent = "Bağlanıyor…";
+    setTimeout(function(){
+      btn.disabled = false;
+      btn.textContent = old;
+      peek.classList.add("is-on");
+      peek.setAttribute("aria-hidden","false");
+      document.getElementById("peekClose").focus();
+    }, reduced ? 60 : 850);
+  }
+
+  document.getElementById("loginForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    var email = document.getElementById("email");
+    var badEmail = !/^\S+@\S+\.\S+$/.test(email.value.trim());
+    var badPass = pass.value.length < 1;
+    mark("emailWrap","emailErr", badEmail);
+    mark("passWrap","passErr", badPass);
+    if(badEmail){ email.focus(); return; }
+    if(badPass){ pass.focus(); return; }
+    openPeek(document.getElementById("submit"));
+  });
+
+  document.getElementById("submitCode").addEventListener("click", function(){
+    var bad = code.value.length !== 6;
+    mark("codeWrap","codeErr", bad);
+    if(bad){ code.focus(); return; }
+    openPeek(document.getElementById("submitCode"));
+  });
+
+  function closePeek(){
+    peek.classList.remove("is-on");
+    peek.setAttribute("aria-hidden","true");
+  }
+  document.getElementById("peekClose").addEventListener("click", closePeek);
+  peek.addEventListener("click", function(e){ if(e.target === peek) closePeek(); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closePeek(); });
+})();
+</script>
+</body>
+</html>
