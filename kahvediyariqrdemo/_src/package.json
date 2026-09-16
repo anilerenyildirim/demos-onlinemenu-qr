@@ -1,0 +1,24 @@
+{
+  "name": "kahvediyariqrdemo",
+  "private": true,
+  "type": "module",
+  "description": "Kahve Diyarı — franchise QR menü demosu (statik üretim)",
+  "scripts": {
+    "trace-logo": "tsx scripts/trace-logo.ts",
+    "build": "tsc --noEmit && tsx scripts/build.ts",
+    "serve": "npx --yes wrangler@4 pages dev ../.. --port 8788"
+  },
+  "devDependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource-variable/quicksand": "^5.3.0",
+    "@fontsource/quicksand": "^5.3.0",
+    "@types/node": "^22.20.3",
+    "@types/opentype.js": "^1.3.10",
+    "esbuild": "^0.28.2",
+    "opentype.js": "^2.0.0",
+    "potrace": "^2.1.8",
+    "sharp": "^0.35.4",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
