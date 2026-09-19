@@ -1,0 +1,4125 @@
+{
+  "kaynak": "https://kahvederyasi.com.tr",
+  "ozet": {
+    "tarih": "2026-09-19T12:11:21.119Z",
+    "kategori_basina_urun": {
+      "sicak-icecekler": 29,
+      "soguk-icecekler": 29,
+      "yemekler": 40,
+      "pastalar": 15
+    },
+    "toplam_urun": 113,
+    "gorsel": {
+      "orijinal": 113,
+      "cache": 0,
+      "yer_tutucu": 0
+    },
+    "ortalama_bayt": {
+      "webp": {
+        "320": 22042,
+        "480": 41212,
+        "720": 0
+      },
+      "avif": {
+        "320": 12482,
+        "480": 23889,
+        "720": 0
+      }
+    },
+    "butce_asan": [],
+    "urunler_klasoru": {
+      "bytes": 11257616,
+      "files": 452
+    },
+    "ham_klasor": {
+      "bytes": 48052512,
+      "files": 131
+    },
+    "sube": {
+      "toplam": 98,
+      "detayli": 6,
+      "bulunamayan_demo_subeleri": [],
+      "ad_farki": [
+        {
+          "istenen": "İstanbul Büyükçekmece Şubesi",
+          "sitede": "İstanbul Büyükçekmece Şube"
+        },
+        {
+          "istenen": "Aydın Nazilli Bamboo AVM Şubesi",
+          "sitede": "Aydın Nazilli Bamboo Avm Şubesi"
+        }
+      ]
+    },
+    "istek_sayisi_bu_calisma": 0
+  },
+  "urunler": [
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 1,
+      "ad": "Türk Kahvesi",
+      "slug": "turk-kahvesi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/turk-kahvesi.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/turk-kahvesi.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/turk-kahveleri/turk-kahvesi.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/turk-kahvesi-320.webp",
+          "avif": "urunler/sicak-icecekler/turk-kahvesi-320.avif",
+          "webp_bytes": 20810,
+          "avif_bytes": 12519,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/turk-kahvesi-480.webp",
+          "avif": "urunler/sicak-icecekler/turk-kahvesi-480.avif",
+          "webp_bytes": 37748,
+          "avif_bytes": 23131,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 2,
+      "ad": "Sütlü Türk Kahvesi",
+      "slug": "sutlu-turk-kahvesi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/sutlu-turk-kahvesi.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/sutlu-turk-kahvesi.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/turk-kahveleri/sutlu-turk-kahvesi.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/sutlu-turk-kahvesi-320.webp",
+          "avif": "urunler/sicak-icecekler/sutlu-turk-kahvesi-320.avif",
+          "webp_bytes": 17878,
+          "avif_bytes": 10744,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/sutlu-turk-kahvesi-480.webp",
+          "avif": "urunler/sicak-icecekler/sutlu-turk-kahvesi-480.avif",
+          "webp_bytes": 32048,
+          "avif_bytes": 19598,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 3,
+      "ad": "Osmanlı Dibek Flavored",
+      "slug": "osmanli-dibek-flavored",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/osmanli-dibek.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/osmanli-dibek.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/turk-kahveleri/osmanli-dibek.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/osmanli-dibek-flavored-320.webp",
+          "avif": "urunler/sicak-icecekler/osmanli-dibek-flavored-320.avif",
+          "webp_bytes": 18958,
+          "avif_bytes": 11284,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/osmanli-dibek-flavored-480.webp",
+          "avif": "urunler/sicak-icecekler/osmanli-dibek-flavored-480.avif",
+          "webp_bytes": 34104,
+          "avif_bytes": 20776,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 4,
+      "ad": "Menengiç Kahvesi",
+      "slug": "menengic-kahvesi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/menengic.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/turk-kahveleri/menengic.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/turk-kahveleri/menengic.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/menengic-kahvesi-320.webp",
+          "avif": "urunler/sicak-icecekler/menengic-kahvesi-320.avif",
+          "webp_bytes": 18756,
+          "avif_bytes": 10935,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/menengic-kahvesi-480.webp",
+          "avif": "urunler/sicak-icecekler/menengic-kahvesi-480.avif",
+          "webp_bytes": 32456,
+          "avif_bytes": 19851,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 5,
+      "ad": "Espresso",
+      "slug": "espresso",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/espresso.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/espresso-320.webp",
+          "avif": "urunler/sicak-icecekler/espresso-320.avif",
+          "webp_bytes": 15516,
+          "avif_bytes": 8991,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/espresso-480.webp",
+          "avif": "urunler/sicak-icecekler/espresso-480.avif",
+          "webp_bytes": 26146,
+          "avif_bytes": 16192,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 6,
+      "ad": "Double Espresso",
+      "slug": "double-espresso",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-espresso.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-espresso.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/double-espresso.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/double-espresso-320.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-320.avif",
+          "webp_bytes": 19108,
+          "avif_bytes": 11470,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/double-espresso-480.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-480.avif",
+          "webp_bytes": 35402,
+          "avif_bytes": 22189,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 7,
+      "ad": "Espresso Macchiato",
+      "slug": "espresso-macchiato",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso-maccihato.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso-maccihato.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/espresso-maccihato.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/espresso-macchiato-320.webp",
+          "avif": "urunler/sicak-icecekler/espresso-macchiato-320.avif",
+          "webp_bytes": 11160,
+          "avif_bytes": 7150,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/espresso-macchiato-480.webp",
+          "avif": "urunler/sicak-icecekler/espresso-macchiato-480.avif",
+          "webp_bytes": 19214,
+          "avif_bytes": 12602,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 8,
+      "ad": "Double Espresso Macchiato",
+      "slug": "double-espresso-macchiato",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-maccihato.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-maccihato.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/double-maccihato.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/double-espresso-macchiato-320.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-macchiato-320.avif",
+          "webp_bytes": 16202,
+          "avif_bytes": 10077,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/double-espresso-macchiato-480.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-macchiato-480.avif",
+          "webp_bytes": 28462,
+          "avif_bytes": 18667,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 9,
+      "ad": "Espresso Con Panna",
+      "slug": "espresso-con-panna",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso-con-panna.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/espresso-con-panna.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/espresso-con-panna.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/espresso-con-panna-320.webp",
+          "avif": "urunler/sicak-icecekler/espresso-con-panna-320.avif",
+          "webp_bytes": 14874,
+          "avif_bytes": 9355,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/espresso-con-panna-480.webp",
+          "avif": "urunler/sicak-icecekler/espresso-con-panna-480.avif",
+          "webp_bytes": 26068,
+          "avif_bytes": 16656,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 10,
+      "ad": "Double Espresso Con Panna",
+      "slug": "double-espresso-con-panna",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-con-panna.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/double-con-panna.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/double-con-panna.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/double-espresso-con-panna-320.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-con-panna-320.avif",
+          "webp_bytes": 18878,
+          "avif_bytes": 11001,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/double-espresso-con-panna-480.webp",
+          "avif": "urunler/sicak-icecekler/double-espresso-con-panna-480.avif",
+          "webp_bytes": 32958,
+          "avif_bytes": 20012,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 11,
+      "ad": "Americano",
+      "slug": "americano",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/americano.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/americano.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/americano.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/americano-320.webp",
+          "avif": "urunler/sicak-icecekler/americano-320.avif",
+          "webp_bytes": 16230,
+          "avif_bytes": 8978,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/americano-480.webp",
+          "avif": "urunler/sicak-icecekler/americano-480.avif",
+          "webp_bytes": 30504,
+          "avif_bytes": 17659,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 12,
+      "ad": "Cafe Latte",
+      "slug": "cafe-latte",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cafe-latte.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cafe-latte.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/cafe-latte.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/cafe-latte-320.webp",
+          "avif": "urunler/sicak-icecekler/cafe-latte-320.avif",
+          "webp_bytes": 17206,
+          "avif_bytes": 10144,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/cafe-latte-480.webp",
+          "avif": "urunler/sicak-icecekler/cafe-latte-480.avif",
+          "webp_bytes": 30158,
+          "avif_bytes": 18640,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 13,
+      "ad": "Oreo Hot Coffee",
+      "slug": "oreo-hot-coffee",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/oreo-hot-coffee.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/oreo-hot-coffee.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/oreo-hot-coffee.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/oreo-hot-coffee-320.webp",
+          "avif": "urunler/sicak-icecekler/oreo-hot-coffee-320.avif",
+          "webp_bytes": 8904,
+          "avif_bytes": 6523,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/oreo-hot-coffee-480.webp",
+          "avif": "urunler/sicak-icecekler/oreo-hot-coffee-480.avif",
+          "webp_bytes": 16384,
+          "avif_bytes": 12517,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 14,
+      "ad": "Cafe Mocha",
+      "slug": "cafe-mocha",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cafe-mocha.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cafe-mocha.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/cafe-mocha.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/cafe-mocha-320.webp",
+          "avif": "urunler/sicak-icecekler/cafe-mocha-320.avif",
+          "webp_bytes": 17858,
+          "avif_bytes": 10514,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/cafe-mocha-480.webp",
+          "avif": "urunler/sicak-icecekler/cafe-mocha-480.avif",
+          "webp_bytes": 29974,
+          "avif_bytes": 17910,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 15,
+      "ad": "White Chocolate Mocha",
+      "slug": "white-chocolate-mocha",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/white-chocolate-mocha.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/white-chocolate-mocha.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/white-chocolate-mocha.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/white-chocolate-mocha-320.webp",
+          "avif": "urunler/sicak-icecekler/white-chocolate-mocha-320.avif",
+          "webp_bytes": 15962,
+          "avif_bytes": 9754,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/white-chocolate-mocha-480.webp",
+          "avif": "urunler/sicak-icecekler/white-chocolate-mocha-480.avif",
+          "webp_bytes": 27474,
+          "avif_bytes": 17634,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 16,
+      "ad": "Karamel Macchiato",
+      "slug": "karamel-macchiato",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/caramel-macchiato.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/caramel-macchiato.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/caramel-macchiato.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/karamel-macchiato-320.webp",
+          "avif": "urunler/sicak-icecekler/karamel-macchiato-320.avif",
+          "webp_bytes": 21160,
+          "avif_bytes": 11998,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/karamel-macchiato-480.webp",
+          "avif": "urunler/sicak-icecekler/karamel-macchiato-480.avif",
+          "webp_bytes": 38330,
+          "avif_bytes": 21704,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 17,
+      "ad": "Cappuccino",
+      "slug": "cappuccino",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cappucino.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/cappucino.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/cappucino.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/cappuccino-320.webp",
+          "avif": "urunler/sicak-icecekler/cappuccino-320.avif",
+          "webp_bytes": 24448,
+          "avif_bytes": 13396,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/cappuccino-480.webp",
+          "avif": "urunler/sicak-icecekler/cappuccino-480.avif",
+          "webp_bytes": 43460,
+          "avif_bytes": 24991,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 18,
+      "ad": "Latte Macchiato",
+      "slug": "latte-macchiato",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/latte-macchiato.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/latte-macchiato.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/latte-macchiato.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/latte-macchiato-320.webp",
+          "avif": "urunler/sicak-icecekler/latte-macchiato-320.avif",
+          "webp_bytes": 16140,
+          "avif_bytes": 10140,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/latte-macchiato-480.webp",
+          "avif": "urunler/sicak-icecekler/latte-macchiato-480.avif",
+          "webp_bytes": 27546,
+          "avif_bytes": 17637,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 19,
+      "ad": "Hazır Kahve Sade",
+      "slug": "hazir-kahve-sade",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/hazir-kahve-sade.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/hazir-kahve-sade.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/hazir-kahve-sade.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/hazir-kahve-sade-320.webp",
+          "avif": "urunler/sicak-icecekler/hazir-kahve-sade-320.avif",
+          "webp_bytes": 11844,
+          "avif_bytes": 7718,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/hazir-kahve-sade-480.webp",
+          "avif": "urunler/sicak-icecekler/hazir-kahve-sade-480.avif",
+          "webp_bytes": 20816,
+          "avif_bytes": 13867,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 20,
+      "ad": "Hazır Kahve Sütlü",
+      "slug": "hazir-kahve-sutlu",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/hazir-kahve-sutlu.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/hazir-kahve-sutlu.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/hazir-kahve-sutlu.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/hazir-kahve-sutlu-320.webp",
+          "avif": "urunler/sicak-icecekler/hazir-kahve-sutlu-320.avif",
+          "webp_bytes": 20850,
+          "avif_bytes": 11975,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/hazir-kahve-sutlu-480.webp",
+          "avif": "urunler/sicak-icecekler/hazir-kahve-sutlu-480.avif",
+          "webp_bytes": 36014,
+          "avif_bytes": 21210,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 21,
+      "ad": "Kahve Deryası Special",
+      "slug": "kahve-deryasi-special",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/kahve-deryasi-special.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/kahve-deryasi-special.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/kahve-deryasi-special.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/kahve-deryasi-special-320.webp",
+          "avif": "urunler/sicak-icecekler/kahve-deryasi-special-320.avif",
+          "webp_bytes": 21624,
+          "avif_bytes": 12499,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/kahve-deryasi-special-480.webp",
+          "avif": "urunler/sicak-icecekler/kahve-deryasi-special-480.avif",
+          "webp_bytes": 37316,
+          "avif_bytes": 21853,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 22,
+      "ad": "Filtre Kahve",
+      "slug": "filtre-kahve",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/filtre-kahve.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/kahve-cesitleri/filtre-kahve.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/kahve-cesitleri/filtre-kahve.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/filtre-kahve-320.webp",
+          "avif": "urunler/sicak-icecekler/filtre-kahve-320.avif",
+          "webp_bytes": 29180,
+          "avif_bytes": 15411,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/filtre-kahve-480.webp",
+          "avif": "urunler/sicak-icecekler/filtre-kahve-480.avif",
+          "webp_bytes": 58598,
+          "avif_bytes": 31014,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 23,
+      "ad": "Syphon",
+      "slug": "syphon",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/syphon.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/syphon.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/syphon.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/syphon-320.webp",
+          "avif": "urunler/sicak-icecekler/syphon-320.avif",
+          "webp_bytes": 20952,
+          "avif_bytes": 12101,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/syphon-480.webp",
+          "avif": "urunler/sicak-icecekler/syphon-480.avif",
+          "webp_bytes": 41402,
+          "avif_bytes": 23910,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 24,
+      "ad": "Aeropress",
+      "slug": "aeropress",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/aeropress.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/aeropress.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/aeropress.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/aeropress-320.webp",
+          "avif": "urunler/sicak-icecekler/aeropress-320.avif",
+          "webp_bytes": 24494,
+          "avif_bytes": 12519,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/aeropress-480.webp",
+          "avif": "urunler/sicak-icecekler/aeropress-480.avif",
+          "webp_bytes": 47534,
+          "avif_bytes": 24895,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 25,
+      "ad": "Pour Over V60",
+      "slug": "pour-over-v60",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/v60.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/v60.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/v60.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/pour-over-v60-320.webp",
+          "avif": "urunler/sicak-icecekler/pour-over-v60-320.avif",
+          "webp_bytes": 25882,
+          "avif_bytes": 13892,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/pour-over-v60-480.webp",
+          "avif": "urunler/sicak-icecekler/pour-over-v60-480.avif",
+          "webp_bytes": 47930,
+          "avif_bytes": 25065,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 26,
+      "ad": "Chemex",
+      "slug": "chemex",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/ce-max.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/ce-max.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/ce-max.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/chemex-320.webp",
+          "avif": "urunler/sicak-icecekler/chemex-320.avif",
+          "webp_bytes": 20456,
+          "avif_bytes": 11537,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/chemex-480.webp",
+          "avif": "urunler/sicak-icecekler/chemex-480.avif",
+          "webp_bytes": 41232,
+          "avif_bytes": 23119,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 27,
+      "ad": "Salep",
+      "slug": "salep",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/salep.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/salep.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/salep.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/salep-320.webp",
+          "avif": "urunler/sicak-icecekler/salep-320.avif",
+          "webp_bytes": 15270,
+          "avif_bytes": 8801,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/salep-480.webp",
+          "avif": "urunler/sicak-icecekler/salep-480.avif",
+          "webp_bytes": 26920,
+          "avif_bytes": 16365,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 28,
+      "ad": "Sıcak Çikolata",
+      "slug": "sicak-cikolata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/sicak-cikolata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/sicak-cikolata.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/sicak-cikolata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/sicak-cikolata-320.webp",
+          "avif": "urunler/sicak-icecekler/sicak-cikolata-320.avif",
+          "webp_bytes": 18478,
+          "avif_bytes": 10381,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/sicak-cikolata-480.webp",
+          "avif": "urunler/sicak-icecekler/sicak-cikolata-480.avif",
+          "webp_bytes": 34284,
+          "avif_bytes": 19724,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "sicak-icecekler",
+      "sira": 29,
+      "ad": "Beyaz Sıcak Çikolata",
+      "slug": "beyaz-sicak-cikolata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/beyaz-sicak-cikolata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/sicak-icecekler/beyaz-sicak-cikolata.jpg",
+      "ham_dosya": "_ref/scraped/sicak-icecekler/orijinal/beyaz-sicak-cikolata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/sicak-icecekler/beyaz-sicak-cikolata-320.webp",
+          "avif": "urunler/sicak-icecekler/beyaz-sicak-cikolata-320.avif",
+          "webp_bytes": 13512,
+          "avif_bytes": 8070,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/sicak-icecekler/beyaz-sicak-cikolata-480.webp",
+          "avif": "urunler/sicak-icecekler/beyaz-sicak-cikolata-480.avif",
+          "webp_bytes": 24488,
+          "avif_bytes": 14691,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 1,
+      "ad": "Cold Brew Kolalı",
+      "slug": "cold-brew-kolali",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/cold-brew-cola.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/cold-brew-cola.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/cold-brew-cola.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cold-brew-kolali-320.webp",
+          "avif": "urunler/soguk-icecekler/cold-brew-kolali-320.avif",
+          "webp_bytes": 24794,
+          "avif_bytes": 14182,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cold-brew-kolali-480.webp",
+          "avif": "urunler/soguk-icecekler/cold-brew-kolali-480.avif",
+          "webp_bytes": 45138,
+          "avif_bytes": 26133,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 2,
+      "ad": "Cold Brew Sütlü",
+      "slug": "cold-brew-sutlu",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/cold-brew-sut.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/cold-brew-sut.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/cold-brew-sut.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cold-brew-sutlu-320.webp",
+          "avif": "urunler/soguk-icecekler/cold-brew-sutlu-320.avif",
+          "webp_bytes": 28174,
+          "avif_bytes": 15747,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cold-brew-sutlu-480.webp",
+          "avif": "urunler/soguk-icecekler/cold-brew-sutlu-480.avif",
+          "webp_bytes": 52590,
+          "avif_bytes": 30047,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 3,
+      "ad": "Frappe",
+      "slug": "frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/frappe-320.avif",
+          "webp_bytes": 24448,
+          "avif_bytes": 12849,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/frappe-480.avif",
+          "webp_bytes": 46804,
+          "avif_bytes": 24687,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 4,
+      "ad": "Oreo Frappe",
+      "slug": "oreo-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/oreo-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/oreo-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/oreo-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/oreo-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/oreo-frappe-320.avif",
+          "webp_bytes": 24244,
+          "avif_bytes": 13541,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/oreo-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/oreo-frappe-480.avif",
+          "webp_bytes": 44042,
+          "avif_bytes": 26073,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 5,
+      "ad": "Mocha Frappe",
+      "slug": "mocha-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/mocha-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/mocha-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/mocha-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/mocha-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/mocha-frappe-320.avif",
+          "webp_bytes": 18192,
+          "avif_bytes": 10919,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/mocha-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/mocha-frappe-480.avif",
+          "webp_bytes": 31940,
+          "avif_bytes": 19172,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 6,
+      "ad": "White Mocha Frappe",
+      "slug": "white-mocha-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/white-mocha-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/white-mocha-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/white-mocha-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/white-mocha-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/white-mocha-frappe-320.avif",
+          "webp_bytes": 14320,
+          "avif_bytes": 9580,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/white-mocha-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/white-mocha-frappe-480.avif",
+          "webp_bytes": 24482,
+          "avif_bytes": 16927,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 7,
+      "ad": "Karamel Frappe",
+      "slug": "karamel-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/caramel-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/caramel-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/caramel-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/karamel-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/karamel-frappe-320.avif",
+          "webp_bytes": 19606,
+          "avif_bytes": 11939,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/karamel-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/karamel-frappe-480.avif",
+          "webp_bytes": 33326,
+          "avif_bytes": 20811,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 8,
+      "ad": "Dondurmalı Frappe",
+      "slug": "dondurmali-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/dondurmali-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/dondurmali-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/dondurmali-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/dondurmali-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/dondurmali-frappe-320.avif",
+          "webp_bytes": 21910,
+          "avif_bytes": 12621,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/dondurmali-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/dondurmali-frappe-480.avif",
+          "webp_bytes": 39302,
+          "avif_bytes": 23398,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 9,
+      "ad": "Kahve Deryası Frappe",
+      "slug": "kahve-deryasi-frappe",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/kahve-deryasi-frappe.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frappeler/kahve-deryasi-frappe.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frappeler/kahve-deryasi-frappe.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/kahve-deryasi-frappe-320.webp",
+          "avif": "urunler/soguk-icecekler/kahve-deryasi-frappe-320.avif",
+          "webp_bytes": 19746,
+          "avif_bytes": 11517,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/kahve-deryasi-frappe-480.webp",
+          "avif": "urunler/soguk-icecekler/kahve-deryasi-frappe-480.avif",
+          "webp_bytes": 34556,
+          "avif_bytes": 20106,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 10,
+      "ad": "Buzlu Çikolata",
+      "slug": "buzlu-cikolata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/buzlu-cikolata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/buzlu-cikolata.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/buzlu-cikolata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/buzlu-cikolata-320.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-cikolata-320.avif",
+          "webp_bytes": 20246,
+          "avif_bytes": 11695,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/buzlu-cikolata-480.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-cikolata-480.avif",
+          "webp_bytes": 36450,
+          "avif_bytes": 20501,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 11,
+      "ad": "Buzlu Beyaz Çikolata",
+      "slug": "buzlu-beyaz-cikolata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/buzlu-beyaz-cikolata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/buzlu-beyaz-cikolata.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/buzlu-beyaz-cikolata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/buzlu-beyaz-cikolata-320.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-beyaz-cikolata-320.avif",
+          "webp_bytes": 19574,
+          "avif_bytes": 10785,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/buzlu-beyaz-cikolata-480.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-beyaz-cikolata-480.avif",
+          "webp_bytes": 33352,
+          "avif_bytes": 19084,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 12,
+      "ad": "Çikolatalı Smoothie",
+      "slug": "cikolatali-smoothie",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/cikolatali-smoothie.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/cikolatali-smoothie.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/cikolatali-smoothie.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cikolatali-smoothie-320.webp",
+          "avif": "urunler/soguk-icecekler/cikolatali-smoothie-320.avif",
+          "webp_bytes": 18304,
+          "avif_bytes": 10468,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cikolatali-smoothie-480.webp",
+          "avif": "urunler/soguk-icecekler/cikolatali-smoothie-480.avif",
+          "webp_bytes": 33616,
+          "avif_bytes": 18866,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 13,
+      "ad": "Beyaz Çikolatalı Smoothie",
+      "slug": "beyaz-cikolatali-smoothie",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/beyaz-cikolatali-smoothie.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/beyaz-cikolatali-smoothie.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/beyaz-cikolatali-smoothie.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/beyaz-cikolatali-smoothie-320.webp",
+          "avif": "urunler/soguk-icecekler/beyaz-cikolatali-smoothie-320.avif",
+          "webp_bytes": 22918,
+          "avif_bytes": 12404,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/beyaz-cikolatali-smoothie-480.webp",
+          "avif": "urunler/soguk-icecekler/beyaz-cikolatali-smoothie-480.avif",
+          "webp_bytes": 42564,
+          "avif_bytes": 23128,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 14,
+      "ad": "Çilek Limon Aşkı",
+      "slug": "cilek-limon-aski",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/cilek-limon-aski.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/cilek-limon-aski.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/cilek-limon-aski.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cilek-limon-aski-320.webp",
+          "avif": "urunler/soguk-icecekler/cilek-limon-aski-320.avif",
+          "webp_bytes": 22426,
+          "avif_bytes": 13573,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cilek-limon-aski-480.webp",
+          "avif": "urunler/soguk-icecekler/cilek-limon-aski-480.avif",
+          "webp_bytes": 44332,
+          "avif_bytes": 26663,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 15,
+      "ad": "Dondurma Espresso Aşkı",
+      "slug": "dondurma-espresso-aski",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/dondurma-espresso-aski.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/dondurma-espresso-aski.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/dondurma-espresso-aski.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/dondurma-espresso-aski-320.webp",
+          "avif": "urunler/soguk-icecekler/dondurma-espresso-aski-320.avif",
+          "webp_bytes": 23072,
+          "avif_bytes": 12890,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/dondurma-espresso-aski-480.webp",
+          "avif": "urunler/soguk-icecekler/dondurma-espresso-aski-480.avif",
+          "webp_bytes": 42260,
+          "avif_bytes": 23888,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 16,
+      "ad": "Vişne Muz Aşkı",
+      "slug": "visne-muz-aski",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/visne-muz-aski.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/visne-muz-aski.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/visne-muz-aski.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/visne-muz-aski-320.webp",
+          "avif": "urunler/soguk-icecekler/visne-muz-aski-320.avif",
+          "webp_bytes": 12466,
+          "avif_bytes": 8472,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/visne-muz-aski-480.webp",
+          "avif": "urunler/soguk-icecekler/visne-muz-aski-480.avif",
+          "webp_bytes": 21920,
+          "avif_bytes": 15183,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 17,
+      "ad": "Mavi Rüya",
+      "slug": "mavi-ruya",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/mavi-ruya.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/alternatif-soguklar/mavi-ruya.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/alternatif-soguklar/mavi-ruya.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/mavi-ruya-320.webp",
+          "avif": "urunler/soguk-icecekler/mavi-ruya-320.avif",
+          "webp_bytes": 22162,
+          "avif_bytes": 13200,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/mavi-ruya-480.webp",
+          "avif": "urunler/soguk-icecekler/mavi-ruya-480.avif",
+          "webp_bytes": 45220,
+          "avif_bytes": 27650,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 18,
+      "ad": "Buzlu Hazır Kahve",
+      "slug": "buzlu-hazir-kahve",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/buzlu-hazir-kahve.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/buzlu-hazir-kahve.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/soguk-kahveler/buzlu-hazir-kahve.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/buzlu-hazir-kahve-320.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-hazir-kahve-320.avif",
+          "webp_bytes": 21402,
+          "avif_bytes": 12684,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/buzlu-hazir-kahve-480.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-hazir-kahve-480.avif",
+          "webp_bytes": 39496,
+          "avif_bytes": 23314,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 19,
+      "ad": "Buzlu Fındıklı",
+      "slug": "buzlu-findikli",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/buzlu-findikli.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/buzlu-findikli.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/soguk-kahveler/buzlu-findikli.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/buzlu-findikli-320.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-findikli-320.avif",
+          "webp_bytes": 22178,
+          "avif_bytes": 13080,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/buzlu-findikli-480.webp",
+          "avif": "urunler/soguk-icecekler/buzlu-findikli-480.avif",
+          "webp_bytes": 41710,
+          "avif_bytes": 25199,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 20,
+      "ad": "Ice Americano",
+      "slug": "ice-americano",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/ice-americano.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/ice-americano.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/soguk-kahveler/ice-americano.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/ice-americano-320.webp",
+          "avif": "urunler/soguk-icecekler/ice-americano-320.avif",
+          "webp_bytes": 20488,
+          "avif_bytes": 12248,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/ice-americano-480.webp",
+          "avif": "urunler/soguk-icecekler/ice-americano-480.avif",
+          "webp_bytes": 36594,
+          "avif_bytes": 22269,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 21,
+      "ad": "Ice Cafe Latte",
+      "slug": "ice-cafe-latte",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/ice-cafe-latte.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/soguk-kahveler/ice-cafe-latte.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/soguk-kahveler/ice-cafe-latte.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/ice-cafe-latte-320.webp",
+          "avif": "urunler/soguk-icecekler/ice-cafe-latte-320.avif",
+          "webp_bytes": 18244,
+          "avif_bytes": 10723,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/ice-cafe-latte-480.webp",
+          "avif": "urunler/soguk-icecekler/ice-cafe-latte-480.avif",
+          "webp_bytes": 31950,
+          "avif_bytes": 19073,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 22,
+      "ad": "Çilek Frozen",
+      "slug": "cilek-frozen",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/cilek-frozen.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/cilek-frozen.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/cilek-frozen.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cilek-frozen-320.webp",
+          "avif": "urunler/soguk-icecekler/cilek-frozen-320.avif",
+          "webp_bytes": 22042,
+          "avif_bytes": 12668,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cilek-frozen-480.webp",
+          "avif": "urunler/soguk-icecekler/cilek-frozen-480.avif",
+          "webp_bytes": 42046,
+          "avif_bytes": 24650,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 23,
+      "ad": "Kavun Frozen",
+      "slug": "kavun-frozen",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/kavun-frozen.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/kavun-frozen.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/kavun-frozen.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/kavun-frozen-320.webp",
+          "avif": "urunler/soguk-icecekler/kavun-frozen-320.avif",
+          "webp_bytes": 24500,
+          "avif_bytes": 14203,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/kavun-frozen-480.webp",
+          "avif": "urunler/soguk-icecekler/kavun-frozen-480.avif",
+          "webp_bytes": 45306,
+          "avif_bytes": 27148,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 24,
+      "ad": "Muz Frozen",
+      "slug": "muz-frozen",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/muz-frozen.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/muz-frozen.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/muz-frozen.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/muz-frozen-320.webp",
+          "avif": "urunler/soguk-icecekler/muz-frozen-320.avif",
+          "webp_bytes": 22250,
+          "avif_bytes": 13246,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/muz-frozen-480.webp",
+          "avif": "urunler/soguk-icecekler/muz-frozen-480.avif",
+          "webp_bytes": 39714,
+          "avif_bytes": 24686,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 25,
+      "ad": "Nane Limon Frozen",
+      "slug": "nane-limon-frozen",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/nane-limon-frozen.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/nane-limon-frozen.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/nane-limon-frozen.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/nane-limon-frozen-320.webp",
+          "avif": "urunler/soguk-icecekler/nane-limon-frozen-320.avif",
+          "webp_bytes": 17858,
+          "avif_bytes": 11138,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/nane-limon-frozen-480.webp",
+          "avif": "urunler/soguk-icecekler/nane-limon-frozen-480.avif",
+          "webp_bytes": 33028,
+          "avif_bytes": 21498,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 26,
+      "ad": "Çilek Milkshake",
+      "slug": "cilek-milkshake",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/cilek-milkshake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/cilek-milkshake.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/cilek-milkshake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/cilek-milkshake-320.webp",
+          "avif": "urunler/soguk-icecekler/cilek-milkshake-320.avif",
+          "webp_bytes": 19644,
+          "avif_bytes": 11764,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/cilek-milkshake-480.webp",
+          "avif": "urunler/soguk-icecekler/cilek-milkshake-480.avif",
+          "webp_bytes": 33392,
+          "avif_bytes": 20915,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 27,
+      "ad": "Oreo Çikolata Milkshake",
+      "slug": "oreo-cikolata-milkshake",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/oreo-cikolata-milkshake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/frozenler/oreo-cikolata-milkshake.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/frozenler/oreo-cikolata-milkshake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/oreo-cikolata-milkshake-320.webp",
+          "avif": "urunler/soguk-icecekler/oreo-cikolata-milkshake-320.avif",
+          "webp_bytes": 20880,
+          "avif_bytes": 11604,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/oreo-cikolata-milkshake-480.webp",
+          "avif": "urunler/soguk-icecekler/oreo-cikolata-milkshake-480.avif",
+          "webp_bytes": 38748,
+          "avif_bytes": 21605,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 28,
+      "ad": "Limon Milkshake",
+      "slug": "limon-milkshake",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/milkshakeler/limon-milkshake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/milkshakeler/limon-milkshake.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/milkshakeler/limon-milkshake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/limon-milkshake-320.webp",
+          "avif": "urunler/soguk-icecekler/limon-milkshake-320.avif",
+          "webp_bytes": 25170,
+          "avif_bytes": 13989,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/limon-milkshake-480.webp",
+          "avif": "urunler/soguk-icecekler/limon-milkshake-480.avif",
+          "webp_bytes": 46870,
+          "avif_bytes": 26341,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "soguk-icecekler",
+      "sira": 29,
+      "ad": "Karadut Deryası",
+      "slug": "karadut-deryasi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/milkshakeler/karadut-deryasi.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/soguk-icecekler/milkshakeler/karadut-deryasi.jpg",
+      "ham_dosya": "_ref/scraped/soguk-icecekler/orijinal/milkshakeler/karadut-deryasi.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/soguk-icecekler/karadut-deryasi-320.webp",
+          "avif": "urunler/soguk-icecekler/karadut-deryasi-320.avif",
+          "webp_bytes": 20956,
+          "avif_bytes": 11747,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/soguk-icecekler/karadut-deryasi-480.webp",
+          "avif": "urunler/soguk-icecekler/karadut-deryasi-480.avif",
+          "webp_bytes": 34928,
+          "avif_bytes": 21713,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 1,
+      "ad": "Yumurtalı Ekmek",
+      "slug": "yumurtali-ekmek",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/yumurtali-ekmek.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/yumurtali-ekmek.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/yumurtali-ekmek.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/yumurtali-ekmek-320.webp",
+          "avif": "urunler/yemekler/yumurtali-ekmek-320.avif",
+          "webp_bytes": 28952,
+          "avif_bytes": 14297,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/yumurtali-ekmek-480.webp",
+          "avif": "urunler/yemekler/yumurtali-ekmek-480.avif",
+          "webp_bytes": 58770,
+          "avif_bytes": 29525,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 2,
+      "ad": "Tatlı Kahvaltı Pancake",
+      "slug": "tatli-kahvalti-pancake",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/pancake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/pancake.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/pancake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/tatli-kahvalti-pancake-320.webp",
+          "avif": "urunler/yemekler/tatli-kahvalti-pancake-320.avif",
+          "webp_bytes": 28736,
+          "avif_bytes": 15948,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/tatli-kahvalti-pancake-480.webp",
+          "avif": "urunler/yemekler/tatli-kahvalti-pancake-480.avif",
+          "webp_bytes": 56170,
+          "avif_bytes": 31026,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 3,
+      "ad": "Gevrek Kahvaltı - Hızlı Kahvaltı",
+      "slug": "gevrek-kahvalti-hizli-kahvalti",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/gevrek-kahvalti.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/gevrek-kahvalti.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/gevrek-kahvalti.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/gevrek-kahvalti-hizli-kahvalti-320.webp",
+          "avif": "urunler/yemekler/gevrek-kahvalti-hizli-kahvalti-320.avif",
+          "webp_bytes": 31584,
+          "avif_bytes": 16456,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/gevrek-kahvalti-hizli-kahvalti-480.webp",
+          "avif": "urunler/yemekler/gevrek-kahvalti-hizli-kahvalti-480.avif",
+          "webp_bytes": 54684,
+          "avif_bytes": 33585,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 4,
+      "ad": "Kahvaltı Tabağı",
+      "slug": "kahvalti-tabagi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/kahvalti-tabagi.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/kahvalti-tabagi.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/kahvalti-tabagi.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/kahvalti-tabagi-320.webp",
+          "avif": "urunler/yemekler/kahvalti-tabagi-320.avif",
+          "webp_bytes": 28480,
+          "avif_bytes": 15284,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/kahvalti-tabagi-480.webp",
+          "avif": "urunler/yemekler/kahvalti-tabagi-480.avif",
+          "webp_bytes": 53692,
+          "avif_bytes": 29856,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 5,
+      "ad": "Leb-i Derya Kahvaltı",
+      "slug": "leb-i-derya-kahvalti",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/leb-i-derya-kahvalti.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/leb-i-derya-kahvalti.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/leb-i-derya-kahvalti.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/leb-i-derya-kahvalti-320.webp",
+          "avif": "urunler/yemekler/leb-i-derya-kahvalti-320.avif",
+          "webp_bytes": 28706,
+          "avif_bytes": 15303,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/leb-i-derya-kahvalti-480.webp",
+          "avif": "urunler/yemekler/leb-i-derya-kahvalti-480.avif",
+          "webp_bytes": 59728,
+          "avif_bytes": 32120,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 6,
+      "ad": "Omlet",
+      "slug": "omlet",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/omlet.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/omlet.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/omlet.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/omlet-320.webp",
+          "avif": "urunler/yemekler/omlet-320.avif",
+          "webp_bytes": 28298,
+          "avif_bytes": 14820,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/omlet-480.webp",
+          "avif": "urunler/yemekler/omlet-480.avif",
+          "webp_bytes": 54476,
+          "avif_bytes": 29770,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 7,
+      "ad": "Klasik Menemen",
+      "slug": "klasik-menemen",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/klasik-menemen.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/klasik-menemen.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/klasik-menemen.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/klasik-menemen-320.webp",
+          "avif": "urunler/yemekler/klasik-menemen-320.avif",
+          "webp_bytes": 35280,
+          "avif_bytes": 18364,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/klasik-menemen-480.webp",
+          "avif": "urunler/yemekler/klasik-menemen-480.avif",
+          "webp_bytes": 57572,
+          "avif_bytes": 37305,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 8,
+      "ad": "Su Böreği",
+      "slug": "su-boregi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/su-boregi.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/kahvalti/su-boregi.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/kahvalti/su-boregi.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/su-boregi-320.webp",
+          "avif": "urunler/yemekler/su-boregi-320.avif",
+          "webp_bytes": 29620,
+          "avif_bytes": 15661,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/su-boregi-480.webp",
+          "avif": "urunler/yemekler/su-boregi-480.avif",
+          "webp_bytes": 59720,
+          "avif_bytes": 31317,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 9,
+      "ad": "Philly Steak",
+      "slug": "philly-steak",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/philly-steak.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/philly-steak.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tostlar-sandvicler/philly-steak.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/philly-steak-320.webp",
+          "avif": "urunler/yemekler/philly-steak-320.avif",
+          "webp_bytes": 23230,
+          "avif_bytes": 12665,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/philly-steak-480.webp",
+          "avif": "urunler/yemekler/philly-steak-480.avif",
+          "webp_bytes": 48386,
+          "avif_bytes": 27045,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 10,
+      "ad": "Egeli Tost",
+      "slug": "egeli-tost",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/egeli-tost.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/egeli-tost.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tostlar-sandvicler/egeli-tost.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/egeli-tost-320.webp",
+          "avif": "urunler/yemekler/egeli-tost-320.avif",
+          "webp_bytes": 24884,
+          "avif_bytes": 12429,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/egeli-tost-480.webp",
+          "avif": "urunler/yemekler/egeli-tost-480.avif",
+          "webp_bytes": 47374,
+          "avif_bytes": 25384,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 11,
+      "ad": "Anadolu Tost",
+      "slug": "anadolu-tost",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/anadolu-tost.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/anadolu-tost.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tostlar-sandvicler/anadolu-tost.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/anadolu-tost-320.webp",
+          "avif": "urunler/yemekler/anadolu-tost-320.avif",
+          "webp_bytes": 21592,
+          "avif_bytes": 11588,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/anadolu-tost-480.webp",
+          "avif": "urunler/yemekler/anadolu-tost-480.avif",
+          "webp_bytes": 45120,
+          "avif_bytes": 23709,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 12,
+      "ad": "Club Sandwich",
+      "slug": "club-sandwich",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/club-sandvich.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tostlar-sandvicler/club-sandvich.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tostlar-sandvicler/club-sandvich.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/club-sandwich-320.webp",
+          "avif": "urunler/yemekler/club-sandwich-320.avif",
+          "webp_bytes": 30082,
+          "avif_bytes": 15467,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/club-sandwich-480.webp",
+          "avif": "urunler/yemekler/club-sandwich-480.avif",
+          "webp_bytes": 59386,
+          "avif_bytes": 31269,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 13,
+      "ad": "Big Chicken",
+      "slug": "big-chicken",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/big-chicken.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/big-chicken.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/hamburgerler/big-chicken.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/big-chicken-320.webp",
+          "avif": "urunler/yemekler/big-chicken-320.avif",
+          "webp_bytes": 24942,
+          "avif_bytes": 13774,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/big-chicken-480.webp",
+          "avif": "urunler/yemekler/big-chicken-480.avif",
+          "webp_bytes": 46912,
+          "avif_bytes": 27322,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 14,
+      "ad": "Cheese Burger",
+      "slug": "cheese-burger",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/cheese-burger.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/cheese-burger.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/hamburgerler/cheese-burger.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/cheese-burger-320.webp",
+          "avif": "urunler/yemekler/cheese-burger-320.avif",
+          "webp_bytes": 25538,
+          "avif_bytes": 14421,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/cheese-burger-480.webp",
+          "avif": "urunler/yemekler/cheese-burger-480.avif",
+          "webp_bytes": 49214,
+          "avif_bytes": 28225,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 15,
+      "ad": "Klasik Usül Burger",
+      "slug": "klasik-usul-burger",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/klasik-usul-burger.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/hamburgerler/klasik-usul-burger.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/hamburgerler/klasik-usul-burger.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/klasik-usul-burger-320.webp",
+          "avif": "urunler/yemekler/klasik-usul-burger-320.avif",
+          "webp_bytes": 20824,
+          "avif_bytes": 12018,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/klasik-usul-burger-480.webp",
+          "avif": "urunler/yemekler/klasik-usul-burger-480.avif",
+          "webp_bytes": 41270,
+          "avif_bytes": 23267,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 16,
+      "ad": "Karışık Pizza",
+      "slug": "karisik-pizza",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/karisik-pizza.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/karisik-pizza.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/pizzalar/karisik-pizza.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/karisik-pizza-320.webp",
+          "avif": "urunler/yemekler/karisik-pizza-320.avif",
+          "webp_bytes": 25710,
+          "avif_bytes": 14077,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/karisik-pizza-480.webp",
+          "avif": "urunler/yemekler/karisik-pizza-480.avif",
+          "webp_bytes": 52164,
+          "avif_bytes": 29383,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 17,
+      "ad": "Ton Balıklı Pizza",
+      "slug": "ton-balikli-pizza",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/ton-balikli-pizza.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/ton-balikli-pizza.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/pizzalar/ton-balikli-pizza.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/ton-balikli-pizza-320.webp",
+          "avif": "urunler/yemekler/ton-balikli-pizza-320.avif",
+          "webp_bytes": 29834,
+          "avif_bytes": 16051,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/ton-balikli-pizza-480.webp",
+          "avif": "urunler/yemekler/ton-balikli-pizza-480.avif",
+          "webp_bytes": 57458,
+          "avif_bytes": 33324,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 18,
+      "ad": "Pastırmalı Pizza",
+      "slug": "pastirmali-pizza",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/pastirmali-pizza.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/pizzalar/pastirmali-pizza.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/pizzalar/pastirmali-pizza.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/pastirmali-pizza-320.webp",
+          "avif": "urunler/yemekler/pastirmali-pizza-320.avif",
+          "webp_bytes": 27902,
+          "avif_bytes": 14418,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/pastirmali-pizza-480.webp",
+          "avif": "urunler/yemekler/pastirmali-pizza-480.avif",
+          "webp_bytes": 53928,
+          "avif_bytes": 29614,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 19,
+      "ad": "Etli Wrap",
+      "slug": "etli-wrap",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/wrapler/etli-wrap.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/wrapler/etli-wrap.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/wrapler/etli-wrap.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/etli-wrap-320.webp",
+          "avif": "urunler/yemekler/etli-wrap-320.avif",
+          "webp_bytes": 24310,
+          "avif_bytes": 13573,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/etli-wrap-480.webp",
+          "avif": "urunler/yemekler/etli-wrap-480.avif",
+          "webp_bytes": 45056,
+          "avif_bytes": 26072,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 20,
+      "ad": "Ege Usulü Salata",
+      "slug": "ege-usulu-salata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/ege-usulu-salata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/ege-usulu-salata.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/salatalar/ege-usulu-salata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/ege-usulu-salata-320.webp",
+          "avif": "urunler/yemekler/ege-usulu-salata-320.avif",
+          "webp_bytes": 23010,
+          "avif_bytes": 12929,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/ege-usulu-salata-480.webp",
+          "avif": "urunler/yemekler/ege-usulu-salata-480.avif",
+          "webp_bytes": 42204,
+          "avif_bytes": 23829,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 21,
+      "ad": "Hellim Salata",
+      "slug": "hellim-salata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/hellim-salata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/hellim-salata.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/salatalar/hellim-salata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/hellim-salata-320.webp",
+          "avif": "urunler/yemekler/hellim-salata-320.avif",
+          "webp_bytes": 27286,
+          "avif_bytes": 14949,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/hellim-salata-480.webp",
+          "avif": "urunler/yemekler/hellim-salata-480.avif",
+          "webp_bytes": 51008,
+          "avif_bytes": 28368,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 22,
+      "ad": "Sezar Salata",
+      "slug": "sezar-salata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/sezar-salata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/sezar-salata.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/salatalar/sezar-salata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/sezar-salata-320.webp",
+          "avif": "urunler/yemekler/sezar-salata-320.avif",
+          "webp_bytes": 31176,
+          "avif_bytes": 16828,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/sezar-salata-480.webp",
+          "avif": "urunler/yemekler/sezar-salata-480.avif",
+          "webp_bytes": 59966,
+          "avif_bytes": 32809,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 23,
+      "ad": "Ton Balıklı Salata",
+      "slug": "ton-balikli-salata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/ton-balikli-salata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/ton-balikli-salata.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/salatalar/ton-balikli-salata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/ton-balikli-salata-320.webp",
+          "avif": "urunler/yemekler/ton-balikli-salata-320.avif",
+          "webp_bytes": 31398,
+          "avif_bytes": 16924,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/ton-balikli-salata-480.webp",
+          "avif": "urunler/yemekler/ton-balikli-salata-480.avif",
+          "webp_bytes": 59986,
+          "avif_bytes": 31903,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 24,
+      "ad": "Steak Salata",
+      "slug": "steak-salata",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/steak-salata.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/salatalar/steak-salata.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/salatalar/steak-salata.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/steak-salata-320.webp",
+          "avif": "urunler/yemekler/steak-salata-320.avif",
+          "webp_bytes": 27642,
+          "avif_bytes": 15189,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/steak-salata-480.webp",
+          "avif": "urunler/yemekler/steak-salata-480.avif",
+          "webp_bytes": 51348,
+          "avif_bytes": 29037,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 25,
+      "ad": "Penne Arabiatta",
+      "slug": "penne-arabiatta",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/penne-arabiatte.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/penne-arabiatte.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/makarnalar/penne-arabiatte.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/penne-arabiatta-320.webp",
+          "avif": "urunler/yemekler/penne-arabiatta-320.avif",
+          "webp_bytes": 31862,
+          "avif_bytes": 15581,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/penne-arabiatta-480.webp",
+          "avif": "urunler/yemekler/penne-arabiatta-480.avif",
+          "webp_bytes": 58054,
+          "avif_bytes": 33171,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 26,
+      "ad": "Penne Al Fredo",
+      "slug": "penne-al-fredo",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/penne-alfredo.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/penne-alfredo.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/makarnalar/penne-alfredo.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/penne-al-fredo-320.webp",
+          "avif": "urunler/yemekler/penne-al-fredo-320.avif",
+          "webp_bytes": 23556,
+          "avif_bytes": 13443,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/penne-al-fredo-480.webp",
+          "avif": "urunler/yemekler/penne-al-fredo-480.avif",
+          "webp_bytes": 43190,
+          "avif_bytes": 25120,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 27,
+      "ad": "Spagetti Bolognese",
+      "slug": "spagetti-bolognese",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/spagetti-bolonez.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/spagetti-bolonez.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/makarnalar/spagetti-bolonez.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/spagetti-bolognese-320.webp",
+          "avif": "urunler/yemekler/spagetti-bolognese-320.avif",
+          "webp_bytes": 31020,
+          "avif_bytes": 14748,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/spagetti-bolognese-480.webp",
+          "avif": "urunler/yemekler/spagetti-bolognese-480.avif",
+          "webp_bytes": 59000,
+          "avif_bytes": 30961,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 28,
+      "ad": "Fettucini Alfredo",
+      "slug": "fettucini-alfredo",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/fettucini-alfredo.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/makarnalar/fettucini-alfredo.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/makarnalar/fettucini-alfredo.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/fettucini-alfredo-320.webp",
+          "avif": "urunler/yemekler/fettucini-alfredo-320.avif",
+          "webp_bytes": 26292,
+          "avif_bytes": 14592,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/fettucini-alfredo-480.webp",
+          "avif": "urunler/yemekler/fettucini-alfredo-480.avif",
+          "webp_bytes": 49238,
+          "avif_bytes": 27399,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 29,
+      "ad": "Köri Soslu Tavuk",
+      "slug": "kori-soslu-tavuk",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/kori-soslu-tavuk.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/kori-soslu-tavuk.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tavuk-yemekleri/kori-soslu-tavuk.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/kori-soslu-tavuk-320.webp",
+          "avif": "urunler/yemekler/kori-soslu-tavuk-320.avif",
+          "webp_bytes": 23884,
+          "avif_bytes": 13720,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/kori-soslu-tavuk-480.webp",
+          "avif": "urunler/yemekler/kori-soslu-tavuk-480.avif",
+          "webp_bytes": 46860,
+          "avif_bytes": 26589,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 30,
+      "ad": "Tai Soslu Tavuk",
+      "slug": "tai-soslu-tavuk",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tai-soslu-tavuk.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tai-soslu-tavuk.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tavuk-yemekleri/tai-soslu-tavuk.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/tai-soslu-tavuk-320.webp",
+          "avif": "urunler/yemekler/tai-soslu-tavuk-320.avif",
+          "webp_bytes": 28246,
+          "avif_bytes": 15595,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/tai-soslu-tavuk-480.webp",
+          "avif": "urunler/yemekler/tai-soslu-tavuk-480.avif",
+          "webp_bytes": 57554,
+          "avif_bytes": 31618,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 31,
+      "ad": "Piliç Şinitzel",
+      "slug": "pilic-sinitzel",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tavuk-sinitzel.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tavuk-sinitzel.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tavuk-yemekleri/tavuk-sinitzel.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/pilic-sinitzel-320.webp",
+          "avif": "urunler/yemekler/pilic-sinitzel-320.avif",
+          "webp_bytes": 22466,
+          "avif_bytes": 12789,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/pilic-sinitzel-480.webp",
+          "avif": "urunler/yemekler/pilic-sinitzel-480.avif",
+          "webp_bytes": 46202,
+          "avif_bytes": 25976,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 32,
+      "ad": "Tavuklu Fajita",
+      "slug": "tavuklu-fajita",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tavuklu-fajita.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/tavuk-yemekleri/tavuklu-fajita.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/tavuk-yemekleri/tavuklu-fajita.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/tavuklu-fajita-320.webp",
+          "avif": "urunler/yemekler/tavuklu-fajita-320.avif",
+          "webp_bytes": 23954,
+          "avif_bytes": 13761,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/tavuklu-fajita-480.webp",
+          "avif": "urunler/yemekler/tavuklu-fajita-480.avif",
+          "webp_bytes": 46228,
+          "avif_bytes": 27243,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 33,
+      "ad": "Chef Köfte",
+      "slug": "chef-kofte",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/chef-kofte.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/chef-kofte.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/chef-kofte.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/chef-kofte-320.webp",
+          "avif": "urunler/yemekler/chef-kofte-320.avif",
+          "webp_bytes": 26358,
+          "avif_bytes": 14696,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/chef-kofte-480.webp",
+          "avif": "urunler/yemekler/chef-kofte-480.avif",
+          "webp_bytes": 53582,
+          "avif_bytes": 29797,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 34,
+      "ad": "Bodrum Çökertmesi",
+      "slug": "bodrum-cokertmesi",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/bodrum-cokertme.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/bodrum-cokertme.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/bodrum-cokertme.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/bodrum-cokertmesi-320.webp",
+          "avif": "urunler/yemekler/bodrum-cokertmesi-320.avif",
+          "webp_bytes": 30832,
+          "avif_bytes": 16629,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/bodrum-cokertmesi-480.webp",
+          "avif": "urunler/yemekler/bodrum-cokertmesi-480.avif",
+          "webp_bytes": 60516,
+          "avif_bytes": 33045,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 35,
+      "ad": "Cafe De Paris Soslu Bonfile",
+      "slug": "cafe-de-paris-soslu-bonfile",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/cafe-de-paris-soslu-bonfile.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/cafe-de-paris-soslu-bonfile.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/cafe-de-paris-soslu-bonfile.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/cafe-de-paris-soslu-bonfile-320.webp",
+          "avif": "urunler/yemekler/cafe-de-paris-soslu-bonfile-320.avif",
+          "webp_bytes": 20790,
+          "avif_bytes": 12145,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/cafe-de-paris-soslu-bonfile-480.webp",
+          "avif": "urunler/yemekler/cafe-de-paris-soslu-bonfile-480.avif",
+          "webp_bytes": 39222,
+          "avif_bytes": 23614,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 36,
+      "ad": "Dömi Glas Soslu Bonfile",
+      "slug": "domi-glas-soslu-bonfile",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/domi-glass.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/domi-glass.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/domi-glass.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/domi-glas-soslu-bonfile-320.webp",
+          "avif": "urunler/yemekler/domi-glas-soslu-bonfile-320.avif",
+          "webp_bytes": 24662,
+          "avif_bytes": 14607,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/domi-glas-soslu-bonfile-480.webp",
+          "avif": "urunler/yemekler/domi-glas-soslu-bonfile-480.avif",
+          "webp_bytes": 47236,
+          "avif_bytes": 27344,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 37,
+      "ad": "Beef Quesadilla",
+      "slug": "beef-quesadilla",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/beef-quasidella.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/beef-quasidella.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/beef-quasidella.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/beef-quesadilla-320.webp",
+          "avif": "urunler/yemekler/beef-quesadilla-320.avif",
+          "webp_bytes": 27224,
+          "avif_bytes": 13940,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/beef-quesadilla-480.webp",
+          "avif": "urunler/yemekler/beef-quesadilla-480.avif",
+          "webp_bytes": 51378,
+          "avif_bytes": 27606,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 38,
+      "ad": "Mexico Steak",
+      "slug": "mexico-steak",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/mexico-steak.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/mexico-steak.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/mexico-steak.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/mexico-steak-320.webp",
+          "avif": "urunler/yemekler/mexico-steak-320.avif",
+          "webp_bytes": 23344,
+          "avif_bytes": 13666,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/mexico-steak-480.webp",
+          "avif": "urunler/yemekler/mexico-steak-480.avif",
+          "webp_bytes": 45582,
+          "avif_bytes": 26853,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 39,
+      "ad": "Patlıcan Beğendili Bonfile",
+      "slug": "patlican-begendili-bonfile",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/patlican-begendili-bonfile.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/patlican-begendili-bonfile.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/patlican-begendili-bonfile.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/patlican-begendili-bonfile-320.webp",
+          "avif": "urunler/yemekler/patlican-begendili-bonfile-320.avif",
+          "webp_bytes": 23170,
+          "avif_bytes": 13700,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/patlican-begendili-bonfile-480.webp",
+          "avif": "urunler/yemekler/patlican-begendili-bonfile-480.avif",
+          "webp_bytes": 44630,
+          "avif_bytes": 26700,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "yemekler",
+      "sira": 40,
+      "ad": "Güveçte Et Sote",
+      "slug": "guvecte-et-sote",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/guvecde-et-sote.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/yemekler/et-yemekleri/guvecde-et-sote.jpg",
+      "ham_dosya": "_ref/scraped/yemekler/orijinal/et-yemekleri/guvecde-et-sote.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/yemekler/guvecte-et-sote-320.webp",
+          "avif": "urunler/yemekler/guvecte-et-sote-320.avif",
+          "webp_bytes": 24166,
+          "avif_bytes": 14453,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/yemekler/guvecte-et-sote-480.webp",
+          "avif": "urunler/yemekler/guvecte-et-sote-480.avif",
+          "webp_bytes": 38412,
+          "avif_bytes": 23902,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 1,
+      "ad": "Brownie",
+      "slug": "brownie",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/browni.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/browni.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/browni.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/brownie-320.webp",
+          "avif": "urunler/pastalar/brownie-320.avif",
+          "webp_bytes": 23596,
+          "avif_bytes": 14816,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/brownie-480.webp",
+          "avif": "urunler/pastalar/brownie-480.avif",
+          "webp_bytes": 46414,
+          "avif_bytes": 28806,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 2,
+      "ad": "Çikolatalı Marlenka",
+      "slug": "cikolatali-marlenka",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/cikolatali-marlenka.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/cikolatali-marlenka.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/cikolatali-marlenka.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/cikolatali-marlenka-320.webp",
+          "avif": "urunler/pastalar/cikolatali-marlenka-320.avif",
+          "webp_bytes": 26606,
+          "avif_bytes": 14403,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/cikolatali-marlenka-480.webp",
+          "avif": "urunler/pastalar/cikolatali-marlenka-480.avif",
+          "webp_bytes": 58934,
+          "avif_bytes": 30879,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 3,
+      "ad": "Devil's Fudge",
+      "slug": "devil-s-fudge",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/devils-food-cake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/devils-food-cake.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/devils-food-cake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/devil-s-fudge-320.webp",
+          "avif": "urunler/pastalar/devil-s-fudge-320.avif",
+          "webp_bytes": 12668,
+          "avif_bytes": 7507,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/devil-s-fudge-480.webp",
+          "avif": "urunler/pastalar/devil-s-fudge-480.avif",
+          "webp_bytes": 27462,
+          "avif_bytes": 15837,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 4,
+      "ad": "Dondurma",
+      "slug": "dondurma",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/dondurma.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/dondurma.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/dondurma.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/dondurma-320.webp",
+          "avif": "urunler/pastalar/dondurma-320.avif",
+          "webp_bytes": 16182,
+          "avif_bytes": 10041,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/dondurma-480.webp",
+          "avif": "urunler/pastalar/dondurma-480.avif",
+          "webp_bytes": 28572,
+          "avif_bytes": 17671,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 5,
+      "ad": "Fondü",
+      "slug": "fondu",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/fondu.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/fondu.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/fondu.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/fondu-320.webp",
+          "avif": "urunler/pastalar/fondu-320.avif",
+          "webp_bytes": 19712,
+          "avif_bytes": 11997,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/fondu-480.webp",
+          "avif": "urunler/pastalar/fondu-480.avif",
+          "webp_bytes": 34500,
+          "avif_bytes": 21373,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 6,
+      "ad": "Franbuazlı Cheesecake",
+      "slug": "franbuazli-cheesecake",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/frambuaz-soslu-cheesecake.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/frambuaz-soslu-cheesecake.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/frambuaz-soslu-cheesecake.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/franbuazli-cheesecake-320.webp",
+          "avif": "urunler/pastalar/franbuazli-cheesecake-320.avif",
+          "webp_bytes": 7858,
+          "avif_bytes": 5225,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/franbuazli-cheesecake-480.webp",
+          "avif": "urunler/pastalar/franbuazli-cheesecake-480.avif",
+          "webp_bytes": 13714,
+          "avif_bytes": 9418,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 7,
+      "ad": "Havuçlu Kek",
+      "slug": "havuclu-kek",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/havuclu-kek.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/havuclu-kek.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/havuclu-kek.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/havuclu-kek-320.webp",
+          "avif": "urunler/pastalar/havuclu-kek-320.avif",
+          "webp_bytes": 21116,
+          "avif_bytes": 11988,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/havuclu-kek-480.webp",
+          "avif": "urunler/pastalar/havuclu-kek-480.avif",
+          "webp_bytes": 42114,
+          "avif_bytes": 23013,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 8,
+      "ad": "Kara Orman Pasta",
+      "slug": "kara-orman-pasta",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/karaorman-pasta.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/karaorman-pasta.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/karaorman-pasta.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/kara-orman-pasta-320.webp",
+          "avif": "urunler/pastalar/kara-orman-pasta-320.avif",
+          "webp_bytes": 14674,
+          "avif_bytes": 8909,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/kara-orman-pasta-480.webp",
+          "avif": "urunler/pastalar/kara-orman-pasta-480.avif",
+          "webp_bytes": 27450,
+          "avif_bytes": 16132,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 9,
+      "ad": "Klasik Marlenka",
+      "slug": "klasik-marlenka",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/klasik-marlenka.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/klasik-marlenka.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/klasik-marlenka.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/klasik-marlenka-320.webp",
+          "avif": "urunler/pastalar/klasik-marlenka-320.avif",
+          "webp_bytes": 31870,
+          "avif_bytes": 17103,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/klasik-marlenka-480.webp",
+          "avif": "urunler/pastalar/klasik-marlenka-480.avif",
+          "webp_bytes": 58976,
+          "avif_bytes": 36873,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 10,
+      "ad": "Krokanlı Pasta",
+      "slug": "krokanli-pasta",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/krokanli-pasta.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/krokanli-pasta.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/krokanli-pasta.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/krokanli-pasta-320.webp",
+          "avif": "urunler/pastalar/krokanli-pasta-320.avif",
+          "webp_bytes": 16996,
+          "avif_bytes": 9770,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/krokanli-pasta-480.webp",
+          "avif": "urunler/pastalar/krokanli-pasta-480.avif",
+          "webp_bytes": 31718,
+          "avif_bytes": 17537,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 11,
+      "ad": "Molten Kek",
+      "slug": "molten-kek",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/molten-kek.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/molten-kek.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/molten-kek.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/molten-kek-320.webp",
+          "avif": "urunler/pastalar/molten-kek-320.avif",
+          "webp_bytes": 18496,
+          "avif_bytes": 11148,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/molten-kek-480.webp",
+          "avif": "urunler/pastalar/molten-kek-480.avif",
+          "webp_bytes": 34066,
+          "avif_bytes": 20202,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 12,
+      "ad": "Mozaik Pasta",
+      "slug": "mozaik-pasta",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/mozaik-pasta.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/mozaik-pasta.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/mozaik-pasta.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/mozaik-pasta-320.webp",
+          "avif": "urunler/pastalar/mozaik-pasta-320.avif",
+          "webp_bytes": 10912,
+          "avif_bytes": 6924,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/mozaik-pasta-480.webp",
+          "avif": "urunler/pastalar/mozaik-pasta-480.avif",
+          "webp_bytes": 20618,
+          "avif_bytes": 12402,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 13,
+      "ad": "Tiramisu",
+      "slug": "tiramisu",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/rella-tiramisu.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/rella-tiramisu.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/rella-tiramisu.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/tiramisu-320.webp",
+          "avif": "urunler/pastalar/tiramisu-320.avif",
+          "webp_bytes": 11256,
+          "avif_bytes": 6680,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/tiramisu-480.webp",
+          "avif": "urunler/pastalar/tiramisu-480.avif",
+          "webp_bytes": 22180,
+          "avif_bytes": 13119,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 14,
+      "ad": "Siyah Profiterollü Pasta",
+      "slug": "siyah-profiterollu-pasta",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/siyah-profiterollu-pasta-kare.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/siyah-profiterollu-pasta-kare.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/siyah-profiterollu-pasta-kare.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/siyah-profiterollu-pasta-320.webp",
+          "avif": "urunler/pastalar/siyah-profiterollu-pasta-320.avif",
+          "webp_bytes": 13480,
+          "avif_bytes": 8240,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/siyah-profiterollu-pasta-480.webp",
+          "avif": "urunler/pastalar/siyah-profiterollu-pasta-480.avif",
+          "webp_bytes": 21556,
+          "avif_bytes": 13619,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    },
+    {
+      "kategori": "pastalar",
+      "sira": 15,
+      "ad": "Waffle",
+      "slug": "waffle",
+      "kaynak_url": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/waffle.jpg",
+      "kullanilan": "orijinal",
+      "orijinal_deneme": "https://kahvederyasi.com.tr/image/catalog/urunler/pastalar/waffle.jpg",
+      "ham_dosya": "_ref/scraped/pastalar/orijinal/waffle.jpg",
+      "kaynak_boyut": {
+        "w": 600,
+        "h": 740
+      },
+      "cikti": [
+        {
+          "w": 320,
+          "h": 400,
+          "webp": "urunler/pastalar/waffle-320.webp",
+          "avif": "urunler/pastalar/waffle-320.avif",
+          "webp_bytes": 29634,
+          "avif_bytes": 18904,
+          "webp_q": null,
+          "avif_q": null
+        },
+        {
+          "w": 480,
+          "h": 600,
+          "webp": "urunler/pastalar/waffle-480.webp",
+          "avif": "urunler/pastalar/waffle-480.avif",
+          "webp_bytes": 55584,
+          "avif_bytes": 35738,
+          "webp_q": null,
+          "avif_q": null
+        }
+      ]
+    }
+  ]
+}

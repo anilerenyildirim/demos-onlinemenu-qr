@@ -1,0 +1,12 @@
+{
+  "url": "http://localhost:8789/kahvederyasiqrdemo/",
+  "lighthouse_version": "12.8.2",
+  "date": "2026-09-19",
+  "performance": 100,
+  "accessibility": 100,
+  "best_practices": 100,
+  "lcp_ms": 1837,
+  "cls": 0,
+  "initial_kb": 192.4,
+  "runs": 3
+}
