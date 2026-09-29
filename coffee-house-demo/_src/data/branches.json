@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "note": "ŞUBE OVERRIDE KATMANI — DEMO. Her şube yalnızca kendi farkını tanımlar; ürün adı, açıklama, görsel ve kategori merkezden (menu.json) gelir. Şube adları sitedeki 'Nerelerdeyiz' listesinden; adresler (Laleli hariç: firma adresi) ŞEHİR düzeyinde — TEYİT. Çalışma saatleri, fiyat farkları, stok ve kampanyalar örnektir — TEYİT. Anahtarlar: overrides → ürün slug'ı; prices → boy anahtarı (menu.json sizes), değer ana birim (TL/AED/KGS).",
+  "branches": [
+    {
+      "slug": "istanbul-laleli",
+      "network_id": "istanbul-laleli",
+      "brand": "coffee-house",
+      "name": { "tr": "Laleli", "en": "Laleli", "ar": "لاليلي", "ru": "Лалели" },
+      "city": { "tr": "Fatih · İstanbul", "en": "Fatih · Istanbul", "ar": "الفاتح · إسطنبول", "ru": "Фатих · Стамбул" },
+      "address": {
+        "tr": "Kemalpaşa Mah. Fethibey Cad. No: 61, Laleli, Fatih / İstanbul",
+        "en": "Kemalpaşa Mah., Fethibey Cad. No: 61, Laleli, Fatih, Istanbul",
+        "ar": "حي كمال باشا، شارع فتحي بيك رقم 61، لاليلي، الفاتح، إسطنبول",
+        "ru": "Кемальпаша, ул. Фетхибей, 61, Лалели, Фатих, Стамбул"
+      },
+      "address_note": "TEYİT: firma adresi kullanıldı — şube adresi aynı mı?",
+      "currency": "TRY",
+      "price_adjust_pct": 0,
+      "default_locale": "tr",
+      "timezone": "Europe/Istanbul",
+      "hours": [
+        { "days": [1, 2, 3, 4], "opens": "07:30", "closes": "23:00" },
+        { "days": [5, 6], "opens": "07:30", "closes": "00:30" },
+        { "days": [7], "opens": "08:30", "closes": "23:00" }
+      ],
+      "overrides": {
+        "cold-brew": { "availability": "sold_out" },
+        "iced-latte": { "campaign": true, "prices": { "l": 155 } }
+      },
+      "products": []
+    },
+    {
+      "slug": "sanliurfa-karakopru",
+      "network_id": "sanliurfa-karakopru",
+      "brand": "coffee-art",
+      "name": { "tr": "Karaköprü", "en": "Karaköprü", "ar": "كاراكوبرو", "ru": "Каракёпрю" },
+      "city": { "tr": "Şanlıurfa", "en": "Şanlıurfa", "ar": "شانلي أورفا", "ru": "Шанлыурфа" },
+      "address": { "tr": "Karaköprü, Şanlıurfa", "en": "Karaköprü, Şanlıurfa", "ar": "كاراكوبرو، شانلي أورفا", "ru": "Каракёпрю, Шанлыурфа" },
+      "address_note": "TEYİT: sokak adresi yok; marka ataması referanslardan ('Coffee Art — Karaköprü, Urfa')",
+      "currency": "TRY",
+      "price_adjust_pct": -10,
+      "default_locale": "tr",
+      "timezone": "Europe/Istanbul",
+      "hours": [
+        { "days": [1, 2, 3, 4, 5, 6, 7], "opens": "08:00", "closes": "00:00" }
+      ],
+      "overrides": {
+        "menengic-kahvesi": { "prices": { "one": 85 } },
+        "karamel-frappe": { "campaign": true, "prices": { "m": 145, "l": 155 } },
+        "tiramisu": { "availability": "sold_out" },
+        "french-press": { "availability": "hidden" }
+      },
+      "products": []
+    },
+    {
+      "slug": "dubai",
+      "network_id": "dubai",
+      "brand": "coffee-house",
+      "name": { "tr": "Dubai", "en": "Dubai", "ar": "دبي", "ru": "Дубай" },
+      "city": { "tr": "Birleşik Arap Emirlikleri", "en": "United Arab Emirates", "ar": "الإمارات العربية المتحدة", "ru": "ОАЭ" },
+      "address": { "tr": "Dubai, BAE", "en": "Dubai, UAE", "ar": "دبي، الإمارات العربية المتحدة", "ru": "Дубай, ОАЭ" },
+      "address_note": "TEYİT: sokak adresi yok; referanslarda 'Coffee Art — Ajman, Dubai' geçiyor (marka/emirlik)",
+      "currency": "AED",
+      "price_adjust_pct": 0,
+      "default_locale": "ar",
+      "timezone": "Asia/Dubai",
+      "hours": [
+        { "days": [1, 2, 3, 4, 7], "opens": "07:00", "closes": "00:00" },
+        { "days": [5, 6], "opens": "08:00", "closes": "02:00" }
+      ],
+      "overrides": {
+        "salep": { "availability": "hidden" },
+        "menengic-kahvesi": { "availability": "hidden" },
+        "spanish-latte": { "campaign": true, "prices": { "s": 18, "m": 20, "l": 22 } }
+      },
+      "products": [
+        {
+          "slug": "karak-chai", "category": "cay-sicaklar", "sizes": ["one"],
+          "prices": { "AED": [9] },
+          "name": { "tr": "Karak Chai", "en": "Karak Chai", "ar": "شاي كرك", "ru": "Карак чай" },
+          "description": { "tr": "Kakule ve sütle kaynatılan Körfez usulü çay; yalnızca Dubai şubesinde.", "en": "Gulf-style tea simmered with cardamom and milk — Dubai branch only.", "ar": "شاي على الطريقة الخليجية مغليّ مع الهيل والحليب — في فرع دبي فقط.", "ru": "Чай по-арабски, сваренный с кардамоном и молоком, — только в Дубае." },
+          "allergens": ["milk"]
+        }
+      ]
+    },
+    {
+      "slug": "biskek",
+      "network_id": "biskek",
+      "brand": "coffee-house",
+      "name": { "tr": "Bişkek", "en": "Bishkek", "ar": "بيشكيك", "ru": "Бишкек" },
+      "city": { "tr": "Kırgızistan", "en": "Kyrgyzstan", "ar": "قيرغيزستان", "ru": "Кыргызстан" },
+      "address": { "tr": "Bişkek, Kırgızistan", "en": "Bishkek, Kyrgyzstan", "ar": "بيشكيك، قيرغيزستان", "ru": "Бишкек, Кыргызстан" },
+      "address_note": "TEYİT: sitede yalnızca 'Kırgızistan' yazıyor; şehir varsayım",
+      "currency": "KGS",
+      "price_adjust_pct": 0,
+      "default_locale": "ru",
+      "timezone": "Asia/Bishkek",
+      "hours": [
+        { "days": [1, 2, 3, 4, 5, 6, 7], "opens": "08:00", "closes": "22:00" }
+      ],
+      "overrides": {
+        "menengic-kahvesi": { "availability": "hidden" },
+        "cilekli-matcha": { "availability": "sold_out" }
+      },
+      "products": []
+    }
+  ]
+}

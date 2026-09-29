@@ -1,0 +1,215 @@
+{
+  "not": "Markanın sitesindeki (coffeehousetr.com) 23 Canva çıktısı; sitede hepsi 'Adsız tasarım (N)' adında ve alt metni dosya adı. Hepsi 1080×1920 JPG. Burada içeriğe göre adlandırıldı ve 4 dilde alt metin yazıldı. AR/RU metinleri makine çevirisi — TEYİT: native kontrol. Görsel ↔ ürün eşleşmesi tahmindir — TEYİT.",
+  "kaynak_taban": "https://www.coffeehousetr.com/wp-content/uploads/2026/05/",
+  "logo": { "kaynak": "https://www.coffeehousetr.com/wp-content/uploads/2024/04/123213213-2.png", "dosya": "logo.png" },
+  "video": { "kaynak": "https://www.coffeehousetr.com/wp-content/uploads/2026/05/Adsiz-tasarim-7.mp4", "dosya": "video/tanitim-orijinal.mp4" },
+  "gorseller": [
+    {
+      "kaynak": "Adsiz-tasarim-35.jpg", "dosya": "iced-mocha-plastik-bardak.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Coffee House logolu plastik bardakta, dibinde çikolata sosu olan buzlu mocha",
+        "en": "Iced mocha with chocolate sauce at the bottom, in a Coffee House cup",
+        "ar": "موكا مثلجة مع صلصة الشوكولاتة في قاع كوب Coffee House",
+        "ru": "Холодный мокко с шоколадным соусом на дне стакана Coffee House"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-37.jpg", "dosya": "neon-tabela-soguk-kahve-tatli.jpg", "tur": "atmosfer",
+      "alt": {
+        "tr": "Neon “Kahvenin Evine Hoşgeldiniz” tabelası önünde buzlu kahve ve tatlı",
+        "en": "Iced coffee and a pastry in front of the neon “Welcome to the home of coffee” sign",
+        "ar": "قهوة مثلجة وحلوى أمام لافتة النيون «أهلاً بكم في بيت القهوة»",
+        "ru": "Холодный кофе и десерт на фоне неоновой вывески «Добро пожаловать в дом кофе»"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-38.jpg", "dosya": "cappuccino-tarcinli.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Coffee House fincanında tarçınlı cappuccino",
+        "en": "Cappuccino dusted with cinnamon in a Coffee House cup",
+        "ar": "كابتشينو مع رشة قرفة في فنجان Coffee House",
+        "ru": "Капучино с корицей в чашке Coffee House"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-39.jpg", "dosya": "neon-logo-kahvenin-evine-hosgeldiniz.jpg", "tur": "magaza",
+      "alt": {
+        "tr": "Mavi neon Coffee House logosu ve turuncu neon “Kahvenin Evine Hoşgeldiniz” yazısı",
+        "en": "Blue neon Coffee House logo above an orange neon sign reading “Welcome to the home of coffee”",
+        "ar": "شعار Coffee House بالنيون الأزرق وعبارة «أهلاً بكم في بيت القهوة» بالنيون البرتقالي",
+        "ru": "Синий неоновый логотип Coffee House и оранжевая неоновая надпись «Добро пожаловать в дом кофе»"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-40.jpg", "dosya": "takeaway-bardakla-musteri.jpg", "tur": "yasam",
+      "alt": {
+        "tr": "Mağaza önünde Coffee House takeaway bardağıyla bir müşteri",
+        "en": "A customer holding a Coffee House takeaway cup outside the store",
+        "ar": "زبون يحمل كوب Coffee House للطلبات الخارجية أمام المتجر",
+        "ru": "Посетитель со стаканом Coffee House навынос у входа в кофейню"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-41.jpg", "dosya": "fistikli-cikolatali-pasta.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Oval tabakta fıstık kırıklı çikolatalı pasta dilimi",
+        "en": "A slice of chocolate cake topped with crushed pistachios on an oval plate",
+        "ar": "قطعة كعكة شوكولاتة مع فستق مجروش في طبق بيضاوي",
+        "ru": "Кусочек шоколадного торта с дроблёными фисташками на овальной тарелке"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-42.jpg", "dosya": "latte-fincan-neon-tabela.jpg", "tur": "magaza",
+      "alt": {
+        "tr": "Neon tabelanın önünde, Coffee House logolu fincanda latte",
+        "en": "A latte in a Coffee House cup in front of the neon sign",
+        "ar": "لاتيه في فنجان Coffee House أمام لافتة النيون",
+        "ru": "Латте в чашке Coffee House на фоне неоновой вывески"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-43.jpg", "dosya": "ic-mekan-oturma-alani.jpg", "tur": "magaza",
+      "alt": {
+        "tr": "Beyaz masalar, kahverengi deri sandalyeler ve tuğla duvarlı iç mekân",
+        "en": "Interior with white tables, brown leather chairs and a brick wall",
+        "ar": "المكان من الداخل: طاولات بيضاء وكراسٍ جلدية بنية وجدار من الطوب",
+        "ru": "Интерьер: белые столы, коричневые кожаные кресла и кирпичная стена"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-44.jpg", "dosya": "ic-mekan-pop-art-duvar.jpg", "tur": "magaza",
+      "alt": {
+        "tr": "Tuğla duvarda Coffee House bardağı tutan mavi saçlı kadın figürlü pop-art duvar resmi",
+        "en": "Pop-art mural of a blue-haired woman holding a Coffee House cup on a brick wall",
+        "ar": "جدارية بأسلوب البوب آرت لامرأة ذات شعر أزرق تحمل كوب Coffee House على جدار من الطوب",
+        "ru": "Поп-арт мурал на кирпичной стене: девушка с синими волосами и стаканом Coffee House"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-47.jpg", "dosya": "kahve-cekirdekleri-fincanlar.jpg", "tur": "marka",
+      "alt": {
+        "tr": "Coffee House fincanlarından mermer zemine dökülen kahve çekirdekleri",
+        "en": "Coffee beans spilling from Coffee House cups onto marble",
+        "ar": "حبوب قهوة تنسكب من فناجين Coffee House على سطح رخامي",
+        "ru": "Кофейные зёрна, рассыпанные из чашек Coffee House на мраморе"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-48.jpg", "dosya": "takeaway-karton-bardak.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Şurup şişelerinin önünde kapaklı Coffee House karton bardak",
+        "en": "A lidded Coffee House paper cup in front of syrup bottles",
+        "ar": "كوب ورقي من Coffee House بغطاء أمام زجاجات الشراب",
+        "ru": "Бумажный стакан Coffee House с крышкой на фоне бутылок сиропа"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-49.jpg", "dosya": "tatli-cesitleri-kup-tatli-trufler.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Kupta tatlı, trüfler ve çikolatalı profiterol",
+        "en": "A dessert cup with crumble, truffles and a chocolate profiterole",
+        "ar": "حلوى في كوب مع كرات الترافل وبروفيترول بالشوكولاتة",
+        "ru": "Десерт в стаканчике, трюфели и шоколадный профитроль"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-50.jpg", "dosya": "latte-art-kalpli.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Kalp desenli latte art, tabakta kahve çekirdekleri",
+        "en": "Latte art with hearts, coffee beans on the saucer",
+        "ar": "لاتيه آرت على شكل قلوب مع حبوب قهوة على الصحن",
+        "ru": "Латте-арт с сердечками и кофейные зёрна на блюдце"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-51.jpg", "dosya": "kup-tatli-neon.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Neon ışıklar önünde kupta tatlı ve trüfler",
+        "en": "A dessert cup and truffles in front of neon lights",
+        "ar": "حلوى في كوب وكرات ترافل أمام أضواء النيون",
+        "ru": "Десерт в стаканчике и трюфели на фоне неоновых огней"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-52.jpg", "dosya": "sicak-cikolata-limonlu-cheesecake.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Krem şantili sıcak çikolata ve çikolata soslu limonlu cheesecake",
+        "en": "Hot chocolate topped with whipped cream and a lemon cheesecake with chocolate drizzle",
+        "ar": "شوكولاتة ساخنة مع كريمة مخفوقة وتشيز كيك بالليمون مع صلصة الشوكولاتة",
+        "ru": "Горячий шоколад со взбитыми сливками и лимонный чизкейк с шоколадным соусом"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-53.jpg", "dosya": "tatli-cesitleri-kup-tatli-trufler-2.jpg", "tur": "kopya", "kopyasi": "Adsiz-tasarim-49.jpg",
+      "alt": {
+        "tr": "Kupta tatlı, trüfler ve çikolatalı profiterol",
+        "en": "A dessert cup with crumble, truffles and a chocolate profiterole",
+        "ar": "حلوى في كوب مع كرات الترافل وبروفيترول بالشوكولاتة",
+        "ru": "Десерт в стаканчике, трюфели и шоколадный профитроль"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-54.jpg", "dosya": "kahve-cekirdekleri-fincanlar-2.jpg", "tur": "kopya", "kopyasi": "Adsiz-tasarim-47.jpg",
+      "alt": {
+        "tr": "Coffee House fincanlarından mermer zemine dökülen kahve çekirdekleri",
+        "en": "Coffee beans spilling from Coffee House cups onto marble",
+        "ar": "حبوب قهوة تنسكب من فناجين Coffee House على سطح رخامي",
+        "ru": "Кофейные зёрна, рассыпанные из чашек Coffee House на мраморе"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-55.jpg", "dosya": "espresso-telve-cekirdek-uc-fincan.jpg", "tur": "marka",
+      "alt": {
+        "tr": "Üç fincan: espresso, öğütülmüş kahve ve çekirdek",
+        "en": "Three cups: espresso, ground coffee and whole beans",
+        "ar": "ثلاثة فناجين: إسبريسو وقهوة مطحونة وحبوب كاملة",
+        "ru": "Три чашки: эспрессо, молотый кофе и зёрна"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-56.jpg", "dosya": "kup-tatli-trufler-neon-tabela.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Neon tabelanın altında kupta tatlı, trüfler ve profiterol",
+        "en": "A dessert cup, truffles and a profiterole beneath the neon sign",
+        "ar": "حلوى في كوب وكرات ترافل وبروفيترول تحت لافتة النيون",
+        "ru": "Десерт в стаканчике, трюфели и профитроль под неоновой вывеской"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-57.jpg", "dosya": "magaza-cephesi-gece.jpg", "tur": "magaza",
+      "alt": {
+        "tr": "Gece, beyaz harflerle Coffee House yazan siyah mağaza cephesi",
+        "en": "The black Coffee House storefront with white lettering at night",
+        "ar": "واجهة متجر Coffee House السوداء بحروف بيضاء ليلاً",
+        "ru": "Чёрный фасад Coffee House с белыми буквами ночью"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-58.jpg", "dosya": "kremali-frappe-tokusturma.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Krem şantili iki frappe tokuşturulurken",
+        "en": "Two frappés with whipped cream raised in a toast",
+        "ar": "كوبان من الفرابيه مع الكريمة المخفوقة في نخب",
+        "ru": "Два фраппе со взбитыми сливками"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-64.jpg", "dosya": "cilekli-matcha-iced-latte-duvar.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Pop-art duvar resminin önünde çilekli matcha ve buzlu latte",
+        "en": "Strawberry matcha and iced latte in front of the pop-art mural",
+        "ar": "ماتشا بالفراولة ولاتيه مثلج أمام الجدارية",
+        "ru": "Клубничная матча и айс-латте на фоне поп-арт мурала"
+      }
+    },
+    {
+      "kaynak": "Adsiz-tasarim-65.jpg", "dosya": "cilekli-matcha-iced-latte-yakin.jpg", "tur": "urun",
+      "alt": {
+        "tr": "Coffee House bardaklarında çilekli matcha ve buzlu latte, yakın çekim",
+        "en": "Close-up of strawberry matcha and iced latte in Coffee House cups",
+        "ar": "لقطة قريبة لماتشا بالفراولة ولاتيه مثلج في أكواب Coffee House",
+        "ru": "Клубничная матча и айс-латте в стаканах Coffee House крупным планом"
+      }
+    }
+  ]
+}

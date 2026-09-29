@@ -1,0 +1,267 @@
+{
+  "results": {
+    "mevcut": {
+      "label": "Mevcut site — anasayfa",
+      "url": "https://www.coffeehousetr.com/",
+      "date": "2026-09-29",
+      "lighthouse_version": "12.8.2",
+      "runs": 5,
+      "median": {
+        "performance": 36,
+        "accessibility": 93,
+        "best_practices": 71,
+        "seo": 85,
+        "seo_excl_crawlable": 78,
+        "seo_failed": [
+          "meta-description",
+          "crawlable-anchors"
+        ],
+        "fcp_ms": 2955,
+        "lcp_ms": 23282,
+        "tbt_ms": 1295,
+        "cls": 0,
+        "si_ms": 11076,
+        "total_kb": 19431,
+        "requests": 115,
+        "lcp_element": "div.elementor-element > div.elementor-widget-container > div.e-hosted-video > vi"
+      },
+      "all_runs": [
+        {
+          "performance": 33,
+          "lcp_ms": 23637,
+          "total_kb": 19976
+        },
+        {
+          "performance": 36,
+          "lcp_ms": 23282,
+          "total_kb": 19431
+        },
+        {
+          "performance": 36,
+          "lcp_ms": 21979,
+          "total_kb": 14285
+        },
+        {
+          "performance": 36,
+          "lcp_ms": 23973,
+          "total_kb": 19094
+        },
+        {
+          "performance": 36,
+          "lcp_ms": 22746,
+          "total_kb": 16291
+        }
+      ],
+      "top_opportunities": [
+        {
+          "id": "uses-responsive-images",
+          "title": "Properly size images",
+          "savings_ms": 2200,
+          "savings_kb": 3470
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "savings_ms": 2180,
+          "savings_kb": 378
+        },
+        {
+          "id": "server-response-time",
+          "title": "Reduce initial server response time",
+          "savings_ms": 1646,
+          "savings_kb": 0
+        },
+        {
+          "id": "render-blocking-resources",
+          "title": "Eliminate render-blocking resources",
+          "savings_ms": 1319,
+          "savings_kb": 0
+        },
+        {
+          "id": "modern-image-formats",
+          "title": "Serve images in next-gen formats",
+          "savings_ms": 850,
+          "savings_kb": 815
+        },
+        {
+          "id": "uses-rel-preconnect",
+          "title": "Preconnect to required origins",
+          "savings_ms": 414,
+          "savings_kb": 0
+        }
+      ],
+      "local": false
+    },
+    "demo-site": {
+      "label": "Yeni site demosu — anasayfa",
+      "url": "http://localhost:8790/coffee-house-demo/site/",
+      "date": "2026-09-29",
+      "lighthouse_version": "12.8.2",
+      "runs": 5,
+      "median": {
+        "performance": 100,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69,
+        "seo_excl_crawlable": 100,
+        "seo_failed": [
+          "is-crawlable"
+        ],
+        "fcp_ms": 945,
+        "lcp_ms": 1752,
+        "tbt_ms": 0,
+        "cls": 0,
+        "si_ms": 945,
+        "total_kb": 897,
+        "requests": 11,
+        "lcp_element": "2007'den bu yana biriken know-how'ımızı yatırımcılarla paylaşıyoruz: 40 m²'den …"
+      },
+      "all_runs": [
+        {
+          "performance": 100,
+          "lcp_ms": 1748,
+          "total_kb": 897
+        },
+        {
+          "performance": 100,
+          "lcp_ms": 1773,
+          "total_kb": 897
+        },
+        {
+          "performance": 100,
+          "lcp_ms": 1758,
+          "total_kb": 897
+        },
+        {
+          "performance": 100,
+          "lcp_ms": 1752,
+          "total_kb": 897
+        },
+        {
+          "performance": 100,
+          "lcp_ms": 1747,
+          "total_kb": 897
+        }
+      ],
+      "top_opportunities": [],
+      "local": true
+    },
+    "demo-menu": {
+      "label": "QR menü demosu — Laleli",
+      "url": "http://localhost:8790/coffee-house-demo/menu/istanbul-laleli/",
+      "date": "2026-09-29",
+      "lighthouse_version": "12.8.2",
+      "runs": 5,
+      "median": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69,
+        "seo_excl_crawlable": 100,
+        "seo_failed": [
+          "is-crawlable"
+        ],
+        "fcp_ms": 1106,
+        "lcp_ms": 1910,
+        "tbt_ms": 0,
+        "cls": 0.005,
+        "si_ms": 1106,
+        "total_kb": 158,
+        "requests": 16,
+        "lcp_element": "Espresso"
+      },
+      "all_runs": [
+        {
+          "performance": 99,
+          "lcp_ms": 1910,
+          "total_kb": 158
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1914,
+          "total_kb": 158
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1920,
+          "total_kb": 158
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1904,
+          "total_kb": 158
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1826,
+          "total_kb": 158
+        }
+      ],
+      "top_opportunities": [],
+      "local": true
+    },
+    "demo-sunum": {
+      "label": "Sunum sayfası",
+      "url": "http://localhost:8790/coffee-house-demo/",
+      "date": "2026-09-29",
+      "lighthouse_version": "12.8.2",
+      "runs": 5,
+      "median": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69,
+        "seo_excl_crawlable": 100,
+        "seo_failed": [
+          "is-crawlable"
+        ],
+        "fcp_ms": 1245,
+        "lcp_ms": 1818,
+        "tbt_ms": 0,
+        "cls": 0,
+        "si_ms": 1245,
+        "total_kb": 165,
+        "requests": 9,
+        "lcp_element": "COFFEE HOUSE İÇİN DİJİTAL OPERASYON ÖNERİSİ"
+      },
+      "all_runs": [
+        {
+          "performance": 99,
+          "lcp_ms": 1818,
+          "total_kb": 165
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1839,
+          "total_kb": 165
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1812,
+          "total_kb": 165
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1818,
+          "total_kb": 165
+        },
+        {
+          "performance": 99,
+          "lcp_ms": 1850,
+          "total_kb": 165
+        }
+      ],
+      "top_opportunities": [
+        {
+          "id": "uses-responsive-images",
+          "title": "Properly size images",
+          "savings_ms": 0,
+          "savings_kb": 13
+        }
+      ],
+      "local": true
+    }
+  },
+  "method": "Lighthouse (CLI) mobil ön ayar: Moto G Power öykünmesi, simüle yavaş 4G, 4x CPU yavaşlatma; kategori puanları 0–100; her hedef için 3 koşunun ortancası. Yerel hedefler wrangler pages dev (:8790) üzerinden ölçüldü — yayında yeniden ölçülmeli.",
+  "generated": "2026-09-29T15:05:31.167Z"
+}

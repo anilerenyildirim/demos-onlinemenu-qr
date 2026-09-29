@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "htmlLang": "en",
+    "dir": "ltr",
+    "ogLocale": "en_GB",
+    "localeName": "English",
+    "localeShort": "EN"
+  },
+  "common": {
+    "backToBrief": "Back to the presentation",
+    "demo": "Demo",
+    "skip": "Skip to content",
+    "close": "Close",
+    "langNav": "Language",
+    "rights": "The Coffee House and Coffee Art names, logos and images are used solely within the scope of this proposal. All rights belong to the brand owner.",
+    "coffeeArtNote": "The Coffee Art logo is a placeholder; the brand's own logo is used at setup.",
+    "madeWith": "Proposal demo prepared by onlinemenu-qr.com"
+  },
+  "menu": {
+    "title": "{brand} {branch} · QR Menu",
+    "description": "QR menu of {brand} {branch}. Sample menu: one central catalogue; prices, stock, language and currency per branch.",
+    "skip": "Skip to menu",
+    "qrMenu": "QR Menu",
+    "sample": "Sample menu · Demo prices",
+    "branchLabel": "Branch",
+    "branchChange": "Change branch",
+    "branchesTitle": "Choose a branch",
+    "branchesLead": "Each branch's QR code opens its own menu. The catalogue is kept once, centrally; prices, stock, language and currency change per branch.",
+    "branchesNote": "Addresses and opening hours are examples.",
+    "categoriesNav": "Menu categories",
+    "openNow": "Open · closes {t}",
+    "closedNow": "Closed · opens {t}",
+    "closedNoHours": "Closed",
+    "today": "today",
+    "tomorrow": "tomorrow",
+    "hoursTitle": "Opening hours",
+    "address": "Address",
+    "directions": "Directions",
+    "currencyLabel": "Prices in",
+    "soldOut": "Sold out",
+    "new": "New",
+    "campaign": "Offer",
+    "branchOnly": "Only at this branch",
+    "was": "Previous price",
+    "sizes": "Size",
+    "sizePrices": "Sizes and prices",
+    "ml": "{ml} ml",
+    "details": "{name} — details",
+    "allergens": "Allergens",
+    "allergenNames": {
+      "gluten": "Gluten",
+      "crustaceans": "Crustaceans",
+      "eggs": "Eggs",
+      "fish": "Fish",
+      "peanuts": "Peanuts",
+      "soy": "Soy",
+      "milk": "Milk",
+      "nuts": "Tree nuts",
+      "celery": "Celery",
+      "mustard": "Mustard",
+      "sesame": "Sesame",
+      "sulphites": "Sulphites",
+      "lupin": "Lupin",
+      "molluscs": "Molluscs"
+    },
+    "allergenNote": "Allergen information is an example. If you have an allergy, please ask our staff before ordering.",
+    "noAllergens": "No allergen information entered for this item.",
+    "hiddenHere": "{n} items are not offered at this branch.",
+    "tierCentral": "Central price list applies.",
+    "tier": "Regional price tier: ⁦{sign}{n}%⁩",
+    "switched": "Showing the {branch} menu",
+    "diffToggle": "Show branch differences",
+    "diffHint": "Demo view: highlights this branch's prices, stock and offers that differ from the central menu.",
+    "diffCentral": "Central {p}",
+    "diffSummary": "At this branch: {price} branch-priced · {sold} sold out · {hidden} not offered · {only} branch-only",
+    "managedTitle": "This menu is managed from the onlinemenu-qr panel",
+    "managedBody": "Products, images and translations are entered once, centrally. Each branch manages only its own prices, stock and offers.",
+    "managedLink": "How does the panel work?",
+    "version": "Menu version {v}",
+    "selectorTitle": "QR Menu Demo",
+    "selectorLead": "Pick a branch and see the menu your guests see when they scan the QR code on the table. You can also scan the codes with your phone.",
+    "selectorOpen": "Open menu",
+    "selectorLang": "Opens in",
+    "selectorCurrency": "Currency",
+    "selectorScan": "Scan with your phone",
+    "selectorHow": "One catalogue, four branches: price tier, stock, offers, language and currency change per branch. You can also switch branches from the menu page."
+  },
+  "site": {
+    "meta": {
+      "siteName": "Coffee House",
+      "titleSuffix": " · Coffee House",
+      "demoStrip": "Demo — this site was prepared for a proposal; figures and branch details will be confirmed with the brand.",
+      "ogAlt": "Coffee House franchise — No entry fee. No royalties. Turnkey."
+    },
+    "nav": {
+      "label": "Main menu",
+      "home": "Home",
+      "franchising": "Franchising",
+      "branches": "Branches",
+      "brands": "Our brands",
+      "references": "References",
+      "about": "About us",
+      "contact": "Contact",
+      "apply": "Apply now",
+      "enOnly": "EN",
+      "enOnlyTitle": "This page is in English for now",
+      "langLabel": "Language",
+      "langPartial": "Arabic and Russian: home, franchising, branches and contact. Other pages open in English.",
+      "langHome": "home page"
+    },
+    "footer": {
+      "tagline": "We take our takeaway coffee concept from Türkiye to the Gulf and Central Asia with a turnkey franchise model.",
+      "contactTitle": "Contact",
+      "pagesTitle": "Pages",
+      "legalTitle": "Legal",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "privacy": "Privacy notice",
+      "cookies": "Cookie policy",
+      "rights": "© 2026 Coffee House. All rights reserved."
+    },
+    "wa": {
+      "label": "Message us on WhatsApp",
+      "text": "Hello, I would like to learn more about the Coffee House franchise."
+    },
+    "video": {
+      "pause": "Pause video",
+      "play": "Play video"
+    },
+    "home": {
+      "title": "Coffee House Franchise — No entry fee, no royalties, turnkey",
+      "description": "Coffee House franchise: no entry fee and no monthly royalties, turnkey takeaway cafés from 40 m². Branches in Türkiye, the UAE and Kyrgyzstan.",
+      "eyebrow": "Takeaway café franchise",
+      "h1": [
+        "No entry fee.",
+        "No royalties.",
+        "Turnkey."
+      ],
+      "lead": "We share the know-how we have built since 2007 with investors: we set up your store from 40 m², from design to opening day, train your team and stay by your side after you open.",
+      "ctaApply": "Apply for a franchise",
+      "ctaBranches": "See our branches",
+      "videoLabel": "Clips from our brand film: espresso, milk and a takeaway cup",
+      "stats": {
+        "branches": "branches",
+        "coming": "new branches on the way",
+        "countries": "countries",
+        "brands": "brands",
+        "since": "the year it all began"
+      },
+      "whyTitle": "Why Coffee House",
+      "why": [
+        {
+          "title": "No entry fee, no royalties",
+          "body": "You pay no franchise entry fee and no monthly share of turnover; your earnings stay in your business."
+        },
+        {
+          "title": "Turnkey store",
+          "body": "Architectural design in line with the concept, 3D visuals, budgeting, construction and supplies — all handled in one place."
+        },
+        {
+          "title": "Training and operations support",
+          "body": "Our operations team recruits your staff, delivers theory and hands-on training, and opens the store with you."
+        },
+        {
+          "title": "A proven business model",
+          "body": "A proven takeaway model and favourable supply agreements get your business up and running quickly."
+        }
+      ],
+      "brandsTitle": "Two brands, one platform",
+      "brandsLead": "Coffee House and its sister brand Coffee Art grow on the same business model, supply network and training system.",
+      "brandCH": "A concept that pairs quality coffee with a fast, warm takeaway experience. “The best beans, at the best Coffee House.”",
+      "brandCA": "The sister brand of the Coffee House family, with branches in Şanlıurfa and the United Arab Emirates.",
+      "brandsLink": "Meet our brands",
+      "processTitle": "Five steps from application to opening",
+      "processLink": "See the process in detail",
+      "mapTitle": "A network growing across three countries",
+      "mapLead": "From all over Türkiye to Dubai and Bishkek — with new branches on the way.",
+      "mapLink": "All branches",
+      "mapAlt": "Map showing branches in Türkiye, the United Arab Emirates and Kyrgyzstan",
+      "galleryTitle": "From our stores",
+      "ctaTitle": "Open your own Coffee House",
+      "ctaBody": "Send your application in two minutes and our franchise team will call you.",
+      "ctaWa": "Message us on WhatsApp"
+    },
+    "process": [
+      {
+        "title": "Application",
+        "body": "Fill in the form or message us on WhatsApp; our franchise team will get in touch."
+      },
+      {
+        "title": "First meeting",
+        "body": "We walk you through the model. Shortlisted candidates are invited to our head office or the nearest branch, where we sign the agreement and choose the location together."
+      },
+      {
+        "title": "Design and build-out",
+        "body": "A concept-compliant project and 3D design are prepared and budgeted. Construction is contracted out and supplies are ordered; costs are covered by the investor."
+      },
+      {
+        "title": "Training",
+        "body": "Our operations team recruits your staff and delivers theory, then hands-on training. Travel and accommodation are covered by the investor."
+      },
+      {
+        "title": "Opening",
+        "body": "Our operations team completes the final preparations and your store opens its doors."
+      }
+    ],
+    "franchising": {
+      "title": "Franchising — Terms, process and application",
+      "description": "Coffee House franchise terms: no entry fee, no royalties, at least 40 m², turnkey cost of about USD 600–700 per m² + VAT. A five-step process, FAQs and the application form.",
+      "h1": "Franchising",
+      "lead": "We set up our takeaway coffee concept for you turnkey and keep supporting your business after opening. Terms, process and the application form are all on this page.",
+      "jump": {
+        "process": "Process",
+        "investment": "Investment",
+        "faq": "FAQ",
+        "apply": "Apply"
+      },
+      "processTitle": "Process",
+      "investTitle": "Investment",
+      "investLead": "These terms are compiled from Coffee House's current publications; up-to-date figures are confirmed at the first meeting.",
+      "invest": [
+        {
+          "k": "Entry fee",
+          "v": "None",
+          "note": ""
+        },
+        {
+          "k": "Royalties (monthly turnover share)",
+          "v": "None",
+          "note": ""
+        },
+        {
+          "k": "Minimum area",
+          "v": "40 m²",
+          "note": ""
+        },
+        {
+          "k": "Turnkey cost",
+          "v": "~USD 600–700 per m² + VAT",
+          "note": "Varies with the scope of construction and the condition of the premises."
+        },
+        {
+          "k": "Location",
+          "v": "Busy areas with heavy foot traffic",
+          "note": ""
+        },
+        {
+          "k": "International",
+          "v": "Master franchise / distribution",
+          "note": ""
+        }
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faq": [
+        {
+          "q": "Do I pay a franchise entry fee?",
+          "a": "No. There is no entry fee in the Coffee House franchise model."
+        },
+        {
+          "q": "Are there monthly royalties or a turnover share?",
+          "a": "No. We take no share of your monthly turnover; your earnings stay in your business."
+        },
+        {
+          "q": "How much space does a store need?",
+          "a": "At least 40 m². Locations in busy areas with heavy foot traffic are preferred."
+        },
+        {
+          "q": "How much does the turnkey set-up cost?",
+          "a": "On average USD 600–700 per m² + VAT, depending on the scope of construction and the condition of the premises. The budget is finalised at the design stage."
+        },
+        {
+          "q": "Who chooses the location?",
+          "a": "We choose it together after the first meeting; the architectural project is then designed for that location."
+        },
+        {
+          "q": "How is staff trained?",
+          "a": "Our operations team recruits your staff and delivers theory, then hands-on training. Travel and accommodation during training are covered by the investor."
+        },
+        {
+          "q": "Do you franchise abroad?",
+          "a": "Yes. Abroad we work with master franchise and distribution models; we already have branches in Dubai and Kyrgyzstan."
+        },
+        {
+          "q": "Coffee House or Coffee Art?",
+          "a": "Both brands share the same business model and supply platform. We decide together which one suits your region at the first meeting."
+        }
+      ],
+      "applyTitle": "Franchise application",
+      "applyLead": "Fill in the form and our franchise team will call you shortly. You can also message us on WhatsApp.",
+      "note": "Investment figures are taken from the brand's current publications and are for information only."
+    },
+    "form": {
+      "legend": "Your details",
+      "name": "Full name",
+      "phone": "Phone",
+      "countryCode": "Country code",
+      "email": "Email",
+      "city": "City / district",
+      "cityHint": "Where you plan to open a store",
+      "area": "Planned area (m²)",
+      "areaHint": "At least 40 m²",
+      "budget": "Estimated budget",
+      "budgetOptions": [
+        "Select",
+        "Up to USD 25,000",
+        "USD 25,000 – 50,000",
+        "USD 50,000 – 100,000",
+        "Over USD 100,000",
+        "Not decided yet"
+      ],
+      "brand": "Preferred brand",
+      "brandOptions": [
+        "Coffee House",
+        "Coffee Art",
+        "Not decided"
+      ],
+      "property": "Premises",
+      "propertyOptions": [
+        "Rented",
+        "I own it",
+        "No premises yet"
+      ],
+      "note": "Your note",
+      "optional": "Optional",
+      "consent": "I have read the privacy notice and agree to the processing of my personal data for my application.",
+      "consentLink": "Read the notice",
+      "submit": "Send application",
+      "required": "Required",
+      "errors": {
+        "summary": "Your application was not sent. Please correct the marked fields.",
+        "name": "Enter your full name.",
+        "phone": "Enter your phone number (at least 7 digits).",
+        "email": "Enter a valid email address, e.g. name@example.com.",
+        "city": "Enter where you plan to open a store.",
+        "area": "The area must be at least 40 m².",
+        "consent": "Tick the privacy consent to continue."
+      },
+      "successTitle": "Application received",
+      "successBody": "Thank you, {name}. Our franchise team will review your application for {city} and call you.",
+      "successWa": "Continue on WhatsApp"
+    },
+    "branches": {
+      "title": "Our branches — Coffee House and Coffee Art",
+      "description": "Coffee House and Coffee Art branches in Türkiye, the United Arab Emirates and Kyrgyzstan. See them on the map and open a branch's QR menu.",
+      "h1": "Our branches",
+      "lead": "{open} branches in {countries} countries; {coming} new branches on the way.",
+      "note": "The branch list is taken from the brand's current website. Addresses, opening hours and exact locations will be added at setup.",
+      "filterLabel": "Filter by country",
+      "all": "All",
+      "search": "Search a city or district",
+      "count": "Showing {n} branches",
+      "empty": "No branch matches your search. Try another city.",
+      "open": "Open",
+      "coming": "Coming soon",
+      "qrMenu": "QR menu",
+      "directions": "Directions",
+      "showOnMap": "Show on map",
+      "mapLabel": "Branch map",
+      "mapHint": "Zoom with two fingers or the + / − buttons.",
+      "mapLoading": "Loading map…",
+      "mapAttribution": "Map data: Natural Earth",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out"
+    },
+    "contact": {
+      "title": "Contact — Coffee House head office",
+      "description": "Coffee House head office: Laleli, Fatih, Istanbul. Reach us by phone, WhatsApp or email.",
+      "h1": "Contact",
+      "lead": "Get in touch about franchising, our branches or partnerships.",
+      "office": "Head office",
+      "call": "Call",
+      "write": "Message on WhatsApp",
+      "mail": "Send an email",
+      "follow": "Follow us on Instagram",
+      "directions": "Get directions",
+      "applyTitle": "Writing about a franchise?",
+      "applyBody": "The application form collects everything we need in one go, so our team calls you prepared.",
+      "applyCta": "Go to the application form",
+      "mapLabel": "Head office location"
+    },
+    "brands": {
+      "title": "Our brands — Coffee House and Coffee Art",
+      "description": "Coffee House and its sister brand Coffee Art: one business model, one supply and training platform.",
+      "h1": "Our brands",
+      "lead": "Two brands, one franchise platform: the same business model, supply network and training system.",
+      "ch": {
+        "slogan": "The best beans, at the best Coffee House.",
+        "body": [
+          "Coffee House pairs quality coffee with a fast, warm takeaway experience. Its blue speech-bubble logo, the neon sign that welcomes you to “the home of coffee” and its pop-art walls create the same familiar atmosphere in every branch.",
+          "The menu — from espresso drinks and iced coffee to frappés and desserts — is shared across all branches; each branch manages only its own prices and stock."
+        ],
+        "facts": [
+          "Branches in Türkiye, the UAE and Kyrgyzstan",
+          "Takeaway-focused stores from 40 m²"
+        ]
+      },
+      "ca": {
+        "body": [
+          "Coffee Art is the sister brand of the Coffee House family, growing with its Karaköprü and Piazza Mall branches in Şanlıurfa and its Ajman branch in the United Arab Emirates.",
+          "It shares Coffee House's supply and training platform; the right brand for your region is decided together at the first meeting."
+        ],
+        "note": "The Coffee Art logo and identity will be added at setup."
+      }
+    },
+    "references": {
+      "title": "References — Businesses we have set up and advised",
+      "description": "Businesses Coffee House has set up and advised in Türkiye, Kyrgyzstan and the United Arab Emirates.",
+      "h1": "References",
+      "lead": "Businesses we have set up and advised — including branches of our own brands.",
+      "family": "Coffee House family",
+      "count": "{n} businesses"
+    },
+    "about": {
+      "title": "About us — Coffee House",
+      "description": "A takeaway coffee franchise sharing the know-how it has built since 2007 with investors.",
+      "h1": "About us",
+      "lead": "We share the know-how we have built since 2007 with investors who want to open their own coffee shop.",
+      "body": [
+        "Coffee House turned the takeaway coffee concept into a standardised business model. We set up your store turnkey, from design to opening day, train your staff and keep supporting your business afterwards.",
+        "Favourable supply agreements and a model with no entry fee and no royalties aim for a franchise relationship in which both sides win. We continue our growth in Türkiye abroad through master franchise and distribution models."
+      ],
+      "principles": [
+        {
+          "title": "A standard business model",
+          "body": "The same products, the same quality and the same brand voice in every branch."
+        },
+        {
+          "title": "Turnkey set-up",
+          "body": "Design, build-out and supplies handled in one place."
+        },
+        {
+          "title": "Shared success",
+          "body": "A long-term partnership without entry fees or royalties."
+        }
+      ]
+    },
+    "legal": {
+      "draft": "Draft — requires legal review before publication.",
+      "privacy": {
+        "title": "Privacy notice",
+        "description": "Privacy notice for the Coffee House franchise application form (draft).",
+        "h1": "Privacy notice",
+        "sections": [
+          {
+            "h": "Data controller",
+            "p": "Coffee House (Kemalpaşa Mah., Fethibey Cad. No: 61, Laleli, Fatih, Istanbul)."
+          },
+          {
+            "h": "Personal data processed",
+            "p": "The full name, phone, email, city/district, planned area, budget range, preferred brand, premises status and note you share in the franchise application form."
+          },
+          {
+            "h": "Purpose and legal basis",
+            "p": "To assess your application and contact you; based on your explicit consent and on steps prior to entering into a contract."
+          },
+          {
+            "h": "Retention and transfers",
+            "p": "Applications are reviewed by the franchise team. Retention periods and any transfers will be added to this section after legal review."
+          },
+          {
+            "h": "Your rights",
+            "p": "To exercise your rights under Article 11 of the Turkish Personal Data Protection Law (KVKK), write to kahvemarkasi@gmail.com."
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Cookie policy",
+        "description": "Cookie use on the Coffee House website (draft).",
+        "h1": "Cookie policy",
+        "sections": [
+          {
+            "h": "Cookies on this site",
+            "p": "This site does not use cookies and contains no third-party advertising or tracking code."
+          },
+          {
+            "h": "Analytics",
+            "p": "If visit statistics are needed, a cookie-free analytics tool that collects no personal data will be used."
+          },
+          {
+            "h": "Changes",
+            "p": "If cookie use changes, this page will be updated and your consent will be requested where required."
+          }
+        ]
+      }
+    }
+  }
+}

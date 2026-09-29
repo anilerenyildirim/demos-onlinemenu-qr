@@ -1,0 +1,43 @@
+{
+  "name": "coffee-house-demo",
+  "private": true,
+  "type": "module",
+  "description": "Coffee House — sunum + franchise QR menü + kurumsal site demosu (statik üretim)",
+  "scripts": {
+    "fetch-assets": "tsx scripts/fetch-assets.ts",
+    "trace-logo": "tsx scripts/trace-logo.ts",
+    "video": "tsx scripts/video.ts",
+    "geo": "tsx scripts/geo.ts",
+    "build": "tsc --noEmit && tsx scripts/build.ts",
+    "serve": "npx --yes wrangler@4 pages dev ../.. --port 8790",
+    "measure": "tsx scripts/measure.ts"
+  },
+  "devDependencies": {
+    "@fontsource-variable/sofia-sans": "^5.3.0",
+    "@fontsource-variable/sofia-sans-extra-condensed": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "@fontsource/sofia-sans": "^5.3.0",
+    "@fontsource/sofia-sans-extra-condensed": "^5.3.0",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^22.20.3",
+    "@types/opentype.js": "^1.3.10",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-simplify": "^3.0.3",
+    "esbuild": "^0.28.2",
+    "leaflet": "^1.9.4",
+    "opentype.js": "^2.0.0",
+    "potrace": "^2.1.8",
+    "puppeteer-core": "^25.12.0",
+    "sharp": "^0.35.4",
+    "subset-font": "^2.7.0",
+    "topojson-client": "^3.1.0",
+    "topojson-simplify": "^3.0.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "world-atlas": "^2.0.2"
+  },
+  "dependencies": {
+    "@types/qrcode": "^1.5.6",
+    "qrcode": "^1.5.4"
+  }
+}

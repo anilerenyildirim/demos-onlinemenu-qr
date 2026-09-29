@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "title": "Coffee House için Dijital Operasyon Önerisi · onlinemenu-qr",
+    "description": "Coffee House'a özel öneri: şube menülerini tek merkezden yöneten QR menü ve yatırımcıya dönük yeni kurumsal site — çalışan demolarla.",
+    "ogAlt": "Coffee House için Dijital Operasyon Önerisi — onlinemenu-qr.com"
+  },
+  "nav": {
+    "label": "Sunum bölümleri",
+    "progress": "Sunumdaki konum",
+    "keys": "↓ ↑ tuşlarıyla bölümler arasında geçebilirsiniz",
+    "sections": [
+      "Kapak",
+      "Neden ulaştık",
+      "Fırsatlar",
+      "Panel",
+      "Demolar",
+      "Nasıl ilerleriz",
+      "Dönüş"
+    ],
+    "prev": "Önceki bölüm",
+    "next": "Sonraki bölüm"
+  },
+  "cover": {
+    "with": "için hazırlandı",
+    "title": "Coffee House için Dijital Operasyon Önerisi",
+    "lead": "Şube menülerini tek merkezden yönetmek ve markanın yatırımcıya dönük yüzünü büyüyen ağınıza yakışır hâle getirmek için hazırladığımız çalışma.",
+    "date": "Hazırlanma tarihi: 29 Eylül 2026",
+    "cta": "Sunumu inceleyin"
+  },
+  "why": {
+    "eyebrow": "Neden ulaştık",
+    "title": "Ağınız büyüdü. Dijital yüzünüz de onunla büyüsün.",
+    "body": [
+      "Coffee House'u incelerken Türkiye'den Birleşik Arap Emirlikleri'ne ve Kırgızistan'a uzanan, yurt dışında Master Franchise ortakları arayan bir ağ gördük. 2007'den bu yana biriken know-how'ınızı yatırımcılarla paylaşan bu modelin dijital tarafta henüz aynı ölçekte temsil edilmediğini fark ettik.",
+      "Size iki şey öneriyoruz: şubelerinizin menü operasyonunu tek merkezden yönetilebilir hâle getirmek ve markanızın yatırımcıya dönük yüzünü, başvurudan şube haritasına kadar, bugünkü büyüklüğünüzü yansıtacak şekilde yenilemek. İkisinin de çalışan demosunu aşağıda bulacaksınız."
+    ],
+    "facts": [
+      {
+        "k": "Model",
+        "v": "Takeaway kafe, anahtar teslim franchise"
+      },
+      {
+        "k": "Ülkeler",
+        "v": "Türkiye · BAE · Kırgızistan"
+      },
+      {
+        "k": "Markalar",
+        "v": "Coffee House · Coffee Art"
+      }
+    ],
+    "photoCredit": "Görsel: coffeehousetr.com"
+  },
+  "findings": {
+    "eyebrow": "Tespit ettiğimiz fırsatlar",
+    "title": "Yatırımcının ilk bakışta gördüğü altı alan",
+    "lead": "Mevcut sitenizi 29 Eylül 2026'da inceledik. Her kartta bugünkü durumu, etkisini ve demoda gösterdiğimiz çözümü bulacaksınız.",
+    "labels": {
+      "now": "Bugün",
+      "impact": "Etkisi",
+      "fix": "Önerimiz",
+      "see": "Demoda görün"
+    },
+    "items": [
+      {
+        "title": "Franchise başvurusu",
+        "now": "Başvuru yalnızca telefon ve WhatsApp üzerinden alınıyor; “Teklif Al” butonu form içermeyen bir sayfaya açılıyor.",
+        "impact": "Mesai dışında gelen ya da yurt dışından yazan adaylar kayda geçmiyor; başvurular karşılaştırılamıyor.",
+        "fix": "Lokasyon, m² ve bütçe bilgisini baştan toplayan dört dilli başvuru formu. Her başvuru anında e-postanıza düşer.",
+        "link": "form"
+      },
+      {
+        "title": "Şube menüleri",
+        "now": "Sitede menü yer almıyor; şubelerin menüsü için ortak bir dijital kaynak görünmüyor.",
+        "impact": "Fiyat ve ürün değişikliği her şubeye ayrı ayrı iletilmek zorunda; şubeler arasında tutarsızlık riski doğar.",
+        "fix": "Tek merkezden yönetilen QR menü: katalog bir kez girilir, şubeler yalnızca izin verdiğiniz alanları değiştirir.",
+        "link": "menu"
+      },
+      {
+        "title": "Şube bilgisi",
+        "now": "Şubeler yalnızca şehir adıyla listeleniyor; adres, saat, yol tarifi ve menü yok. Esenyurt iki kez, Laleli hem açık hem “yakında” görünüyor.",
+        "impact": "Müşteri en yakın şubeyi bulamıyor; yatırımcı ağın gerçek büyüklüğünü okuyamıyor.",
+        "fix": "Harita üzerinde ülke ve şehre göre filtrelenen şube listesi; her şubeden QR menüye geçiş.",
+        "link": "branches"
+      },
+      {
+        "title": "Yurt dışı yatırımcı",
+        "now": "Site Türkçe ve İngilizce. Körfez ve Orta Asya'daki aday kendi dilinde bilgi alamıyor, başvuru yapamıyor.",
+        "impact": "Master Franchise ve distribütörlük görüşmeleri ilk temasta zorlaşıyor.",
+        "fix": "Sağdan sola tam uyumlu Arapça ve Rusça sayfalar; başvuru formu dört dilde, telefon ülke koduyla.",
+        "link": "arabic"
+      },
+      {
+        "title": "Marka bütünlüğü",
+        "now": "Tarayıcı sekmesinde WordPress'in varsayılan ikonu görünüyor. Anasayfadaki Instagram bağlantısı hesabınız yerine instagram.com'a gidiyor. Referanslarda geçersiz bağlantılar var. 23 görselin tamamı “Adsız tasarım” adında; ikisi aynı görselin kopyası.",
+        "impact": "Markayı ilk kez gören yatırımcıda özen algısı zayıflar; görselleriniz arama motorlarında bulunamaz.",
+        "fix": "Logonuzdan üretilmiş ikon seti, çalışan sosyal bağlantılar, içeriğine göre adlandırılmış ve açıklamalı görseller.",
+        "link": "site"
+      },
+      {
+        "title": "Mobil hız",
+        "now": "Mobilde sayfanın ana içeriği {lcp} saniyede görünüyor; ilk açılışta {mb} MB veri iniyor.",
+        "impact": "Mobil ziyaretçinin önemli kısmı sayfa açılmadan ayrılır; arama sıralaması da bundan etkilenir.",
+        "fix": "Hafif, statik sayfalar; tanıtım videosu 103 MB'lık kaynaktan 1 MB'ın altına indirildi ve yalnızca gerektiğinde yüklenir.",
+        "link": "lighthouse"
+      }
+    ],
+    "links": {
+      "form": "Başvuru formu",
+      "menu": "QR menü demosu",
+      "branches": "Şubeler sayfası",
+      "arabic": "Arapça anasayfa",
+      "site": "Yeni site demosu",
+      "lighthouse": "Ölçüm sonuçları"
+    }
+  },
+  "lighthouse": {
+    "title": "Aynı ölçüm, iki anasayfa",
+    "lead": "Google Lighthouse, mobil öykünme: mevcut siteniz ile yeni site demosunun anasayfası, aynı oturumda ölçüldü.",
+    "current": "Mevcut site",
+    "demo": "Yeni site demosu",
+    "metrics": {
+      "performance": "Performans",
+      "accessibility": "Erişilebilirlik",
+      "best_practices": "En iyi uygulamalar",
+      "seo": "SEO",
+      "lcp": "Ana içeriğin görünmesi (LCP)",
+      "weight": "İlk açılışta inen veri"
+    },
+    "method": "Lighthouse {v}, mobil öykünme ve yavaş 4G simülasyonu, {date}; her sayfa için {runs} ölçümün ortancası. Demo sayfası yerel sunucuda ölçüldü; yayına alındığında aynı yöntemle yeniden ölçülecek.",
+    "pending": "Demo ölçümü eklenecek.",
+    "tableToggle": "Tablo olarak göster",
+    "tableMetric": "Ölçüt",
+    "seoNote": "SEO: mevcut sitenin Lighthouse SEO puanı {cur} — {issues}. Demo sayfaları bilinçli olarak arama motorlarına kapalı (noindex) olduğundan SEO puanı kıyaslanmadı; bu engel dışarıda bırakıldığında demonun SEO denetimleri puanı {demo}.",
+    "seoIssues": {
+      "meta-description": "anasayfada meta açıklama yok",
+      "crawlable-anchors": "bazı bağlantılar arama motorlarınca taranamıyor",
+      "image-alt": "bazı görsellerde alternatif metin yok",
+      "link-text": "bazı bağlantı metinleri açıklayıcı değil",
+      "document-title": "sayfa başlığı eksik",
+      "hreflang": "dil alternatifleri hatalı",
+      "canonical": "canonical bağlantısı hatalı",
+      "http-status-code": "sayfa hata kodu döndürüyor",
+      "is-crawlable": "sayfa taramaya kapalı",
+      "robots-txt": "robots.txt geçersiz"
+    }
+  },
+  "panel": {
+    "eyebrow": "Panel",
+    "title": "Menüleriniz sizin kontrolünüzde",
+    "lead": "Tüm şubelerin menüsünü tek panelden, sizin belirlediğiniz kurallarla yönetirsiniz. Şubeler yalnızca izin verdiğiniz alanlara dokunur.",
+    "todayTitle": "Bugün panelde",
+    "scopeTitle": "Franchise kurulumuyla birlikte geliştirilir",
+    "scopeNote": "Bu gruptaki özellikler teklif kapsamında, kurulum sürecinde teslim edilir.",
+    "today": [
+      {
+        "icon": "translate",
+        "title": "Çoklu dil ve para birimi",
+        "body": "Menü Türkçe, İngilizce, Arapça ve Rusça; Arapça sağdan sola tam uyumlu. Her şube kendi para biriminde fiyatlanır: İstanbul TRY, Dubai AED, Bişkek KGS."
+      },
+      {
+        "icon": "tag",
+        "title": "Şube bazlı fiyat ve stok",
+        "body": "Aynı ürün şubeye göre farklı fiyatlanabilir. Tükenen ürün işaretlenir ya da o şubenin menüsünden kaldırılır."
+      }
+    ],
+    "scope": [
+      {
+        "icon": "layers",
+        "title": "Merkezi katalog",
+        "body": "Ürün, görsel, açıklama, kategori ve çeviriler merkezde tanımlanır; değişiklik tek adımda tüm şubelere yansır."
+      },
+      {
+        "icon": "lock",
+        "title": "Şube yetki kuralları",
+        "body": "Hangi alanı şubenin değiştirebileceğine siz karar verirsiniz. Örneğin şube yalnızca “tükendi” işaretler, fiyatı merkez belirler; ya da bölgesel fiyat farkına bir üst sınır koyarsınız."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Kampanya ve rozetler",
+        "body": "“Yeni” ve “Kampanya” rozetleri tüm ağa ya da seçtiğiniz şubelere, başlangıç ve bitiş tarihiyle."
+      },
+      {
+        "icon": "palette",
+        "title": "Marka ayrımı",
+        "body": "Coffee House ve Coffee Art aynı panelde, aynı katalogdan, her biri kendi logosu ve renkleriyle."
+      },
+      {
+        "icon": "copyPlus",
+        "title": "Yeni şube şablonu",
+        "body": "Yeni şube açmak: şablonu kopyala, fiyat listesini seç, QR kartlarını bas."
+      }
+    ],
+    "shots": {
+      "note": "Temsilî ekranlar — kurulumda panelin kendi arayüzü kullanılır.",
+      "catalog": {
+        "tab": "Merkezi katalog",
+        "caption": "Ürün bir kez girilir; tüm şubelerde yayında."
+      },
+      "rules": {
+        "tab": "Şube yetkileri",
+        "caption": "Hangi alanı şube değiştirebilir, siz seçersiniz."
+      },
+      "prices": {
+        "tab": "Şube fiyatları",
+        "caption": "Aynı ürün, üç para birimi, bölgesel katman."
+      },
+      "preview": {
+        "tab": "Önizleme",
+        "caption": "Değişiklik yayına girmeden önce şube menüsünde görülür."
+      }
+    },
+    "mock": {
+      "search": "Ürün ara",
+      "product": "Ürün",
+      "category": "Kategori",
+      "branches": "Şubeler",
+      "status": "Durum",
+      "published": "Yayında",
+      "allBranches": "Tüm şubeler",
+      "field": "Alan",
+      "branchCan": "Şube değiştirebilir",
+      "locked": "Kilitli",
+      "allowed": "Serbest",
+      "bounded": "±%10 sınırla",
+      "fields": [
+        "Ürün adı ve açıklama",
+        "Görsel",
+        "Fiyat",
+        "Stok (tükendi)",
+        "Kampanya"
+      ],
+      "central": "Merkez",
+      "tier": "Katman",
+      "save": "Yayınla",
+      "draft": "Taslak · 3 değişiklik"
+    },
+    "cta": "Menü demosunu açın"
+  },
+  "demos": {
+    "eyebrow": "Demoları inceleyin",
+    "title": "İki demo, sizin logonuz ve görsellerinizle",
+    "menu": {
+      "title": "QR Menü Demosu",
+      "body": "Bir şubeyi seçin, müşterinizin gördüğünü görün.",
+      "meta": "{branches} şube · {locales} dil · {currencies} para birimi · Coffee Art teması",
+      "cta": "Menü demosunu açın"
+    },
+    "site": {
+      "title": "Yeni Web Sitesi Demosu",
+      "body": "Yatırımcıların göreceği yeni yüzünüz.",
+      "meta": "Başvuru formu · şube haritası · TR / EN / AR / RU",
+      "cta": "Site demosunu açın"
+    },
+    "note": "Demolarda sitenizdeki logo, görsel ve tanıtım videosu kullanıldı. Menü, fiyatlar ve şube ayrıntıları örnektir."
+  },
+  "steps": {
+    "eyebrow": "Nasıl ilerleriz",
+    "title": "Üç adımda yayına",
+    "items": [
+      {
+        "title": "Görüşme ve ihtiyaç analizi",
+        "body": "Şube yapınızı, fiyat politikanızı ve şubelere tanıyacağınız yetkileri birlikte netleştiririz."
+      },
+      {
+        "title": "Menü ve marka verilerinin aktarımı",
+        "body": "Gerçek menü, fiyat listeleri, görseller ve iki markanın kimliği panele aktarılır; yeni site içeriklerinizle tamamlanır."
+      },
+      {
+        "title": "Pilot şube, ardından tüm ağ",
+        "body": "Önce bir şubede yayına alır, geri bildirimle düzenler, ardından tüm şubelere yayarız."
+      }
+    ],
+    "note": "Süre ve fiyat, görüşmenin ardından ileteceğimiz teklifte yer alır."
+  },
+  "close": {
+    "eyebrow": "Dönüş",
+    "title": "Öneriyi olumlu değerlendirirseniz bir e-posta yeterli.",
+    "body": "Size özel, süre ve fiyatı içeren detaylı teklifimizi iletmemiz için e-posta ile dönüş yapmanız yeterli.",
+    "button": "E-posta ile dönüş yapın",
+    "emailLabel": "E-posta adresimiz",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "signature": "QR menü ve dijital operasyon çözümleri"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "schema": 1,
+  "version": "2026-09-29.1",
+  "note": "MERKEZ KATALOG — DEMO. Coffee House sitesinde menü yayınlanmıyor; ürünler takeaway kahve zinciri standardında örnek olarak oluşturuldu. TÜM FİYATLAR DEMO'DUR (TRY/AED/KGS, 2026). Ürün adları Instagram'dan (@coffeehouse.tr) gerçekleriyle değiştirilecek — TEYİT. Görsel ↔ ürün eşleşmesi tahmindir — TEYİT. AR/RU metinleri makine çevirisi — TEYİT: native kontrol. Alerjenler örnektir — TEYİT.",
+  "tenant": { "id": "tnt_coffeehouse", "slug": "coffeehouse", "name": "Coffee House", "default_locale": "tr", "locales": ["tr", "en", "ar", "ru"] },
+  "rounding": { "TRY": 5, "AED": 1, "KGS": 10 },
+  "sizes": {
+    "one": null,
+    "s": { "short": { "tr": "S", "en": "S", "ar": "S", "ru": "S" }, "label": { "tr": "Küçük", "en": "Small", "ar": "صغير", "ru": "Маленький" }, "ml": 240 },
+    "m": { "short": { "tr": "M", "en": "M", "ar": "M", "ru": "M" }, "label": { "tr": "Orta", "en": "Medium", "ar": "وسط", "ru": "Средний" }, "ml": 350 },
+    "l": { "short": { "tr": "L", "en": "L", "ar": "L", "ru": "L" }, "label": { "tr": "Büyük", "en": "Large", "ar": "كبير", "ru": "Большой" }, "ml": 470 },
+    "single": { "short": { "tr": "Tek", "en": "Single", "ar": "مفرد", "ru": "1 шот" }, "label": { "tr": "Tek", "en": "Single", "ar": "مفرد", "ru": "Одинарный" }, "ml": null },
+    "double": { "short": { "tr": "Duble", "en": "Double", "ar": "مزدوج", "ru": "2 шота" }, "label": { "tr": "Duble", "en": "Double", "ar": "مزدوج", "ru": "Двойной" }, "ml": null }
+  },
+  "categories": [
+    { "slug": "espresso", "icon": "espresso", "name": { "tr": "Espresso Bazlı", "en": "Espresso Bar", "ar": "مشروبات الإسبريسو", "ru": "Эспрессо-напитки" } },
+    { "slug": "filtre-kahve", "icon": "filter", "name": { "tr": "Filtre Kahve", "en": "Filter Coffee", "ar": "القهوة المفلترة", "ru": "Фильтр-кофе" } },
+    { "slug": "turk-kahvesi", "icon": "cezve", "name": { "tr": "Türk Kahvesi", "en": "Turkish Coffee", "ar": "القهوة التركية", "ru": "Турецкий кофе" } },
+    { "slug": "soguk-kahveler", "icon": "iced", "name": { "tr": "Soğuk Kahveler", "en": "Iced Coffee", "ar": "القهوة المثلجة", "ru": "Холодный кофе" } },
+    { "slug": "frappe-milkshake", "icon": "frappe", "name": { "tr": "Frappe & Milkshake", "en": "Frappés & Shakes", "ar": "فرابيه وميلك شيك", "ru": "Фраппе и милкшейки" } },
+    { "slug": "cay-sicaklar", "icon": "tea", "name": { "tr": "Çay & Sıcaklar", "en": "Tea & Hot Drinks", "ar": "الشاي والمشروبات الساخنة", "ru": "Чай и горячие напитки" } },
+    { "slug": "tatlilar", "icon": "cake", "name": { "tr": "Tatlılar", "en": "Desserts", "ar": "الحلويات", "ru": "Десерты" } },
+    { "slug": "atistirmaliklar", "icon": "snack", "name": { "tr": "Atıştırmalıklar", "en": "Snacks", "ar": "وجبات خفيفة", "ru": "Закуски" } }
+  ],
+  "products": [
+    {
+      "slug": "espresso", "category": "espresso", "sizes": ["single", "double"],
+      "prices": { "TRY": [90, 120], "AED": [12, 16], "KGS": [130, 170] },
+      "name": { "tr": "Espresso", "en": "Espresso", "ar": "إسبريسو", "ru": "Эспрессо" },
+      "description": { "tr": "Ev harmanımızdan yoğun, kadifemsi bir shot.", "en": "An intense, velvety shot of our house blend.", "ar": "جرعة مكثّفة وناعمة من خلطتنا الخاصة.", "ru": "Насыщенный бархатистый шот нашей фирменной смеси." },
+      "image": { "file": "espresso-telve-cekirdek-uc-fincan.jpg", "crop": [120, 90, 640] }
+    },
+    {
+      "slug": "americano", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [110, 125, 140], "AED": [14, 16, 18], "KGS": [150, 170, 190] },
+      "name": { "tr": "Americano", "en": "Americano", "ar": "أمريكانو", "ru": "Американо" },
+      "description": { "tr": "Sıcak suyla uzatılmış espresso; sade ve dengeli.", "en": "Espresso lengthened with hot water — clean and balanced.", "ar": "إسبريسو مع ماء ساخن؛ طعم صافٍ ومتوازن.", "ru": "Эспрессо с горячей водой — чистый, сбалансированный вкус." }
+    },
+    {
+      "slug": "cappuccino", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [125, 140, 155], "AED": [16, 18, 20], "KGS": [180, 210, 240] },
+      "name": { "tr": "Cappuccino", "en": "Cappuccino", "ar": "كابتشينو", "ru": "Капучино" },
+      "description": { "tr": "Espresso, sıcak süt ve bol köpük; üzerine tarçın.", "en": "Espresso, steamed milk and plenty of foam, dusted with cinnamon.", "ar": "إسبريسو وحليب مبخّر ورغوة وفيرة مع رشة قرفة.", "ru": "Эспрессо, горячее молоко и густая пенка с корицей." },
+      "allergens": ["milk"],
+      "image": { "file": "cappuccino-tarcinli.jpg", "crop": [90, 900, 900] }
+    },
+    {
+      "slug": "caffe-latte", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [125, 140, 155], "AED": [16, 18, 20], "KGS": [180, 210, 240] },
+      "name": { "tr": "Caffè Latte", "en": "Caffè Latte", "ar": "كافيه لاتيه", "ru": "Латте" },
+      "description": { "tr": "Espresso üzerine ipeksi süt; latte art ile.", "en": "Espresso topped with silky milk, finished with latte art.", "ar": "إسبريسو مع حليب حريري ولمسة من فن اللاتيه.", "ru": "Эспрессо с шелковистым молоком и латте-артом." },
+      "allergens": ["milk"],
+      "image": { "file": "latte-art-kalpli.jpg", "crop": [60, 900, 1020] }
+    },
+    {
+      "slug": "flat-white", "category": "espresso", "sizes": ["one"],
+      "prices": { "TRY": [145], "AED": [19], "KGS": [220] },
+      "name": { "tr": "Flat White", "en": "Flat White", "ar": "فلات وايت", "ru": "Флэт уайт" },
+      "description": { "tr": "Çift ristretto ve ince dokulu süt; kahve tadı önde.", "en": "Double ristretto with velvety microfoam — coffee-forward.", "ar": "ريستريتو مزدوج مع رغوة حليب ناعمة؛ نكهة القهوة في المقدمة.", "ru": "Двойной ристретто с бархатной микропеной — выразительный вкус кофе." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "karamel-macchiato", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [145, 160, 175], "AED": [19, 21, 23], "KGS": [220, 250, 280] },
+      "name": { "tr": "Karamel Macchiato", "en": "Caramel Macchiato", "ar": "كراميل ماكياتو", "ru": "Карамельный макиато" },
+      "description": { "tr": "Vanilyalı süt, espresso ve karamel sos.", "en": "Vanilla milk, espresso and caramel drizzle.", "ar": "حليب بالفانيليا وإسبريسو وصلصة كراميل.", "ru": "Ванильное молоко, эспрессо и карамельный соус." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "mocha", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [145, 160, 175], "AED": [19, 21, 23], "KGS": [220, 250, 280] },
+      "name": { "tr": "Mocha", "en": "Mocha", "ar": "موكا", "ru": "Мокко" },
+      "description": { "tr": "Espresso, bitter çikolata sos ve sıcak süt.", "en": "Espresso, dark chocolate sauce and steamed milk.", "ar": "إسبريسو وصلصة شوكولاتة داكنة وحليب مبخّر.", "ru": "Эспрессо, соус из тёмного шоколада и горячее молоко." },
+      "allergens": ["milk", "soy"]
+    },
+    {
+      "slug": "spanish-latte", "category": "espresso", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [150, 165, 180], "AED": [20, 22, 24], "KGS": [230, 260, 290] },
+      "name": { "tr": "Spanish Latte", "en": "Spanish Latte", "ar": "سبانش لاتيه", "ru": "Спэниш латте" },
+      "description": { "tr": "Yoğunlaştırılmış sütle tatlandırılmış kremamsı latte.", "en": "A creamy latte sweetened with condensed milk.", "ar": "لاتيه كريمي مُحلّى بالحليب المكثّف.", "ru": "Сливочный латте со сгущённым молоком." },
+      "tags": ["new"], "allergens": ["milk"]
+    },
+    {
+      "slug": "filtre-kahve", "category": "filtre-kahve", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [100, 115, 130], "AED": [14, 16, 18], "KGS": [150, 170, 190] },
+      "name": { "tr": "Filtre Kahve", "en": "Filter Coffee", "ar": "قهوة مفلترة", "ru": "Фильтр-кофе" },
+      "description": { "tr": "Günün demlemesi; yanına süt isteyebilirsiniz.", "en": "Today's brew — ask for milk on the side.", "ar": "قهوة اليوم المُحضّرة طازجة؛ يمكنكم طلب الحليب جانبًا.", "ru": "Кофе дня — молоко можно попросить отдельно." },
+      "image": { "file": "takeaway-karton-bardak.jpg", "crop": [40, 740, 1000] }
+    },
+    {
+      "slug": "sutlu-filtre-kahve", "category": "filtre-kahve", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [115, 130, 145], "AED": [16, 18, 20], "KGS": [170, 190, 210] },
+      "name": { "tr": "Sütlü Filtre Kahve", "en": "Filter Coffee with Milk", "ar": "قهوة مفلترة بالحليب", "ru": "Фильтр-кофе с молоком" },
+      "description": { "tr": "Filtre kahve ve sıcak süt, yarı yarıya.", "en": "Filter coffee and steamed milk, half and half.", "ar": "قهوة مفلترة وحليب مبخّر مناصفةً.", "ru": "Фильтр-кофе и горячее молоко пополам." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "french-press", "category": "filtre-kahve", "sizes": ["one"],
+      "prices": { "TRY": [150], "AED": [20], "KGS": [230] },
+      "name": { "tr": "French Press", "en": "French Press", "ar": "فرنش برس", "ru": "Френч-пресс" },
+      "description": { "tr": "Dört dakika demlenir; gövdeli ve aromatik.", "en": "Steeped for four minutes — full-bodied and aromatic.", "ar": "تُنقع أربع دقائق؛ قوام غني ورائحة عطرة.", "ru": "Настаивается четыре минуты — плотный и ароматный." }
+    },
+    {
+      "slug": "turk-kahvesi", "category": "turk-kahvesi", "sizes": ["single", "double"],
+      "prices": { "TRY": [90, 120], "AED": [14, 18], "KGS": [150, 200] },
+      "name": { "tr": "Türk Kahvesi", "en": "Turkish Coffee", "ar": "قهوة تركية", "ru": "Турецкий кофе" },
+      "description": { "tr": "Bol köpüklü; yanında su ve lokum.", "en": "Rich and foamy, served with water and Turkish delight.", "ar": "برغوة غنية، تُقدّم مع الماء والحلقوم.", "ru": "С густой пенкой, подаётся с водой и лукумом." }
+    },
+    {
+      "slug": "sutlu-turk-kahvesi", "category": "turk-kahvesi", "sizes": ["one"],
+      "prices": { "TRY": [100], "AED": [16], "KGS": [170] },
+      "name": { "tr": "Sütlü Türk Kahvesi", "en": "Turkish Coffee with Milk", "ar": "قهوة تركية بالحليب", "ru": "Турецкий кофе на молоке" },
+      "description": { "tr": "Suyu yerine sütle pişirilir; yumuşak içimli.", "en": "Brewed with milk instead of water — smooth and mellow.", "ar": "تُطهى بالحليب بدل الماء؛ مذاق ناعم.", "ru": "Варится на молоке вместо воды — мягкий вкус." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "dibek-kahvesi", "category": "turk-kahvesi", "sizes": ["one"],
+      "prices": { "TRY": [100], "AED": [16], "KGS": [170] },
+      "name": { "tr": "Dibek Kahvesi", "en": "Dibek Coffee", "ar": "قهوة ديبك", "ru": "Кофе дибек" },
+      "description": { "tr": "Taş dibekte dövülmüş, kakaolu ve sütlü geleneksel harman.", "en": "A traditional stone-ground blend with cocoa and milk.", "ar": "خلطة تقليدية مطحونة في هاون حجري مع الكاكاو والحليب.", "ru": "Традиционная смесь, толчённая в каменной ступке, с какао и молоком." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "menengic-kahvesi", "category": "turk-kahvesi", "sizes": ["one"],
+      "prices": { "TRY": [110], "AED": [18], "KGS": [190] },
+      "name": { "tr": "Menengiç Kahvesi", "en": "Menengiç Coffee", "ar": "قهوة المننغيتش", "ru": "Кофе менегич" },
+      "description": { "tr": "Yabani fıstıktan, kafeinsiz ve sütlü; Güneydoğu klasiği.", "en": "Caffeine-free, made from wild pistachio with milk — a Southeastern classic.", "ar": "من الفستق البري، خالية من الكافيين وبالحليب؛ كلاسيكية من جنوب شرق تركيا.", "ru": "Из дикой фисташки, без кофеина, на молоке — классика юго-востока Турции." },
+      "allergens": ["milk", "nuts"]
+    },
+    {
+      "slug": "iced-americano", "category": "soguk-kahveler", "sizes": ["m", "l"],
+      "prices": { "TRY": [135, 150], "AED": [18, 20], "KGS": [190, 210] },
+      "name": { "tr": "Iced Americano", "en": "Iced Americano", "ar": "آيس أمريكانو", "ru": "Айс американо" },
+      "description": { "tr": "Buz, soğuk su ve espresso; ferah ve sade.", "en": "Espresso over ice-cold water — crisp and clean.", "ar": "إسبريسو على الماء المثلّج؛ منعش وصافٍ.", "ru": "Эспрессо на ледяной воде — свежо и чисто." }
+    },
+    {
+      "slug": "iced-latte", "category": "soguk-kahveler", "sizes": ["m", "l"],
+      "prices": { "TRY": [155, 170], "AED": [20, 22], "KGS": [230, 260] },
+      "name": { "tr": "Iced Latte", "en": "Iced Latte", "ar": "آيس لاتيه", "ru": "Айс латте" },
+      "description": { "tr": "Soğuk süt, buz ve espresso.", "en": "Cold milk, ice and espresso.", "ar": "حليب بارد وثلج وإسبريسو.", "ru": "Холодное молоко, лёд и эспрессо." },
+      "allergens": ["milk"],
+      "image": { "file": "cilekli-matcha-iced-latte-duvar.jpg", "crop": [500, 1040, 580] }
+    },
+    {
+      "slug": "iced-mocha", "category": "soguk-kahveler", "sizes": ["m", "l"],
+      "prices": { "TRY": [170, 185], "AED": [22, 24], "KGS": [260, 290] },
+      "name": { "tr": "Iced Mocha", "en": "Iced Mocha", "ar": "آيس موكا", "ru": "Айс мокко" },
+      "description": { "tr": "Dipte çikolata sos, üstünde soğuk süt ve espresso.", "en": "Chocolate sauce at the bottom, cold milk and espresso on top.", "ar": "صلصة شوكولاتة في القاع، وفوقها حليب بارد وإسبريسو.", "ru": "Шоколадный соус на дне, сверху холодное молоко и эспрессо." },
+      "allergens": ["milk", "soy"],
+      "image": { "file": "iced-mocha-plastik-bardak.jpg", "crop": [40, 420, 1000] }
+    },
+    {
+      "slug": "cold-brew", "category": "soguk-kahveler", "sizes": ["m", "l"],
+      "prices": { "TRY": [150, 165], "AED": [20, 22], "KGS": [230, 260] },
+      "name": { "tr": "Cold Brew", "en": "Cold Brew", "ar": "كولد برو", "ru": "Колд брю" },
+      "description": { "tr": "18 saat soğuk demlenir; yumuşak, düşük asiditeli.", "en": "Steeped cold for 18 hours — smooth, with low acidity.", "ar": "تُنقع على البارد 18 ساعة؛ ناعمة وقليلة الحموضة.", "ru": "Настаивается в холоде 18 часов — мягкий вкус, низкая кислотность." },
+      "tags": ["new"]
+    },
+    {
+      "slug": "karamel-frappe", "category": "frappe-milkshake", "sizes": ["m", "l"],
+      "prices": { "TRY": [175, 190], "AED": [22, 24], "KGS": [260, 290] },
+      "name": { "tr": "Karamel Frappe", "en": "Caramel Frappé", "ar": "فرابيه بالكراميل", "ru": "Карамельный фраппе" },
+      "description": { "tr": "Buzla çırpılmış kahve ve karamel, krem şanti ile.", "en": "Coffee and caramel blended with ice, topped with whipped cream.", "ar": "قهوة وكراميل مخفوقة مع الثلج تعلوها الكريمة المخفوقة.", "ru": "Кофе и карамель, взбитые со льдом, со взбитыми сливками." },
+      "allergens": ["milk"],
+      "image": { "file": "kremali-frappe-tokusturma.jpg", "crop": [0, 250, 1080] }
+    },
+    {
+      "slug": "mocha-frappe", "category": "frappe-milkshake", "sizes": ["m", "l"],
+      "prices": { "TRY": [175, 190], "AED": [22, 24], "KGS": [260, 290] },
+      "name": { "tr": "Mocha Frappe", "en": "Mocha Frappé", "ar": "فرابيه موكا", "ru": "Фраппе мокко" },
+      "description": { "tr": "Kahve ve çikolata buzla çırpılır; üstü krem şanti.", "en": "Coffee and chocolate blended with ice, with whipped cream.", "ar": "قهوة وشوكولاتة مخفوقة مع الثلج مع كريمة مخفوقة.", "ru": "Кофе и шоколад, взбитые со льдом, со взбитыми сливками." },
+      "allergens": ["milk", "soy"]
+    },
+    {
+      "slug": "cilekli-matcha", "category": "frappe-milkshake", "sizes": ["m", "l"],
+      "prices": { "TRY": [185, 200], "AED": [24, 26], "KGS": [280, 310] },
+      "name": { "tr": "Çilekli Matcha", "en": "Strawberry Matcha", "ar": "ماتشا بالفراولة", "ru": "Клубничная матча" },
+      "description": { "tr": "Çilek püresi, soğuk süt ve matcha; üç kat.", "en": "Strawberry purée, cold milk and matcha in three layers.", "ar": "هريس الفراولة وحليب بارد وماتشا في ثلاث طبقات.", "ru": "Клубничное пюре, холодное молоко и матча — три слоя." },
+      "tags": ["new"], "allergens": ["milk"],
+      "image": { "file": "cilekli-matcha-iced-latte-duvar.jpg", "crop": [0, 1050, 590] }
+    },
+    {
+      "slug": "cilekli-milkshake", "category": "frappe-milkshake", "sizes": ["m", "l"],
+      "prices": { "TRY": [165, 180], "AED": [22, 24], "KGS": [250, 280] },
+      "name": { "tr": "Çilekli Milkshake", "en": "Strawberry Milkshake", "ar": "ميلك شيك بالفراولة", "ru": "Клубничный милкшейк" },
+      "description": { "tr": "Dondurma, süt ve çilek; krem şanti ve çilek sos ile.", "en": "Ice cream, milk and strawberry, with whipped cream and strawberry sauce.", "ar": "آيس كريم وحليب وفراولة مع كريمة مخفوقة وصلصة فراولة.", "ru": "Мороженое, молоко и клубника со взбитыми сливками и клубничным соусом." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "oreo-milkshake", "category": "frappe-milkshake", "sizes": ["m", "l"],
+      "prices": { "TRY": [175, 190], "AED": [24, 26], "KGS": [270, 300] },
+      "name": { "tr": "Oreo Milkshake", "en": "Oreo Milkshake", "ar": "ميلك شيك أوريو", "ru": "Милкшейк «Орео»" },
+      "description": { "tr": "Vanilyalı dondurma ve bisküvi parçaları.", "en": "Vanilla ice cream blended with cookie pieces.", "ar": "آيس كريم بالفانيليا مع قطع البسكويت.", "ru": "Ванильное мороженое с кусочками печенья." },
+      "allergens": ["milk", "gluten", "soy"]
+    },
+    {
+      "slug": "cay", "category": "cay-sicaklar", "sizes": ["one"],
+      "prices": { "TRY": [40], "AED": [8], "KGS": [60] },
+      "name": { "tr": "Çay", "en": "Turkish Tea", "ar": "شاي تركي", "ru": "Турецкий чай" },
+      "description": { "tr": "Taze demlenmiş, ince belli bardakta.", "en": "Freshly brewed, served in a tulip glass.", "ar": "مُحضّر طازجًا ويُقدّم في كأس الشاي التركي.", "ru": "Свежезаваренный, в традиционном стаканчике-армуду." }
+    },
+    {
+      "slug": "bitki-cayi", "category": "cay-sicaklar", "sizes": ["one"],
+      "prices": { "TRY": [90], "AED": [14], "KGS": [150] },
+      "name": { "tr": "Bitki Çayı", "en": "Herbal Tea", "ar": "شاي أعشاب", "ru": "Травяной чай" },
+      "description": { "tr": "Ihlamur, adaçayı ya da nane-limon; seçiminizi kasada söyleyin.", "en": "Linden, sage or mint-lemon — tell us your pick at the counter.", "ar": "زيزفون أو مريمية أو نعناع وليمون؛ اختاروا عند الطلب.", "ru": "Липа, шалфей или мята с лимоном — выберите при заказе." }
+    },
+    {
+      "slug": "chai-tea-latte", "category": "cay-sicaklar", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [130, 145, 160], "AED": [17, 19, 21], "KGS": [200, 230, 260] },
+      "name": { "tr": "Chai Tea Latte", "en": "Chai Tea Latte", "ar": "تشاي لاتيه", "ru": "Чай латте" },
+      "description": { "tr": "Tarçın, kakule ve zencefilli baharatlı çay, sıcak sütle.", "en": "Spiced tea with cinnamon, cardamom and ginger, with steamed milk.", "ar": "شاي بالتوابل: قرفة وهيل وزنجبيل مع حليب مبخّر.", "ru": "Пряный чай с корицей, кардамоном и имбирём на горячем молоке." },
+      "allergens": ["milk"]
+    },
+    {
+      "slug": "sicak-cikolata", "category": "cay-sicaklar", "sizes": ["s", "m", "l"],
+      "prices": { "TRY": [130, 145, 160], "AED": [17, 19, 21], "KGS": [200, 230, 260] },
+      "name": { "tr": "Sıcak Çikolata", "en": "Hot Chocolate", "ar": "شوكولاتة ساخنة", "ru": "Горячий шоколад" },
+      "description": { "tr": "Bitter çikolata ve sıcak süt; üstü krem şanti.", "en": "Dark chocolate and steamed milk, topped with whipped cream.", "ar": "شوكولاتة داكنة وحليب ساخن تعلوها كريمة مخفوقة.", "ru": "Тёмный шоколад и горячее молоко со взбитыми сливками." },
+      "allergens": ["milk", "soy"],
+      "image": { "file": "sicak-cikolata-limonlu-cheesecake.jpg", "crop": [440, 150, 620] }
+    },
+    {
+      "slug": "salep", "category": "cay-sicaklar", "sizes": ["m", "l"],
+      "prices": { "TRY": [125, 140], "AED": [18, 20], "KGS": [190, 220] },
+      "name": { "tr": "Salep", "en": "Salep", "ar": "سحلب", "ru": "Салеп" },
+      "description": { "tr": "Kış aylarına özel; tarçın ve fındık kırığıyla.", "en": "A winter special with cinnamon and crushed hazelnuts.", "ar": "مشروب شتوي مع القرفة والبندق المجروش.", "ru": "Зимний напиток с корицей и дроблёным фундуком." },
+      "allergens": ["milk", "nuts"]
+    },
+    {
+      "slug": "limonlu-cheesecake", "category": "tatlilar", "sizes": ["one"],
+      "prices": { "TRY": [175], "AED": [24], "KGS": [270] },
+      "name": { "tr": "Limonlu Cheesecake", "en": "Lemon Cheesecake", "ar": "تشيز كيك بالليمون", "ru": "Лимонный чизкейк" },
+      "description": { "tr": "Bisküvi taban, kremamsı dolgu ve limon jölesi.", "en": "Biscuit base, creamy filling and lemon glaze.", "ar": "قاعدة بسكويت وحشوة كريمية وطبقة ليمون.", "ru": "Песочная основа, сливочная начинка и лимонное желе." },
+      "allergens": ["milk", "eggs", "gluten"],
+      "image": { "file": "sicak-cikolata-limonlu-cheesecake.jpg", "crop": [60, 980, 740] }
+    },
+    {
+      "slug": "fistikli-cikolatali-pasta", "category": "tatlilar", "sizes": ["one"],
+      "prices": { "TRY": [165], "AED": [22], "KGS": [250] },
+      "name": { "tr": "Fıstıklı Çikolatalı Pasta", "en": "Chocolate Pistachio Cake", "ar": "كعكة الشوكولاتة بالفستق", "ru": "Шоколадный торт с фисташкой" },
+      "description": { "tr": "Yoğun çikolatalı kek, çikolata krema ve fıstık kırığı.", "en": "Rich chocolate sponge, chocolate cream and crushed pistachios.", "ar": "كعكة شوكولاتة غنية مع كريمة الشوكولاتة والفستق المجروش.", "ru": "Насыщенный шоколадный бисквит, шоколадный крем и фисташки." },
+      "allergens": ["gluten", "milk", "eggs", "nuts"],
+      "image": { "file": "fistikli-cikolatali-pasta.jpg", "crop": [260, 290, 780] }
+    },
+    {
+      "slug": "magnolia", "category": "tatlilar", "sizes": ["one"],
+      "prices": { "TRY": [160], "AED": [22], "KGS": [250] },
+      "name": { "tr": "Magnolia", "en": "Magnolia", "ar": "ماغنوليا", "ru": "Магнолия" },
+      "description": { "tr": "Kupta; hafif krema ve bisküvi kırığı kat kat.", "en": "Served in a cup: light cream layered with biscuit crumbs.", "ar": "تُقدّم في كوب: كريمة خفيفة مع فتات البسكويت.", "ru": "В стаканчике: лёгкий крем и бисквитная крошка слоями." },
+      "allergens": ["milk", "gluten", "eggs"],
+      "image": { "file": "tatli-cesitleri-kup-tatli-trufler.jpg", "crop": [470, 640, 600] }
+    },
+    {
+      "slug": "san-sebastian", "category": "tatlilar", "sizes": ["one"],
+      "prices": { "TRY": [185], "AED": [26], "KGS": [290] },
+      "name": { "tr": "San Sebastian Cheesecake", "en": "San Sebastián Cheesecake", "ar": "تشيز كيك سان سيباستيان", "ru": "Чизкейк Сан-Себастьян" },
+      "description": { "tr": "Üstü yanık, içi kremamsı; dilim.", "en": "Burnt top, creamy centre; by the slice.", "ar": "سطح محروق وقلب كريمي؛ بالشريحة.", "ru": "Карамелизированная корочка, кремовая середина." },
+      "allergens": ["milk", "eggs", "gluten"]
+    },
+    {
+      "slug": "tiramisu", "category": "tatlilar", "sizes": ["one"],
+      "prices": { "TRY": [170], "AED": [24], "KGS": [260] },
+      "name": { "tr": "Tiramisu", "en": "Tiramisu", "ar": "تيراميسو", "ru": "Тирамису" },
+      "description": { "tr": "Espressoya batırılmış kedi dili ve mascarpone.", "en": "Espresso-soaked ladyfingers and mascarpone.", "ar": "بسكويت منقوع بالإسبريسو مع جبنة الماسكاربوني.", "ru": "Савоярди, пропитанные эспрессо, и маскарпоне." },
+      "allergens": ["milk", "eggs", "gluten"]
+    },
+    {
+      "slug": "kruvasan", "category": "atistirmaliklar", "sizes": ["one"],
+      "prices": { "TRY": [110], "AED": [14], "KGS": [170] },
+      "name": { "tr": "Tereyağlı Kruvasan", "en": "Butter Croissant", "ar": "كرواسون بالزبدة", "ru": "Круассан" },
+      "description": { "tr": "Kat kat, çıtır; her sabah fırından.", "en": "Flaky and crisp, baked every morning.", "ar": "طبقات مقرمشة، يُخبز كل صباح.", "ru": "Слоёный и хрустящий, выпекаем каждое утро." },
+      "allergens": ["gluten", "milk", "eggs"]
+    },
+    {
+      "slug": "kasarli-tost", "category": "atistirmaliklar", "sizes": ["one"],
+      "prices": { "TRY": [150], "AED": [20], "KGS": [230] },
+      "name": { "tr": "Kaşarlı Tost", "en": "Cheese Toastie", "ar": "توست بالجبن", "ru": "Тост с сыром" },
+      "description": { "tr": "Ekşi mayalı ekmek, bol kaşar.", "en": "Sourdough bread with plenty of kashar cheese.", "ar": "خبز بالخميرة الطبيعية مع وفرة من جبن القشقوان.", "ru": "Хлеб на закваске с сыром кашар." },
+      "allergens": ["gluten", "milk"]
+    },
+    {
+      "slug": "hindi-fume-sandvic", "category": "atistirmaliklar", "sizes": ["one"],
+      "prices": { "TRY": [185], "AED": [26], "KGS": [290] },
+      "name": { "tr": "Hindi Füme Sandviç", "en": "Smoked Turkey Sandwich", "ar": "ساندويتش ديك رومي مدخّن", "ru": "Сэндвич с копчёной индейкой" },
+      "description": { "tr": "Hindi füme, cheddar, roka ve hardallı sos.", "en": "Smoked turkey, cheddar, rocket and mustard sauce.", "ar": "ديك رومي مدخّن وجبن شيدر وجرجير وصلصة الخردل.", "ru": "Копчёная индейка, чеддер, руккола и горчичный соус." },
+      "allergens": ["gluten", "milk", "mustard", "eggs"]
+    },
+    {
+      "slug": "cookie", "category": "atistirmaliklar", "sizes": ["one"],
+      "prices": { "TRY": [75], "AED": [10], "KGS": [110] },
+      "name": { "tr": "Çikolatalı Cookie", "en": "Chocolate Chip Cookie", "ar": "كوكيز بالشوكولاتة", "ru": "Печенье с шоколадом" },
+      "description": { "tr": "Dışı çıtır, içi yumuşak; bol çikolata parçacıklı.", "en": "Crisp outside, soft inside, loaded with chocolate chips.", "ar": "مقرمش من الخارج وطري من الداخل مع قطع الشوكولاتة.", "ru": "Хрустящее снаружи, мягкое внутри, с кусочками шоколада." },
+      "allergens": ["gluten", "milk", "eggs", "soy"]
+    }
+  ]
+}

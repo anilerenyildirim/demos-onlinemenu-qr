@@ -1,0 +1,171 @@
+{
+  "surum": 1,
+  "kaynak": "https://www.coffeehousetr.com/nerelerdeyiz/ ve /referanslar/ — 29.09.2026",
+  "not": "Konumlar ŞEHİR/İLÇE düzeyindedir (sitede adres, saat, koordinat yok) — TEYİT. Marka ataması referanslar sayfasından çıkarım — TEYİT. AR/RU yer adları makine çevirisi — TEYİT: native kontrol.",
+  "firma": {
+    "ad": "Coffee House",
+    "slogan": "The best beans, at the best Coffee House.",
+    "kurulus": 2007,
+    "kurulus_not": "TEYİT: 2007 know-how başlangıcı mı, marka kuruluşu mu?",
+    "telefon": "0 533 425 71 59",
+    "telefon_e164": "+905334257159",
+    "whatsapp_e164": "+905334257159",
+    "whatsapp_not": "TEYİT: WhatsApp başvuru numarası telefonla aynı mı?",
+    "eposta": "kahvemarkasi@gmail.com",
+    "adres": "Kemalpaşa Mah. Fethibey Cad. No: 61, Laleli, Fatih / İstanbul",
+    "konum": [41.0098, 28.9571],
+    "instagram": "https://www.instagram.com/coffeehouse.tr/"
+  },
+  "ulkeler": {
+    "TR": { "tr": "Türkiye", "en": "Türkiye", "ar": "تركيا", "ru": "Турция" },
+    "AE": { "tr": "Birleşik Arap Emirlikleri", "en": "United Arab Emirates", "ar": "الإمارات العربية المتحدة", "ru": "ОАЭ" },
+    "KG": { "tr": "Kırgızistan", "en": "Kyrgyzstan", "ar": "قيرغيزستان", "ru": "Кыргызстан" }
+  },
+  "lokasyonlar": [
+    {
+      "id": "istanbul-laleli", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Laleli", "en": "Laleli", "ar": "لاليلي", "ru": "Лалели" },
+      "sehir": { "tr": "Fatih · İstanbul", "en": "Fatih · Istanbul", "ar": "الفاتح · إسطنبول", "ru": "Фатих · Стамбул" },
+      "konum": [41.0098, 28.9571], "menu": "istanbul-laleli",
+      "teyit": "Firma adresi Laleli'de; şube adresi aynı mı?"
+    },
+    {
+      "id": "istanbul-esenyurt", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Esenyurt", "en": "Esenyurt", "ar": "إسنيورت", "ru": "Эсеньюрт" },
+      "sehir": { "tr": "İstanbul", "en": "Istanbul", "ar": "إسطنبول", "ru": "Стамбул" },
+      "konum": [41.0343, 28.6801],
+      "teyit": "Sitede iki kez listeleniyor — iki şube mi, tekrar mı?"
+    },
+    {
+      "id": "ankara", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Ankara", "en": "Ankara", "ar": "أنقرة", "ru": "Анкара" },
+      "sehir": { "tr": "Ankara", "en": "Ankara", "ar": "أنقرة", "ru": "Анкара" },
+      "konum": [39.9334, 32.8597],
+      "teyit": "İlçe belirtilmemiş"
+    },
+    {
+      "id": "ankara-dikmen", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Dikmen", "en": "Dikmen", "ar": "ديكمن", "ru": "Дикмен" },
+      "sehir": { "tr": "Çankaya · Ankara", "en": "Çankaya · Ankara", "ar": "تشانكايا · أنقرة", "ru": "Чанкая · Анкара" },
+      "konum": [39.8830, 32.8330]
+    },
+    {
+      "id": "sanliurfa-karakopru", "ulke": "TR", "durum": "acik", "marka": "coffee-art",
+      "yer": { "tr": "Karaköprü", "en": "Karaköprü", "ar": "كاراكوبرو", "ru": "Каракёпрю" },
+      "sehir": { "tr": "Şanlıurfa", "en": "Şanlıurfa", "ar": "شانلي أورفا", "ru": "Шанлыурфа" },
+      "konum": [37.1900, 38.8000], "menu": "sanliurfa-karakopru",
+      "teyit": "Referanslarda 'Coffee Art — Karaköprü, Urfa'"
+    },
+    {
+      "id": "sanliurfa-piazza", "ulke": "TR", "durum": "acik", "marka": "coffee-art",
+      "yer": { "tr": "Piazza AVM", "en": "Piazza Mall", "ar": "بيازا مول", "ru": "ТЦ Piazza" },
+      "sehir": { "tr": "Şanlıurfa", "en": "Şanlıurfa", "ar": "شانلي أورفا", "ru": "Шанлыурфа" },
+      "konum": [37.1560, 38.7920],
+      "teyit": "Referanslarda 'Coffee Art — Piazza AVM, Urfa'"
+    },
+    {
+      "id": "mersin-tarsus", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Tarsus", "en": "Tarsus", "ar": "طرسوس", "ru": "Тарсус" },
+      "sehir": { "tr": "Mersin", "en": "Mersin", "ar": "مرسين", "ru": "Мерсин" },
+      "konum": [36.9177, 34.8928]
+    },
+    {
+      "id": "yalova-ciftlikkoy", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Çiftlikköy", "en": "Çiftlikköy", "ar": "تشيفتليك كوي", "ru": "Чифтликкёй" },
+      "sehir": { "tr": "Yalova", "en": "Yalova", "ar": "يالوفا", "ru": "Ялова" },
+      "konum": [40.6607, 29.3230]
+    },
+    {
+      "id": "izmir", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "İzmir", "en": "İzmir", "ar": "إزمير", "ru": "Измир" },
+      "sehir": { "tr": "İzmir", "en": "İzmir", "ar": "إزمير", "ru": "Измир" },
+      "konum": [38.4237, 27.1428],
+      "teyit": "İlçe belirtilmemiş"
+    },
+    {
+      "id": "osmaniye-kadirli", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Kadirli", "en": "Kadirli", "ar": "قادرلي", "ru": "Кадирли" },
+      "sehir": { "tr": "Osmaniye", "en": "Osmaniye", "ar": "عثمانية", "ru": "Османие" },
+      "konum": [37.3739, 36.0962]
+    },
+    {
+      "id": "hatay-defne", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Defne", "en": "Defne", "ar": "دفنة", "ru": "Дефне" },
+      "sehir": { "tr": "Hatay", "en": "Hatay", "ar": "هاتاي", "ru": "Хатай" },
+      "konum": [36.1900, 36.1500]
+    },
+    {
+      "id": "nevsehir-kapadokya", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Kapadokya Forum AVM", "en": "Forum Kapadokya Mall", "ar": "فوروم كابادوكيا مول", "ru": "ТЦ Forum Kapadokya" },
+      "sehir": { "tr": "Nevşehir", "en": "Nevşehir", "ar": "نوشهر", "ru": "Невшехир" },
+      "konum": [38.6200, 34.7100]
+    },
+    {
+      "id": "konya-kulu", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Kulu", "en": "Kulu", "ar": "كولو", "ru": "Кулу" },
+      "sehir": { "tr": "Konya", "en": "Konya", "ar": "قونية", "ru": "Конья" },
+      "konum": [39.0939, 33.0797]
+    },
+    {
+      "id": "kirklareli-luleburgaz", "ulke": "TR", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Lüleburgaz", "en": "Lüleburgaz", "ar": "لوله بورغاز", "ru": "Люлебургаз" },
+      "sehir": { "tr": "Kırklareli", "en": "Kırklareli", "ar": "قرقلر إيلي", "ru": "Кыркларели" },
+      "konum": [41.4036, 27.3567]
+    },
+    {
+      "id": "dubai", "ulke": "AE", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Dubai", "en": "Dubai", "ar": "دبي", "ru": "Дубай" },
+      "sehir": { "tr": "BAE", "en": "UAE", "ar": "الإمارات", "ru": "ОАЭ" },
+      "konum": [25.2048, 55.2708], "menu": "dubai",
+      "teyit": "Referanslarda 'Coffee Art — Ajman, Dubai' geçiyor; marka ve emirlik teyit edilmeli"
+    },
+    {
+      "id": "biskek", "ulke": "KG", "durum": "acik", "marka": "coffee-house",
+      "yer": { "tr": "Bişkek", "en": "Bishkek", "ar": "بيشكيك", "ru": "Бишкек" },
+      "sehir": { "tr": "Kırgızistan", "en": "Kyrgyzstan", "ar": "قيرغيزستان", "ru": "Кыргызстан" },
+      "konum": [42.8746, 74.5698], "menu": "biskek",
+      "teyit": "Sitede yalnızca 'Kırgızistan' yazıyor; şehir varsayım"
+    },
+    {
+      "id": "sakarya", "ulke": "TR", "durum": "yakinda", "marka": "coffee-house",
+      "yer": { "tr": "Sakarya", "en": "Sakarya", "ar": "سكاريا", "ru": "Сакарья" },
+      "sehir": { "tr": "Sakarya", "en": "Sakarya", "ar": "سكاريا", "ru": "Сакарья" },
+      "konum": [40.7569, 30.3781]
+    },
+    {
+      "id": "istanbul-laleli-2", "ulke": "TR", "durum": "yakinda", "marka": "coffee-house",
+      "yer": { "tr": "Laleli (yeni şube)", "en": "Laleli (new store)", "ar": "لاليلي (فرع جديد)", "ru": "Лалели (новая кофейня)" },
+      "sehir": { "tr": "Fatih · İstanbul", "en": "Fatih · Istanbul", "ar": "الفاتح · إسطنبول", "ru": "Фатих · Стамбул" },
+      "konum": [41.0110, 28.9540],
+      "teyit": "Laleli hem açık hem 'yakında' listeleniyor — ikinci şube mi?"
+    }
+  ],
+  "referanslar": [
+    { "ad": "Berrak Fırın & Cafe", "yer": { "tr": "Zonguldak", "en": "Zonguldak" } },
+    { "ad": "Pierre Coffee", "yer": { "tr": "Bişkek, Kırgızistan", "en": "Bishkek, Kyrgyzstan" } },
+    { "ad": "Kahvecizade", "yer": { "tr": "Çubuk, Ankara", "en": "Çubuk, Ankara" } },
+    { "ad": "Coffee Art", "yer": { "tr": "Şanlıurfa", "en": "Şanlıurfa" } },
+    { "ad": "Haszade Kahvecisi", "yer": { "tr": "Elvankent, Ankara", "en": "Elvankent, Ankara" } },
+    { "ad": "Berceste Kahve Evi", "yer": { "tr": "Sahil Yolu, Mersin", "en": "Sahil Yolu, Mersin" } },
+    { "ad": "Coffee Time", "yer": { "tr": "Dalyan, Muğla", "en": "Dalyan, Muğla" } },
+    { "ad": "Tramvay", "yer": { "tr": "Çubuk, Ankara", "en": "Çubuk, Ankara" } },
+    { "ad": "Kahve Center", "yer": { "tr": "Egekent 2, İzmir", "en": "Egekent 2, İzmir" } },
+    { "ad": "Kahve Arası", "yer": { "tr": "Gençlik Parkı, Tunceli", "en": "Gençlik Parkı, Tunceli" } },
+    { "ad": "Kahve Kervanı", "yer": { "tr": "Artvin", "en": "Artvin" } },
+    { "ad": "Peoples Coffee", "yer": { "tr": "Hakkari", "en": "Hakkari" } },
+    { "ad": "Peoples Coffee", "yer": { "tr": "Van", "en": "Van" } },
+    { "ad": "Peoples Coffee", "yer": { "tr": "Şemdinli, Hakkari", "en": "Şemdinli, Hakkari" } },
+    { "ad": "Peoples Coffee", "yer": { "tr": "Yüksekova, Hakkari", "en": "Yüksekova, Hakkari" } },
+    { "ad": "Coffee Art", "yer": { "tr": "Ajman, BAE", "en": "Ajman, UAE" } },
+    { "ad": "Coffee Art", "yer": { "tr": "Karaköprü, Şanlıurfa", "en": "Karaköprü, Şanlıurfa" } },
+    { "ad": "Coffee Art", "yer": { "tr": "Piazza AVM, Şanlıurfa", "en": "Piazza Mall, Şanlıurfa" } },
+    { "ad": "Kahve Özlemi", "yer": { "tr": "Denizli", "en": "Denizli" } },
+    { "ad": "Kahve Store", "yer": { "tr": "Hatay", "en": "Hatay" } },
+    { "ad": "Kahve Garden", "yer": { "tr": "Menemen, İzmir", "en": "Menemen, İzmir" } },
+    { "ad": "Coffee House", "yer": { "tr": "Tarsus, Mersin", "en": "Tarsus, Mersin" } },
+    { "ad": "Coffee House", "yer": { "tr": "Gebze, Kocaeli", "en": "Gebze, Kocaeli" }, "teyit": "Şube listesinde yok" },
+    { "ad": "Coffee House", "yer": { "tr": "Pendik, İstanbul", "en": "Pendik, Istanbul" }, "teyit": "Şube listesinde yok" },
+    { "ad": "Coffee House", "yer": { "tr": "Çiftlikköy, Yalova", "en": "Çiftlikköy, Yalova" } },
+    { "ad": "Coffee House", "yer": { "tr": "Defne, Hatay", "en": "Defne, Hatay" } }
+  ]
+}

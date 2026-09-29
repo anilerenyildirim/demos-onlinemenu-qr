@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "htmlLang": "tr",
+    "dir": "ltr",
+    "ogLocale": "tr_TR",
+    "localeName": "Türkçe",
+    "localeShort": "TR"
+  },
+  "common": {
+    "backToBrief": "Sunuma dön",
+    "demo": "Demo",
+    "skip": "İçeriğe geç",
+    "close": "Kapat",
+    "langNav": "Dil",
+    "rights": "Coffee House ve Coffee Art adları, logoları ve görselleri yalnızca bu teklif sunumu kapsamında kullanılmıştır. Tüm hakları marka sahibine aittir.",
+    "coffeeArtNote": "Coffee Art logosu temsilîdir; kurulumda markanın kendi logosu kullanılır.",
+    "madeWith": "onlinemenu-qr.com tarafından hazırlanan teklif demosu"
+  },
+  "menu": {
+    "title": "{brand} {branch} · QR Menü",
+    "description": "{brand} {branch} şubesinin QR menüsü. Örnek menü: tek merkez katalog; fiyat, stok, dil ve para birimi şubeye göre.",
+    "skip": "Menüye geç",
+    "qrMenu": "QR Menü",
+    "sample": "Örnek menü · Fiyatlar demo",
+    "branchLabel": "Şube",
+    "branchChange": "Şubeyi değiştir",
+    "branchesTitle": "Şube seçin",
+    "branchesLead": "Her şubenin QR kodu kendi menüsünü açar. Katalog merkezde tektir; fiyat, stok, dil ve para birimi şubeye göre değişir.",
+    "branchesNote": "Adres ve çalışma saatleri örnektir.",
+    "categoriesNav": "Menü kategorileri",
+    "openNow": "Açık · kapanış {t}",
+    "closedNow": "Kapalı · açılış {t}",
+    "closedNoHours": "Kapalı",
+    "today": "bugün",
+    "tomorrow": "yarın",
+    "hoursTitle": "Çalışma saatleri",
+    "address": "Adres",
+    "directions": "Yol tarifi",
+    "currencyLabel": "Fiyatlar",
+    "soldOut": "Tükendi",
+    "new": "Yeni",
+    "campaign": "Kampanya",
+    "branchOnly": "Bu şubeye özel",
+    "was": "Önceki fiyat",
+    "sizes": "Boy",
+    "sizePrices": "Boy ve fiyat",
+    "ml": "{ml} ml",
+    "details": "{name} — ayrıntılar",
+    "allergens": "Alerjenler",
+    "allergenNames": {
+      "gluten": "Gluten",
+      "crustaceans": "Kabuklular",
+      "eggs": "Yumurta",
+      "fish": "Balık",
+      "peanuts": "Yer fıstığı",
+      "soy": "Soya",
+      "milk": "Süt",
+      "nuts": "Sert kabuklu yemiş",
+      "celery": "Kereviz",
+      "mustard": "Hardal",
+      "sesame": "Susam",
+      "sulphites": "Sülfit",
+      "lupin": "Acı bakla",
+      "molluscs": "Yumuşakça"
+    },
+    "allergenNote": "Alerjen bilgileri örnektir. Alerjiniz varsa siparişten önce personele danışın.",
+    "noAllergens": "Bu ürün için alerjen bilgisi girilmemiş.",
+    "hiddenHere": "{n} ürün bu şubede sunulmuyor.",
+    "tierCentral": "Merkez fiyat listesi geçerli.",
+    "tier": "Bölgesel fiyat katmanı: ⁦{sign}%{n}⁩",
+    "switched": "{branch} menüsü gösteriliyor",
+    "diffToggle": "Şube farklarını göster",
+    "diffHint": "Demo görünümü: bu şubenin merkezden farklı fiyat, stok ve kampanyalarını vurgular.",
+    "diffCentral": "Merkez {p}",
+    "diffSummary": "Bu şubede: {price} ürün şube fiyatlı · {sold} tükendi · {hidden} sunulmuyor · {only} şubeye özel",
+    "managedTitle": "Bu menü onlinemenu-qr panelinden yönetilir",
+    "managedBody": "Ürün, görsel ve çeviriler merkezde bir kez girilir. Her şube yalnızca kendi fiyatını, stoğunu ve kampanyasını yönetir.",
+    "managedLink": "Panel nasıl çalışır?",
+    "version": "Menü sürümü {v}",
+    "selectorTitle": "QR Menü Demosu",
+    "selectorLead": "Bir şube seçin; misafiriniz masadaki QR kodu okuttuğunda gördüğü menüyü görün. Karekodları telefonunuzla da okutabilirsiniz.",
+    "selectorOpen": "Menüyü aç",
+    "selectorLang": "Açılış dili",
+    "selectorCurrency": "Para birimi",
+    "selectorScan": "Telefonla okutun",
+    "selectorHow": "Aynı katalog, dört şube: fiyat katmanı, stok, kampanya, dil ve para birimi şubeye göre değişir. Şubeler arasında menü sayfasından da geçebilirsiniz."
+  },
+  "site": {
+    "meta": {
+      "siteName": "Coffee House",
+      "titleSuffix": " · Coffee House",
+      "demoStrip": "Demo — bu site teklif amaçlı hazırlandı; rakamlar ve şube bilgileri markayla doğrulanacak.",
+      "ogAlt": "Coffee House franchise — Giriş bedeli yok. Royalty yok. Anahtar teslim."
+    },
+    "nav": {
+      "label": "Ana menü",
+      "home": "Anasayfa",
+      "franchising": "Franchising",
+      "branches": "Şubeler",
+      "brands": "Markalarımız",
+      "references": "Referanslar",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "apply": "Başvuru yap",
+      "enOnly": "EN",
+      "enOnlyTitle": "Bu sayfa şimdilik İngilizce",
+      "langLabel": "Dil",
+      "langPartial": "Arapça ve Rusça: anasayfa, franchising, şubeler ve iletişim. Diğer sayfalar İngilizce açılır.",
+      "langHome": "anasayfa"
+    },
+    "footer": {
+      "tagline": "Takeaway kahve konseptini anahtar teslim franchise modeliyle Türkiye'den Körfez'e ve Orta Asya'ya taşıyoruz.",
+      "contactTitle": "İletişim",
+      "pagesTitle": "Sayfalar",
+      "legalTitle": "Yasal",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram",
+      "privacy": "KVKK Aydınlatma Metni",
+      "cookies": "Çerez Politikası",
+      "rights": "© 2026 Coffee House. Tüm hakları saklıdır."
+    },
+    "wa": {
+      "label": "WhatsApp ile yazın",
+      "text": "Merhaba, Coffee House franchise hakkında bilgi almak istiyorum."
+    },
+    "video": {
+      "pause": "Videoyu durdur",
+      "play": "Videoyu oynat"
+    },
+    "home": {
+      "title": "Coffee House Franchise — Giriş bedeli yok, royalty yok, anahtar teslim",
+      "description": "Coffee House franchise: giriş bedeli ve aylık royalty yok, 40 m²'den başlayan anahtar teslim takeaway kafe. Türkiye, BAE ve Kırgızistan'da şubeler.",
+      "eyebrow": "Takeaway kafe franchise",
+      "h1": [
+        "Giriş bedeli yok.",
+        "Royalty yok.",
+        "Anahtar teslim."
+      ],
+      "lead": "2007'den bu yana biriken know-how'ımızı yatırımcılarla paylaşıyoruz: 40 m²'den başlayan mağazanızı projesinden açılışına kadar birlikte kuruyor, personelinizi eğitiyor ve açılıştan sonra da yanınızda oluyoruz.",
+      "ctaApply": "Franchise başvurusu",
+      "ctaBranches": "Şubelerimizi görün",
+      "videoLabel": "Tanıtım filminden kesitler: espresso, süt ve takeaway bardak",
+      "stats": {
+        "branches": "şube",
+        "coming": "yeni şube yolda",
+        "countries": "ülke",
+        "brands": "marka",
+        "since": "yılından beri know-how"
+      },
+      "whyTitle": "Neden Coffee House",
+      "why": [
+        {
+          "title": "Giriş bedeli ve royalty yok",
+          "body": "Franchise giriş bedeli ya da aylık ciro payı ödemezsiniz; kazancınız işletmenizde kalır."
+        },
+        {
+          "title": "Anahtar teslim mağaza",
+          "body": "Konsepte uygun mimari proje, 3D tasarım, bütçeleme, inşaat ve malzeme tedariki tek elden yürütülür."
+        },
+        {
+          "title": "Eğitim ve operasyon desteği",
+          "body": "Operasyon ekibi personel alımını yapar; önce teorik, sonra pratik eğitim verir ve açılışı sizinle birlikte gerçekleştirir."
+        },
+        {
+          "title": "Standart iş modeli",
+          "body": "Kanıtlanmış bir takeaway modeli ve malzeme tedarikinde avantajlı anlaşmalarla işletmeniz hızla ayağa kalkar."
+        }
+      ],
+      "brandsTitle": "İki marka, aynı altyapı",
+      "brandsLead": "Coffee House ve kardeş markası Coffee Art aynı iş modeli, tedarik ağı ve eğitim sistemiyle büyüyor.",
+      "brandCH": "Kaliteli kahveyi hızlı ve sıcak bir takeaway deneyimiyle buluşturan konsept. “The best beans, at the best Coffee House.”",
+      "brandCA": "Coffee House ailesinin kardeş markası; Şanlıurfa ve Birleşik Arap Emirlikleri'nde şubeleri var.",
+      "brandsLink": "Markalarımızı tanıyın",
+      "processTitle": "Başvurudan açılışa beş adım",
+      "processLink": "Süreci ayrıntılı inceleyin",
+      "mapTitle": "Üç ülkede büyüyen ağ",
+      "mapLead": "Türkiye'nin dört bir yanından Dubai'ye ve Bişkek'e. Yeni şubeler yolda.",
+      "mapLink": "Tüm şubeler",
+      "mapAlt": "Türkiye, Birleşik Arap Emirlikleri ve Kırgızistan'daki şubeleri gösteren harita",
+      "galleryTitle": "Mağazalarımızdan",
+      "ctaTitle": "Kendi Coffee House'unuzu açın",
+      "ctaBody": "Başvurunuzu iki dakikada iletin; franchising ekibimiz sizi arasın.",
+      "ctaWa": "WhatsApp ile yazın"
+    },
+    "process": [
+      {
+        "title": "Başvuru",
+        "body": "Formu doldurun ya da WhatsApp'tan yazın; franchising ekibimiz sizinle iletişime geçer."
+      },
+      {
+        "title": "Ön görüşme",
+        "body": "Modeli ayrıntılarıyla anlatırız. Olumlu değerlendirilen adayları merkezimize ya da en yakın şubeye davet eder, sözleşmeyi imzalar ve lokasyonu birlikte seçeriz."
+      },
+      {
+        "title": "Mimari proje ve uygulama",
+        "body": "Konsepte uygun proje ve 3D tasarım hazırlanır, bütçelendirilir. İnşaat taşerona verilir, malzeme siparişleri geçilir; ödemeler yatırımcıya aittir."
+      },
+      {
+        "title": "Eğitimler",
+        "body": "Operasyon ekibi personel alımını yapar; önce teorik, ardından pratik eğitim verilir. Yol ve konaklama giderleri yatırımcıya aittir."
+      },
+      {
+        "title": "Açılış",
+        "body": "Operasyon ekibi son hazırlıkları tamamlar ve mağazanız kapılarını açar."
+      }
+    ],
+    "franchising": {
+      "title": "Franchising — Koşullar, süreç ve başvuru",
+      "description": "Coffee House franchise koşulları: giriş bedeli ve royalty yok, en az 40 m², anahtar teslim maliyet yaklaşık 600–700 USD/m² + KDV. Beş adımlı süreç, sık sorulan sorular ve başvuru formu.",
+      "h1": "Franchising",
+      "lead": "Takeaway kahve konseptimizi anahtar teslim kuruyor, işletmenizi açılıştan sonra da destekliyoruz. Koşullar, süreç ve başvuru formu bu sayfada.",
+      "jump": {
+        "process": "Süreç",
+        "investment": "Yatırım",
+        "faq": "Sık sorulanlar",
+        "apply": "Başvuru"
+      },
+      "processTitle": "Süreç",
+      "investTitle": "Yatırım bilgisi",
+      "investLead": "Koşullar Coffee House'un mevcut yayınlarından derlendi; güncel rakamlar ön görüşmede netleşir.",
+      "invest": [
+        {
+          "k": "Giriş bedeli",
+          "v": "Yok",
+          "note": ""
+        },
+        {
+          "k": "Royalty (aylık ciro payı)",
+          "v": "Yok",
+          "note": ""
+        },
+        {
+          "k": "Minimum alan",
+          "v": "40 m²",
+          "note": ""
+        },
+        {
+          "k": "Anahtar teslim maliyet",
+          "v": "~600–700 USD/m² + KDV",
+          "note": "İnşaatın kapsamına ve dükkânın durumuna göre değişir."
+        },
+        {
+          "k": "Lokasyon",
+          "v": "Yaya trafiği yoğun, işlek bölgeler",
+          "note": ""
+        },
+        {
+          "k": "Yurt dışı",
+          "v": "Master Franchise / Distribütörlük",
+          "note": ""
+        }
+      ],
+      "faqTitle": "Sık sorulan sorular",
+      "faq": [
+        {
+          "q": "Franchise giriş bedeli ödüyor muyum?",
+          "a": "Hayır. Coffee House franchise modelinde giriş bedeli yoktur."
+        },
+        {
+          "q": "Aylık royalty ya da ciro payı var mı?",
+          "a": "Hayır. Aylık ciro üzerinden pay alınmaz; kazancınız işletmenizde kalır."
+        },
+        {
+          "q": "Mağaza için en az ne kadar alan gerekir?",
+          "a": "En az 40 m². Yaya trafiği yoğun, işlek bölgelerdeki lokasyonlar tercih edilir."
+        },
+        {
+          "q": "Anahtar teslim kurulum ne kadar tutar?",
+          "a": "Ortalama 600–700 USD/m² + KDV; inşaatın kapsamına ve dükkânın durumuna göre değişir. Bütçe, mimari proje aşamasında netleşir."
+        },
+        {
+          "q": "Lokasyonu kim seçiyor?",
+          "a": "Ön görüşmenin ardından lokasyonu birlikte seçeriz; mimari proje bu lokasyona göre hazırlanır."
+        },
+        {
+          "q": "Personel eğitimi nasıl yapılıyor?",
+          "a": "Operasyon ekibimiz personel alımını yapar; önce teorik, ardından pratik eğitim verir. Eğitim sürecindeki yol ve konaklama giderleri yatırımcıya aittir."
+        },
+        {
+          "q": "Yurt dışında franchise veriyor musunuz?",
+          "a": "Evet. Yurt dışında Master Franchise ve distribütörlük modeliyle çalışıyoruz; Dubai'de ve Kırgızistan'da şubelerimiz var."
+        },
+        {
+          "q": "Coffee House mı, Coffee Art mı?",
+          "a": "İki marka aynı iş modelini ve tedarik altyapısını kullanır. Bölgeniz için hangisinin uygun olduğunu ön görüşmede birlikte değerlendiririz."
+        }
+      ],
+      "applyTitle": "Franchise başvurusu",
+      "applyLead": "Formu doldurun; franchising ekibimiz en kısa sürede sizi arasın. Dilerseniz WhatsApp'tan da yazabilirsiniz.",
+      "note": "Yatırım rakamları markanın mevcut yayınlarından alınmıştır ve bilgilendirme amaçlıdır."
+    },
+    "form": {
+      "legend": "Başvuru bilgileri",
+      "name": "Ad soyad",
+      "phone": "Telefon",
+      "countryCode": "Ülke kodu",
+      "email": "E-posta",
+      "city": "İl / ilçe",
+      "cityHint": "Mağaza açmayı düşündüğünüz yer",
+      "area": "Düşünülen alan (m²)",
+      "areaHint": "En az 40 m²",
+      "budget": "Tahmini bütçe",
+      "budgetOptions": [
+        "Seçin",
+        "25.000 USD'ye kadar",
+        "25.000 – 50.000 USD",
+        "50.000 – 100.000 USD",
+        "100.000 USD üzeri",
+        "Henüz belirlemedim"
+      ],
+      "brand": "Marka tercihi",
+      "brandOptions": [
+        "Coffee House",
+        "Coffee Art",
+        "Karar vermedim"
+      ],
+      "property": "Mülk durumu",
+      "propertyOptions": [
+        "Kira",
+        "Kendi mülküm",
+        "Henüz yer yok"
+      ],
+      "note": "Notunuz",
+      "optional": "İsteğe bağlı",
+      "consent": "KVKK Aydınlatma Metni'ni okudum; başvurum için kişisel verilerimin işlenmesini kabul ediyorum.",
+      "consentLink": "Metni okuyun",
+      "submit": "Başvuruyu gönder",
+      "required": "Zorunlu",
+      "errors": {
+        "summary": "Başvuru gönderilemedi. İşaretli alanları düzeltin.",
+        "name": "Adınızı ve soyadınızı yazın.",
+        "phone": "Telefon numaranızı yazın (en az 7 rakam).",
+        "email": "Geçerli bir e-posta adresi yazın, ör. ad@ornek.com.",
+        "city": "Mağazayı açmayı düşündüğünüz yeri yazın.",
+        "area": "Alan en az 40 m² olmalı.",
+        "consent": "Devam etmek için KVKK onayını işaretleyin."
+      },
+      "successTitle": "Başvurunuz alındı",
+      "successBody": "Teşekkürler {name}. Franchising ekibimiz {city} için başvurunuzu değerlendirip sizi arayacak.",
+      "successWa": "WhatsApp'tan devam edin"
+    },
+    "branches": {
+      "title": "Şubelerimiz — Coffee House ve Coffee Art",
+      "description": "Coffee House ve Coffee Art şubeleri: Türkiye, Birleşik Arap Emirlikleri ve Kırgızistan. Şubeleri haritada görün, QR menüsünü açın.",
+      "h1": "Şubelerimiz",
+      "lead": "{countries} ülkede {open} şube; {coming} yeni şube yolda.",
+      "note": "Şube listesi markanın mevcut sitesinden alındı. Adres, çalışma saati ve konumlar kurulumda eklenecek.",
+      "filterLabel": "Ülkeye göre filtrele",
+      "all": "Tümü",
+      "search": "Şehir veya ilçe ara",
+      "count": "{n} şube gösteriliyor",
+      "empty": "Aramanızla eşleşen şube yok. Başka bir şehir deneyin.",
+      "open": "Açık",
+      "coming": "Yakında",
+      "qrMenu": "QR menü",
+      "directions": "Yol tarifi",
+      "showOnMap": "Haritada göster",
+      "mapLabel": "Şube haritası",
+      "mapHint": "Yakınlaştırmak için iki parmağınızı ya da + / − düğmelerini kullanın.",
+      "mapLoading": "Harita yükleniyor…",
+      "mapAttribution": "Harita verisi: Natural Earth",
+      "zoomIn": "Yakınlaştır",
+      "zoomOut": "Uzaklaştır"
+    },
+    "contact": {
+      "title": "İletişim — Coffee House merkez ofis",
+      "description": "Coffee House merkez ofis: Laleli, Fatih / İstanbul. Telefon, WhatsApp ve e-posta ile ulaşın.",
+      "h1": "İletişim",
+      "lead": "Franchise başvurusu, şubeler ya da iş birlikleri için bize ulaşın.",
+      "office": "Merkez ofis",
+      "call": "Ara",
+      "write": "WhatsApp'tan yaz",
+      "mail": "E-posta gönder",
+      "follow": "Instagram'da takip edin",
+      "directions": "Yol tarifi al",
+      "applyTitle": "Franchise için mi yazıyorsunuz?",
+      "applyBody": "Başvuru formu bilgilerinizi tek seferde toplar; ekibimiz sizi hazırlıklı arar.",
+      "applyCta": "Başvuru formuna gidin",
+      "mapLabel": "Merkez ofisin konumu"
+    },
+    "brands": {
+      "title": "Markalarımız — Coffee House ve Coffee Art",
+      "description": "Coffee House ve kardeş markası Coffee Art: aynı iş modeli, tedarik ve eğitim altyapısı.",
+      "h1": "Markalarımız",
+      "lead": "İki marka, tek franchise altyapısı: aynı iş modeli, aynı tedarik ağı, aynı eğitim sistemi.",
+      "ch": {
+        "slogan": "The best beans, at the best Coffee House.",
+        "body": [
+          "Coffee House, kaliteli kahveyi hızlı ve sıcak bir takeaway deneyimiyle buluşturur. Mavi konuşma balonu logosu, “Kahvenin Evine Hoşgeldiniz” diyen neon tabelası ve pop-art duvarlarıyla her şubede aynı tanıdık atmosfer.",
+          "Espresso bazlı içeceklerden soğuk kahvelere, frappe'lardan tatlılara uzanan menü tüm şubelerde ortaktır; her şube yalnızca kendi fiyatını ve stoğunu yönetir."
+        ],
+        "facts": [
+          "Türkiye, BAE ve Kırgızistan'da şubeler",
+          "Takeaway odaklı, 40 m²'den başlayan mağazalar"
+        ]
+      },
+      "ca": {
+        "body": [
+          "Coffee Art, Coffee House ailesinin kardeş markasıdır. Şanlıurfa'da Karaköprü ve Piazza AVM şubeleri, Birleşik Arap Emirlikleri'nde Ajman şubesiyle büyüyor.",
+          "Coffee House ile aynı tedarik ve eğitim altyapısını kullanır; bölgenize uygun marka ön görüşmede birlikte belirlenir."
+        ],
+        "note": "Coffee Art logosu ve kimlik bilgileri kurulumda eklenecek."
+      }
+    },
+    "references": {
+      "title": "Referanslar — Kurulum ve danışmanlık verdiğimiz işletmeler",
+      "description": "Coffee House'un kurulum ve danışmanlık verdiği işletmeler: Türkiye, Kırgızistan ve Birleşik Arap Emirlikleri.",
+      "h1": "Referanslar",
+      "lead": "Kurulumunu ve danışmanlığını yaptığımız işletmeler; kendi markalarımızın şubeleri de bu listede.",
+      "family": "Coffee House ailesi",
+      "count": "{n} işletme"
+    },
+    "about": {
+      "title": "Hakkımızda — Coffee House",
+      "description": "2007'den bu yana biriken know-how'ı yatırımcılarla paylaşan takeaway kahve franchise'ı.",
+      "h1": "Hakkımızda",
+      "lead": "2007'den bu yana biriken know-how'ımızı, kendi kahve dükkânını açmak isteyen yatırımcılarla paylaşıyoruz.",
+      "body": [
+        "Coffee House, takeaway kahve konseptini standart bir iş modeline dönüştürdü. Mağazanızı projesinden açılışına kadar anahtar teslim kuruyor, personelinizi eğitiyor ve açılıştan sonra da işletmenize destek veriyoruz.",
+        "Malzeme tedarikinde yaptığımız avantajlı anlaşmalar ve giriş bedeli ile royalty almayan modelimiz, iki tarafın da kazandığı bir franchise ilişkisi kurmayı amaçlıyor. Türkiye'deki büyümemizi yurt dışında Master Franchise ve distribütörlük modeliyle sürdürüyoruz."
+      ],
+      "principles": [
+        {
+          "title": "Standart iş modeli",
+          "body": "Her şubede aynı ürün, aynı kalite, aynı marka dili."
+        },
+        {
+          "title": "Anahtar teslim kurulum",
+          "body": "Proje, tasarım, inşaat ve tedarik tek elden."
+        },
+        {
+          "title": "Karşılıklı kazanç",
+          "body": "Giriş bedeli ve royalty olmadan, uzun vadeli ortaklık."
+        }
+      ]
+    },
+    "legal": {
+      "draft": "Taslak metin — yayından önce hukuki inceleme gerekir.",
+      "privacy": {
+        "title": "KVKK Aydınlatma Metni",
+        "description": "Coffee House franchise başvuru formu için kişisel verilerin işlenmesine ilişkin aydınlatma metni (taslak).",
+        "h1": "KVKK Aydınlatma Metni",
+        "sections": [
+          {
+            "h": "Veri sorumlusu",
+            "p": "Coffee House (Kemalpaşa Mah. Fethibey Cad. No: 61, Laleli, Fatih / İstanbul)."
+          },
+          {
+            "h": "İşlenen kişisel veriler",
+            "p": "Franchise başvuru formunda paylaştığınız ad soyad, telefon, e-posta, il/ilçe, düşünülen alan, bütçe aralığı, marka tercihi, mülk durumu ve notunuz."
+          },
+          {
+            "h": "İşleme amacı ve hukuki sebep",
+            "p": "Başvurunuzu değerlendirmek ve sizinle iletişime geçmek; açık rızanız ve bir sözleşmenin kurulmasıyla doğrudan ilgili olması."
+          },
+          {
+            "h": "Saklama ve aktarım",
+            "p": "Başvurular franchising ekibi tarafından değerlendirilir. Saklama süresi ve varsa aktarım bilgileri hukuki inceleme sonrasında bu bölüme eklenecek."
+          },
+          {
+            "h": "Haklarınız",
+            "p": "KVKK'nın 11. maddesindeki haklarınız için kahvemarkasi@gmail.com adresine yazabilirsiniz."
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Çerez Politikası",
+        "description": "Coffee House web sitesinin çerez kullanımı (taslak).",
+        "h1": "Çerez Politikası",
+        "sections": [
+          {
+            "h": "Bu sitede çerez",
+            "p": "Bu site çerez kullanmaz; reklam ya da izleme amaçlı üçüncü taraf kodu içermez."
+          },
+          {
+            "h": "Ölçümleme",
+            "p": "Ziyaret istatistiği gerekirse çerez kullanmayan, kişisel veri toplamayan bir ölçüm aracı tercih edilir."
+          },
+          {
+            "h": "Değişiklikler",
+            "p": "Çerez kullanımı değişirse bu sayfa güncellenir ve gerekli durumlarda onayınız alınır."
+          }
+        ]
+      }
+    }
+  }
+}
