@@ -31,6 +31,7 @@ Kök dizine `{demoadi}.html` koy, push et. Adres: `demos.onlinemenu-qr.com/{demo
 | Dosya | Adres |
 |---|---|
 | `loginpaneldemo.html` | `/loginpaneldemo` — video broşür paneli giriş demosu (İlk Kare) |
+| `kms-website-demo/` | `/kms-website-demo` — KMS Kalıp kurumsal site demosu. Derlenmiş çıktıdır; kaynak `kms-website-demo` deposunda (Astro, `base: '/kms-website-demo'`), `dist` buraya kopyalanır |
 
 QR kodları `qr/` altında (lacivert `#0B1A38`, ERROR_CORRECT_H). Bu klasör de deploy edilir,
 zararsızdır — `_headers` sayesinde indekslenmez.
